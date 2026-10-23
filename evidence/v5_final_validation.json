@@ -1,0 +1,15 @@
+{
+  "valid": true,
+  "rows": 1260,
+  "candidates": 6632,
+  "sha256": "249ed58e19e51ee2905bb256d97263ec06201d51f9cf40a2765904f4377c448f",
+  "original_string_ids_and_order": true,
+  "five_distinct_positive_available_ids": true,
+  "user_task_group_boundaries_verified": true,
+  "no_holdout_labels_in_evaluated_model": true,
+  "no_hidden_period_labels_in_final_model": true,
+  "independent_model_reload_and_all_rankings": true,
+  "offline_files_recomputed": 6,
+  "prior_v1_v4_and_evidence_unchanged": true,
+  "kaggle_requests": 0
+}
