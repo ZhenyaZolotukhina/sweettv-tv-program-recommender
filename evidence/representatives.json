@@ -1,0 +1,1816 @@
+[
+  {
+    "alias": "U-heavy",
+    "user_id": "13022140237449583302",
+    "selection_reason": "largest distinct validation truth history",
+    "selection_is_posthoc": true,
+    "history_cutoff": "2020-05-18 00:00:00",
+    "history": [
+      {
+        "item": 2400480,
+        "title": "ТСН. Неделя.",
+        "category": "Инфо",
+        "frequency50": 60,
+        "frequency80": 45,
+        "last_second": 1589526421
+      },
+      {
+        "item": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения",
+        "frequency50": 53,
+        "frequency80": 31,
+        "last_second": 1588927917
+      },
+      {
+        "item": 200344,
+        "title": "'Чистоnews'.",
+        "category": "Развлечения",
+        "frequency50": 7,
+        "frequency80": 6,
+        "last_second": 1589489100
+      },
+      {
+        "item": 10002515,
+        "title": "Т/с 'Мамочки', 1 и 2 с.",
+        "category": "Сериалы",
+        "frequency50": 7,
+        "frequency80": 5,
+        "last_second": 1589493079
+      },
+      {
+        "item": 6500479,
+        "title": "'Мир наизнанку'.",
+        "category": "Познавательное",
+        "frequency50": 6,
+        "frequency80": 5,
+        "last_second": 1587052200
+      },
+      {
+        "item": 10002514,
+        "title": "Т/с 'Кухня'.",
+        "category": "Сериалы",
+        "frequency50": 6,
+        "frequency80": 3,
+        "last_second": 1588887900
+      },
+      {
+        "item": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо",
+        "frequency50": 4,
+        "frequency80": 1,
+        "last_second": 1585727377
+      },
+      {
+        "item": 200337,
+        "title": "'Утро с 'Интером'.",
+        "category": "Развлечения",
+        "frequency50": 3,
+        "frequency80": 1,
+        "last_second": 1588323600
+      },
+      {
+        "item": 700369,
+        "title": "'Ліга сміху'.",
+        "category": "Развлечения",
+        "frequency50": 3,
+        "frequency80": 0,
+        "last_second": 1588371056
+      },
+      {
+        "item": 700475,
+        "title": "'Голос страны', 10 сезон, 8 эп. 'Бои'.",
+        "category": "Развлечения",
+        "frequency50": 3,
+        "frequency80": 1,
+        "last_second": 1586124900
+      },
+      {
+        "item": 1000589,
+        "title": "Т/с 'Отчаянные домохозяйки', 4 сезон, 17 с.",
+        "category": "Сериалы",
+        "frequency50": 3,
+        "frequency80": 1,
+        "last_second": 1589553000
+      },
+      {
+        "item": 10002451,
+        "title": "Т/с 'Великолепный век', 39 и 40 с.",
+        "category": "Сериалы",
+        "frequency50": 3,
+        "frequency80": 1,
+        "last_second": 1586969100
+      },
+      {
+        "item": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо",
+        "frequency50": 2,
+        "frequency80": 0,
+        "last_second": 1589447928
+      },
+      {
+        "item": 5900256,
+        "title": "Утро с Украиной.",
+        "category": "Инфо",
+        "frequency50": 2,
+        "frequency80": 0,
+        "last_second": 1585209496
+      },
+      {
+        "item": 6000483,
+        "title": "'Свадьба вслепую', 6 сезон, 7 эп.",
+        "category": "Развлечения",
+        "frequency50": 2,
+        "frequency80": 2,
+        "last_second": 1588173600
+      },
+      {
+        "item": 6700482,
+        "title": "Секретные материалы.",
+        "category": "Другое",
+        "frequency50": 2,
+        "frequency80": 1,
+        "last_second": 1588015800
+      },
+      {
+        "item": 10003102,
+        "title": "Т/с 'Опер по вызову', 3 сезон, 9 и 10 с.",
+        "category": "Сериалы",
+        "frequency50": 2,
+        "frequency80": 1,
+        "last_second": 1589399529
+      },
+      {
+        "item": 200477,
+        "title": "'Завтрак. Выходной'.",
+        "category": "Развлечения",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1588413600
+      },
+      {
+        "item": 400357,
+        "title": "'Холостяк', 10 сезон, 1 эп., 1 ч.",
+        "category": "Развлечения",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1586556000
+      },
+      {
+        "item": 700382,
+        "title": "'Розсміши коміка'.",
+        "category": "Развлечения",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1585423800
+      },
+      {
+        "item": 700389,
+        "title": "Кто сверху?, 6 сезон, 7 эп.",
+        "category": "Развлечения",
+        "frequency50": 1,
+        "frequency80": 1,
+        "last_second": 1588432500
+      },
+      {
+        "item": 1000723,
+        "title": "Т/с 'Охотники за древностями', 3 сезон, 14 и 15 с.",
+        "category": "Сериалы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1586480685
+      },
+      {
+        "item": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо",
+        "frequency50": 1,
+        "frequency80": 1,
+        "last_second": 1587048477
+      },
+      {
+        "item": 2500430,
+        "title": "'Затерянный мир'.",
+        "category": "Познавательное",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1589306259
+      },
+      {
+        "item": 90016797,
+        "title": "Х/ф 'Криминальное чтиво'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1588035082
+      },
+      {
+        "item": 90028930,
+        "title": "Премьера. Х/ф 'Неспящие в Сиэтле'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1587863604
+      },
+      {
+        "item": 90031786,
+        "title": "Премьера. Х/ф 'Чужой билет'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1586393751
+      },
+      {
+        "item": 90048220,
+        "title": "Х/ф 'Плохие парни'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 1,
+        "last_second": 1588460400
+      },
+      {
+        "item": 90048585,
+        "title": "Х/ф 'Годзилла'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1589056251
+      },
+      {
+        "item": 90050385,
+        "title": "Х/ф 'Игры разума'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 1,
+        "last_second": 1586001991
+      },
+      {
+        "item": 90051178,
+        "title": "Премьера. Х/ф 'Планета обезьян'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1588643188
+      },
+      {
+        "item": 90054203,
+        "title": "Премьера. Х/ф 'Голливудские копы'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1588468507
+      },
+      {
+        "item": 90054589,
+        "title": "Х/ф 'Утраченное сокровище'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1585300500
+      },
+      {
+        "item": 90056569,
+        "title": "Х/ф 'Ван Хельсинг'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 1,
+        "last_second": 1587161700
+      },
+      {
+        "item": 90060136,
+        "title": "Х/ф 'Мистер и миссис Смит'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1584140336
+      },
+      {
+        "item": 90068619,
+        "title": "Х/ф 'Особо опасен'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1589412828
+      },
+      {
+        "item": 90070754,
+        "title": "Х/ф 'Форсаж 4'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 1,
+        "last_second": 1588442400
+      },
+      {
+        "item": 90070896,
+        "title": "Х/ф 'Остров проклятых'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 1,
+        "last_second": 1588206900
+      },
+      {
+        "item": 90071286,
+        "title": "Х/ф 'Охотник за головами'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 1,
+        "last_second": 1588354688
+      },
+      {
+        "item": 90072474,
+        "title": "Х/ф 'Орёл Девятого легиона'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 1,
+        "last_second": 1589130395
+      },
+      {
+        "item": 90073207,
+        "title": "Х/ф 'Три метра над уровнем неба'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1586032575
+      },
+      {
+        "item": 90074341,
+        "title": "Х/ф 'Белоснежка: Месть гномов'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1588119300
+      },
+      {
+        "item": 90074560,
+        "title": "Премьера. Х/ф 'Люди в чёрном 3'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1588510367
+      },
+      {
+        "item": 90074576,
+        "title": "Х/ф 'Призрачный гонщик 2'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1589275269
+      },
+      {
+        "item": 90077275,
+        "title": "Премьера. Х/ф 'Миллион способов потерять голову'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1589156700
+      },
+      {
+        "item": 90077765,
+        "title": "Х/ф 'Мечты сбываются!'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 1,
+        "last_second": 1588503526
+      },
+      {
+        "item": 90077897,
+        "title": "Х/ф 'Планета обезьян: Революция'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 1,
+        "last_second": 1588812600
+      },
+      {
+        "item": 90078669,
+        "title": "Х/ф 'Терминатор: Генезис'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 1,
+        "last_second": 1588977000
+      },
+      {
+        "item": 90078858,
+        "title": "Х/ф 'Мустанг'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 1,
+        "last_second": 1588550375
+      },
+      {
+        "item": 90079323,
+        "title": "Х/ф 'Иллюзия обмана 2'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1587859200
+      },
+      {
+        "item": 90079611,
+        "title": "Х/ф 'Сноуден'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1585361378
+      },
+      {
+        "item": 90079612,
+        "title": "Х/ф 'Зачинщики'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1588296105
+      },
+      {
+        "item": 90080135,
+        "title": "Х/ф 'Скрижали судьбы'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 1,
+        "last_second": 1586631600
+      },
+      {
+        "item": 90080685,
+        "title": "Х/ф 'Война за планету обезьян'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 1,
+        "last_second": 1588985700
+      },
+      {
+        "item": 90080832,
+        "title": "Х/ф 'Безбашенные'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1589655999
+      },
+      {
+        "item": 90080960,
+        "title": "Х/ф 'Очень плохие мамочки 2'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1588464911
+      },
+      {
+        "item": 90081097,
+        "title": "Х/ф 'Уцелевшая'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 1,
+        "last_second": 1589710909
+      },
+      {
+        "item": 90081440,
+        "title": "Х/ф 'Девочки мои', 1-4 с.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1589246820
+      },
+      {
+        "item": 90081666,
+        "title": "Х/ф 'Верни мою жизнь', 1-3 с.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 1,
+        "last_second": 1589216400
+      },
+      {
+        "item": 90082033,
+        "title": "Х/ф 'Никогда не бывает поздно', 1 и 2 с.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1589670000
+      },
+      {
+        "item": 90082534,
+        "title": "Премьера. Х/ф 'Мой милый найденыш', 1 и 2 с.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1585328400
+      },
+      {
+        "item": 90082663,
+        "title": "Премьера. Х/ф 'Время уходить, время возвращаться', 1 и 2 с.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1589756400
+      }
+    ],
+    "training_run_count": 775,
+    "validation_run_count": 1989,
+    "truth": [
+      {
+        "item": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения"
+      },
+      {
+        "item": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо"
+      },
+      {
+        "item": 1000589,
+        "title": "Т/с 'Отчаянные домохозяйки', 4 сезон, 17 с.",
+        "category": "Сериалы"
+      },
+      {
+        "item": 2400480,
+        "title": "ТСН. Неделя.",
+        "category": "Инфо"
+      },
+      {
+        "item": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо"
+      }
+    ],
+    "methods": {
+      "Popularity": {
+        "top5": [
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          },
+          {
+            "item": 240081,
+            "title": "Факты. День.",
+            "category": "Инфо"
+          },
+          {
+            "item": 12001682,
+            "title": "М/с 'Губка Боб Квадратные Штаны'.",
+            "category": "Детям"
+          },
+          {
+            "item": 20088,
+            "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+            "category": "Развлечения"
+          },
+          {
+            "item": 2400508,
+            "title": "Сегодня. Итоги с Олегом Панютой.",
+            "category": "Инфо"
+          }
+        ],
+        "hits": [
+          {
+            "rank": 1,
+            "item": 2400480,
+            "precision": "1"
+          },
+          {
+            "rank": 2,
+            "item": 240081,
+            "precision": "1"
+          },
+          {
+            "rank": 4,
+            "item": 20088,
+            "precision": "3/4"
+          },
+          {
+            "rank": 5,
+            "item": 2400508,
+            "precision": "4/5"
+          }
+        ],
+        "denominator": 5,
+        "fraction": "71/100",
+        "ap5": 0.71,
+        "source_predictions": "artifacts/stage2/private/main_popularity_0.csv"
+      },
+      "Repeat": {
+        "top5": [
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          },
+          {
+            "item": 20088,
+            "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+            "category": "Развлечения"
+          },
+          {
+            "item": 200344,
+            "title": "'Чистоnews'.",
+            "category": "Развлечения"
+          },
+          {
+            "item": 10002515,
+            "title": "Т/с 'Мамочки', 1 и 2 с.",
+            "category": "Сериалы"
+          },
+          {
+            "item": 6500479,
+            "title": "'Мир наизнанку'.",
+            "category": "Познавательное"
+          }
+        ],
+        "hits": [
+          {
+            "rank": 1,
+            "item": 2400480,
+            "precision": "1"
+          },
+          {
+            "rank": 2,
+            "item": 20088,
+            "precision": "1"
+          }
+        ],
+        "denominator": 5,
+        "fraction": "2/5",
+        "ap5": 0.4,
+        "source_predictions": "artifacts/stage2/private/main_repeat_1.csv"
+      },
+      "ALS": {
+        "top5": [
+          {
+            "item": 6000483,
+            "title": "'Свадьба вслепую', 6 сезон, 7 эп.",
+            "category": "Развлечения"
+          },
+          {
+            "item": 20088,
+            "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+            "category": "Развлечения"
+          },
+          {
+            "item": 10002514,
+            "title": "Т/с 'Кухня'.",
+            "category": "Сериалы"
+          },
+          {
+            "item": 6500479,
+            "title": "'Мир наизнанку'.",
+            "category": "Познавательное"
+          },
+          {
+            "item": 200477,
+            "title": "'Завтрак. Выходной'.",
+            "category": "Развлечения"
+          }
+        ],
+        "hits": [
+          {
+            "rank": 2,
+            "item": 20088,
+            "precision": "1/2"
+          }
+        ],
+        "denominator": 5,
+        "fraction": "1/10",
+        "ap5": 0.1,
+        "source_predictions": "artifacts/stage2/private/main_cf_0.csv"
+      },
+      "CBF": {
+        "top5": [
+          {
+            "item": 20088,
+            "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+            "category": "Развлечения"
+          },
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          },
+          {
+            "item": 2400467,
+            "title": "'Викна-Новости'.",
+            "category": "Инфо"
+          },
+          {
+            "item": 5900319,
+            "title": "Абзац!",
+            "category": "Инфо"
+          },
+          {
+            "item": 200337,
+            "title": "'Утро с 'Интером'.",
+            "category": "Развлечения"
+          }
+        ],
+        "hits": [
+          {
+            "rank": 1,
+            "item": 20088,
+            "precision": "1"
+          },
+          {
+            "rank": 2,
+            "item": 2400480,
+            "precision": "1"
+          }
+        ],
+        "denominator": 5,
+        "fraction": "2/5",
+        "ap5": 0.4,
+        "source_predictions": "artifacts/stage2/private/main_cbf_0.csv"
+      },
+      "V1": {
+        "top5": [
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          },
+          {
+            "item": 20088,
+            "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+            "category": "Развлечения"
+          },
+          {
+            "item": 200344,
+            "title": "'Чистоnews'.",
+            "category": "Развлечения"
+          },
+          {
+            "item": 10002515,
+            "title": "Т/с 'Мамочки', 1 и 2 с.",
+            "category": "Сериалы"
+          },
+          {
+            "item": 6500479,
+            "title": "'Мир наизнанку'.",
+            "category": "Познавательное"
+          }
+        ],
+        "hits": [
+          {
+            "rank": 1,
+            "item": 2400480,
+            "precision": "1"
+          },
+          {
+            "rank": 2,
+            "item": 20088,
+            "precision": "1"
+          }
+        ],
+        "denominator": 5,
+        "fraction": "2/5",
+        "ap5": 0.4,
+        "source_predictions": "artifacts/stage3/private/main_v1.csv"
+      },
+      "V2": {
+        "top5": [
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          },
+          {
+            "item": 20088,
+            "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+            "category": "Развлечения"
+          },
+          {
+            "item": 200344,
+            "title": "'Чистоnews'.",
+            "category": "Развлечения"
+          },
+          {
+            "item": 240081,
+            "title": "Факты. День.",
+            "category": "Инфо"
+          },
+          {
+            "item": 6500479,
+            "title": "'Мир наизнанку'.",
+            "category": "Познавательное"
+          }
+        ],
+        "hits": [
+          {
+            "rank": 1,
+            "item": 2400480,
+            "precision": "1"
+          },
+          {
+            "rank": 2,
+            "item": 20088,
+            "precision": "1"
+          },
+          {
+            "rank": 4,
+            "item": 240081,
+            "precision": "3/4"
+          }
+        ],
+        "denominator": 5,
+        "fraction": "11/20",
+        "ap5": 0.55,
+        "source_predictions": "artifacts/stage3/private/main_v1_plus_channel_0.5.csv"
+      },
+      "V3": {
+        "top5": [
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          },
+          {
+            "item": 20088,
+            "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+            "category": "Развлечения"
+          },
+          {
+            "item": 200344,
+            "title": "'Чистоnews'.",
+            "category": "Развлечения"
+          },
+          {
+            "item": 240081,
+            "title": "Факты. День.",
+            "category": "Инфо"
+          },
+          {
+            "item": 10002515,
+            "title": "Т/с 'Мамочки', 1 и 2 с.",
+            "category": "Сериалы"
+          }
+        ],
+        "hits": [
+          {
+            "rank": 1,
+            "item": 2400480,
+            "precision": "1"
+          },
+          {
+            "rank": 2,
+            "item": 20088,
+            "precision": "1"
+          },
+          {
+            "rank": 4,
+            "item": 240081,
+            "precision": "3/4"
+          }
+        ],
+        "denominator": 5,
+        "fraction": "11/20",
+        "ap5": 0.55,
+        "source_predictions": "artifacts/stage4/private/main_v2_supervised_rrf_equal.csv"
+      },
+      "V4": {
+        "top5": [
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          },
+          {
+            "item": 20088,
+            "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+            "category": "Развлечения"
+          },
+          {
+            "item": 200344,
+            "title": "'Чистоnews'.",
+            "category": "Развлечения"
+          },
+          {
+            "item": 240081,
+            "title": "Факты. День.",
+            "category": "Инфо"
+          },
+          {
+            "item": 6500479,
+            "title": "'Мир наизнанку'.",
+            "category": "Познавательное"
+          }
+        ],
+        "hits": [
+          {
+            "rank": 1,
+            "item": 2400480,
+            "precision": "1"
+          },
+          {
+            "rank": 2,
+            "item": 20088,
+            "precision": "1"
+          },
+          {
+            "rank": 4,
+            "item": 240081,
+            "precision": "3/4"
+          }
+        ],
+        "denominator": 5,
+        "fraction": "11/20",
+        "ap5": 0.55,
+        "source_predictions": "artifacts/stage5/private/main_loyalty.csv"
+      },
+      "V5": {
+        "top5": [
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          },
+          {
+            "item": 20088,
+            "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+            "category": "Развлечения"
+          },
+          {
+            "item": 200344,
+            "title": "'Чистоnews'.",
+            "category": "Развлечения"
+          },
+          {
+            "item": 240081,
+            "title": "Факты. День.",
+            "category": "Инфо"
+          },
+          {
+            "item": 10002515,
+            "title": "Т/с 'Мамочки', 1 и 2 с.",
+            "category": "Сериалы"
+          }
+        ],
+        "hits": [
+          {
+            "rank": 1,
+            "item": 2400480,
+            "precision": "1"
+          },
+          {
+            "rank": 2,
+            "item": 20088,
+            "precision": "1"
+          },
+          {
+            "rank": 4,
+            "item": 240081,
+            "precision": "3/4"
+          }
+        ],
+        "denominator": 5,
+        "fraction": "11/20",
+        "ap5": 0.55,
+        "source_predictions": "artifacts/stage6/private/main_lambda_top5.csv"
+      },
+      "BPR standalone": {
+        "top5": [
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          },
+          {
+            "item": 240081,
+            "title": "Факты. День.",
+            "category": "Инфо"
+          },
+          {
+            "item": 2400467,
+            "title": "'Викна-Новости'.",
+            "category": "Инфо"
+          },
+          {
+            "item": 20088,
+            "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+            "category": "Развлечения"
+          },
+          {
+            "item": 2400508,
+            "title": "Сегодня. Итоги с Олегом Панютой.",
+            "category": "Инфо"
+          }
+        ],
+        "hits": [
+          {
+            "rank": 1,
+            "item": 2400480,
+            "precision": "1"
+          },
+          {
+            "rank": 2,
+            "item": 240081,
+            "precision": "1"
+          },
+          {
+            "rank": 4,
+            "item": 20088,
+            "precision": "3/4"
+          },
+          {
+            "rank": 5,
+            "item": 2400508,
+            "precision": "4/5"
+          }
+        ],
+        "denominator": 5,
+        "fraction": "71/100",
+        "ap5": 0.71,
+        "source_predictions": "artifacts/stage8/private/main_bpr_log_frequency.csv"
+      },
+      "Association standalone": {
+        "top5": [
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          },
+          {
+            "item": 240081,
+            "title": "Факты. День.",
+            "category": "Инфо"
+          },
+          {
+            "item": 2400467,
+            "title": "'Викна-Новости'.",
+            "category": "Инфо"
+          },
+          {
+            "item": 2400508,
+            "title": "Сегодня. Итоги с Олегом Панютой.",
+            "category": "Инфо"
+          },
+          {
+            "item": 200344,
+            "title": "'Чистоnews'.",
+            "category": "Развлечения"
+          }
+        ],
+        "hits": [
+          {
+            "rank": 1,
+            "item": 2400480,
+            "precision": "1"
+          },
+          {
+            "rank": 2,
+            "item": 240081,
+            "precision": "1"
+          },
+          {
+            "rank": 4,
+            "item": 2400508,
+            "precision": "3/4"
+          }
+        ],
+        "denominator": 5,
+        "fraction": "11/20",
+        "ap5": 0.55,
+        "source_predictions": "artifacts/stage9/private/main_association_confidence.csv"
+      },
+      "Association integration": {
+        "top5": [
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          },
+          {
+            "item": 20088,
+            "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+            "category": "Развлечения"
+          },
+          {
+            "item": 200344,
+            "title": "'Чистоnews'.",
+            "category": "Развлечения"
+          },
+          {
+            "item": 240081,
+            "title": "Факты. День.",
+            "category": "Инфо"
+          },
+          {
+            "item": 10002515,
+            "title": "Т/с 'Мамочки', 1 и 2 с.",
+            "category": "Сериалы"
+          }
+        ],
+        "hits": [
+          {
+            "rank": 1,
+            "item": 2400480,
+            "precision": "1"
+          },
+          {
+            "rank": 2,
+            "item": 20088,
+            "precision": "1"
+          },
+          {
+            "rank": 4,
+            "item": 240081,
+            "precision": "3/4"
+          }
+        ],
+        "denominator": 5,
+        "fraction": "11/20",
+        "ap5": 0.55,
+        "source_predictions": "artifacts/stage9/private/main_association.csv"
+      },
+      "Calibrated BPR": {
+        "top5": [
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          },
+          {
+            "item": 20088,
+            "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+            "category": "Развлечения"
+          },
+          {
+            "item": 200344,
+            "title": "'Чистоnews'.",
+            "category": "Развлечения"
+          },
+          {
+            "item": 6500479,
+            "title": "'Мир наизнанку'.",
+            "category": "Познавательное"
+          },
+          {
+            "item": 10002515,
+            "title": "Т/с 'Мамочки', 1 и 2 с.",
+            "category": "Сериалы"
+          }
+        ],
+        "hits": [
+          {
+            "rank": 1,
+            "item": 2400480,
+            "precision": "1"
+          },
+          {
+            "rank": 2,
+            "item": 20088,
+            "precision": "1"
+          }
+        ],
+        "denominator": 5,
+        "fraction": "2/5",
+        "ap5": 0.4,
+        "source_predictions": "artifacts/stage9/private/main_bpr_calibrated.csv"
+      }
+    },
+    "actual_history_run_examples": [
+      {
+        "session_id": 929614,
+        "user_id": "13022140237449583302",
+        "sid": 3,
+        "channel": 3,
+        "a": 1583745000,
+        "b": 1583751347,
+        "duration": 8400,
+        "item": 700475,
+        "session_seconds": 6924,
+        "overlap_seconds": 6347,
+        "fraction": 0.7555952380952381
+      },
+      {
+        "session_id": 929638,
+        "user_id": "13022140237449583302",
+        "sid": 11,
+        "channel": 3,
+        "a": 1583821800,
+        "b": 1583822882,
+        "duration": 1800,
+        "item": 20088,
+        "session_seconds": 3423,
+        "overlap_seconds": 1082,
+        "fraction": 0.6011111111111112
+      },
+      {
+        "session_id": 929639,
+        "user_id": "13022140237449583302",
+        "sid": 13,
+        "channel": 3,
+        "a": 1583824200,
+        "b": 1583826537,
+        "duration": 3000,
+        "item": 20088,
+        "session_seconds": 3608,
+        "overlap_seconds": 2337,
+        "fraction": 0.779
+      }
+    ]
+  },
+  {
+    "alias": "U-light",
+    "user_id": "278032391686083827",
+    "selection_reason": "smallest distinct validation truth history",
+    "selection_is_posthoc": true,
+    "history_cutoff": "2020-05-18 00:00:00",
+    "history": [
+      {
+        "item": 12001682,
+        "title": "М/с 'Губка Боб Квадратные Штаны'.",
+        "category": "Детям",
+        "frequency50": 16,
+        "frequency80": 13,
+        "last_second": 1589214000
+      },
+      {
+        "item": 12002201,
+        "title": "М/с 'Маша и Медведь', 46 с.",
+        "category": "Детям",
+        "frequency50": 5,
+        "frequency80": 4,
+        "last_second": 1587996420
+      },
+      {
+        "item": 12002955,
+        "title": "М/с 'Свинка Пеппа', 1 с. 'Лужи'.",
+        "category": "Детям",
+        "frequency50": 4,
+        "frequency80": 4,
+        "last_second": 1584707700
+      },
+      {
+        "item": 12002856,
+        "title": "М/с 'Элвиннн!!! и бурундуки'.",
+        "category": "Детям",
+        "frequency50": 3,
+        "frequency80": 3,
+        "last_second": 1589210100
+      },
+      {
+        "item": 2400480,
+        "title": "ТСН. Неделя.",
+        "category": "Инфо",
+        "frequency50": 2,
+        "frequency80": 0,
+        "last_second": 1586464500
+      },
+      {
+        "item": 12001734,
+        "title": "М/с 'Волшебные покровители', 161 с. 'Женат на мамочке'.",
+        "category": "Детям",
+        "frequency50": 2,
+        "frequency80": 2,
+        "last_second": 1585652100
+      },
+      {
+        "item": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения",
+        "frequency50": 1,
+        "frequency80": 1,
+        "last_second": 1585214700
+      },
+      {
+        "item": 200344,
+        "title": "'Чистоnews'.",
+        "category": "Развлечения",
+        "frequency50": 1,
+        "frequency80": 1,
+        "last_second": 1586465100
+      },
+      {
+        "item": 200469,
+        "title": "Варьяты. Лучшее.",
+        "category": "Развлечения",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1585393200
+      },
+      {
+        "item": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1583880300
+      },
+      {
+        "item": 12002172,
+        "title": "М/с 'Гуппи и пузырики', 3 сезон, 18 с. 'Забег лягушек'.",
+        "category": "Детям",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1584706500
+      },
+      {
+        "item": 12002552,
+        "title": "М/с 'Макс и Руби', 7 сезон, 16 с. 'Довольный малыш Хаффингтон / Кексики Руби'.",
+        "category": "Детям",
+        "frequency50": 1,
+        "frequency80": 0,
+        "last_second": 1584708833
+      },
+      {
+        "item": 90043769,
+        "title": "Х/ф 'Иван Васильевич меняет профессию'.",
+        "category": "Фильмы",
+        "frequency50": 1,
+        "frequency80": 1,
+        "last_second": 1586471400
+      }
+    ],
+    "training_run_count": 64,
+    "validation_run_count": 5,
+    "truth": [
+      {
+        "item": 12002039,
+        "title": "UA: Культура для самых маленьких. М/с 'Монстры и пираты'.",
+        "category": "Детям"
+      }
+    ],
+    "methods": {
+      "Popularity": {
+        "top5": [
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          },
+          {
+            "item": 240081,
+            "title": "Факты. День.",
+            "category": "Инфо"
+          },
+          {
+            "item": 12001682,
+            "title": "М/с 'Губка Боб Квадратные Штаны'.",
+            "category": "Детям"
+          },
+          {
+            "item": 20088,
+            "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+            "category": "Развлечения"
+          },
+          {
+            "item": 2400508,
+            "title": "Сегодня. Итоги с Олегом Панютой.",
+            "category": "Инфо"
+          }
+        ],
+        "hits": [],
+        "denominator": 1,
+        "fraction": "0",
+        "ap5": 0.0,
+        "source_predictions": "artifacts/stage2/private/main_popularity_0.csv"
+      },
+      "Repeat": {
+        "top5": [
+          {
+            "item": 12001682,
+            "title": "М/с 'Губка Боб Квадратные Штаны'.",
+            "category": "Детям"
+          },
+          {
+            "item": 12002201,
+            "title": "М/с 'Маша и Медведь', 46 с.",
+            "category": "Детям"
+          },
+          {
+            "item": 12002955,
+            "title": "М/с 'Свинка Пеппа', 1 с. 'Лужи'.",
+            "category": "Детям"
+          },
+          {
+            "item": 12002856,
+            "title": "М/с 'Элвиннн!!! и бурундуки'.",
+            "category": "Детям"
+          },
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          }
+        ],
+        "hits": [],
+        "denominator": 1,
+        "fraction": "0",
+        "ap5": 0.0,
+        "source_predictions": "artifacts/stage2/private/main_repeat_1.csv"
+      },
+      "ALS": {
+        "top5": [
+          {
+            "item": 12001682,
+            "title": "М/с 'Губка Боб Квадратные Штаны'.",
+            "category": "Детям"
+          },
+          {
+            "item": 12002896,
+            "title": "М/с 'Вспыш и чудо-машинки', 1 сезон, 15 с. 'Авто-Рейнджеры'.",
+            "category": "Детям"
+          },
+          {
+            "item": 12002955,
+            "title": "М/с 'Свинка Пеппа', 1 с. 'Лужи'.",
+            "category": "Детям"
+          },
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          },
+          {
+            "item": 12002856,
+            "title": "М/с 'Элвиннн!!! и бурундуки'.",
+            "category": "Детям"
+          }
+        ],
+        "hits": [],
+        "denominator": 1,
+        "fraction": "0",
+        "ap5": 0.0,
+        "source_predictions": "artifacts/stage2/private/main_cf_0.csv"
+      },
+      "CBF": {
+        "top5": [
+          {
+            "item": 12001682,
+            "title": "М/с 'Губка Боб Квадратные Штаны'.",
+            "category": "Детям"
+          },
+          {
+            "item": 120079564,
+            "title": "М/ф 'Губка Боб в 3D'.",
+            "category": "Детям"
+          },
+          {
+            "item": 12002201,
+            "title": "М/с 'Маша и Медведь', 46 с.",
+            "category": "Детям"
+          },
+          {
+            "item": 12002955,
+            "title": "М/с 'Свинка Пеппа', 1 с. 'Лужи'.",
+            "category": "Детям"
+          },
+          {
+            "item": 12002856,
+            "title": "М/с 'Элвиннн!!! и бурундуки'.",
+            "category": "Детям"
+          }
+        ],
+        "hits": [],
+        "denominator": 1,
+        "fraction": "0",
+        "ap5": 0.0,
+        "source_predictions": "artifacts/stage2/private/main_cbf_0.csv"
+      },
+      "V1": {
+        "top5": [
+          {
+            "item": 12001682,
+            "title": "М/с 'Губка Боб Квадратные Штаны'.",
+            "category": "Детям"
+          },
+          {
+            "item": 12002201,
+            "title": "М/с 'Маша и Медведь', 46 с.",
+            "category": "Детям"
+          },
+          {
+            "item": 12002955,
+            "title": "М/с 'Свинка Пеппа', 1 с. 'Лужи'.",
+            "category": "Детям"
+          },
+          {
+            "item": 12002856,
+            "title": "М/с 'Элвиннн!!! и бурундуки'.",
+            "category": "Детям"
+          },
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          }
+        ],
+        "hits": [],
+        "denominator": 1,
+        "fraction": "0",
+        "ap5": 0.0,
+        "source_predictions": "artifacts/stage3/private/main_v1.csv"
+      },
+      "V2": {
+        "top5": [
+          {
+            "item": 12001682,
+            "title": "М/с 'Губка Боб Квадратные Штаны'.",
+            "category": "Детям"
+          },
+          {
+            "item": 12002955,
+            "title": "М/с 'Свинка Пеппа', 1 с. 'Лужи'.",
+            "category": "Детям"
+          },
+          {
+            "item": 12002201,
+            "title": "М/с 'Маша и Медведь', 46 с.",
+            "category": "Детям"
+          },
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          },
+          {
+            "item": 12002856,
+            "title": "М/с 'Элвиннн!!! и бурундуки'.",
+            "category": "Детям"
+          }
+        ],
+        "hits": [],
+        "denominator": 1,
+        "fraction": "0",
+        "ap5": 0.0,
+        "source_predictions": "artifacts/stage3/private/main_v1_plus_channel_0.5.csv"
+      },
+      "V3": {
+        "top5": [
+          {
+            "item": 12001682,
+            "title": "М/с 'Губка Боб Квадратные Штаны'.",
+            "category": "Детям"
+          },
+          {
+            "item": 12002955,
+            "title": "М/с 'Свинка Пеппа', 1 с. 'Лужи'.",
+            "category": "Детям"
+          },
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          },
+          {
+            "item": 12002856,
+            "title": "М/с 'Элвиннн!!! и бурундуки'.",
+            "category": "Детям"
+          },
+          {
+            "item": 12002201,
+            "title": "М/с 'Маша и Медведь', 46 с.",
+            "category": "Детям"
+          }
+        ],
+        "hits": [],
+        "denominator": 1,
+        "fraction": "0",
+        "ap5": 0.0,
+        "source_predictions": "artifacts/stage4/private/main_v2_supervised_rrf_equal.csv"
+      },
+      "V4": {
+        "top5": [
+          {
+            "item": 12001682,
+            "title": "М/с 'Губка Боб Квадратные Штаны'.",
+            "category": "Детям"
+          },
+          {
+            "item": 12002955,
+            "title": "М/с 'Свинка Пеппа', 1 с. 'Лужи'.",
+            "category": "Детям"
+          },
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          },
+          {
+            "item": 12002856,
+            "title": "М/с 'Элвиннн!!! и бурундуки'.",
+            "category": "Детям"
+          },
+          {
+            "item": 20088,
+            "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+            "category": "Развлечения"
+          }
+        ],
+        "hits": [],
+        "denominator": 1,
+        "fraction": "0",
+        "ap5": 0.0,
+        "source_predictions": "artifacts/stage5/private/main_loyalty.csv"
+      },
+      "V5": {
+        "top5": [
+          {
+            "item": 12001682,
+            "title": "М/с 'Губка Боб Квадратные Штаны'.",
+            "category": "Детям"
+          },
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          },
+          {
+            "item": 12002955,
+            "title": "М/с 'Свинка Пеппа', 1 с. 'Лужи'.",
+            "category": "Детям"
+          },
+          {
+            "item": 12001734,
+            "title": "М/с 'Волшебные покровители', 161 с. 'Женат на мамочке'.",
+            "category": "Детям"
+          },
+          {
+            "item": 20088,
+            "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+            "category": "Развлечения"
+          }
+        ],
+        "hits": [],
+        "denominator": 1,
+        "fraction": "0",
+        "ap5": 0.0,
+        "source_predictions": "artifacts/stage6/private/main_lambda_top5.csv"
+      },
+      "BPR standalone": {
+        "top5": [
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          },
+          {
+            "item": 2400467,
+            "title": "'Викна-Новости'.",
+            "category": "Инфо"
+          },
+          {
+            "item": 240081,
+            "title": "Факты. День.",
+            "category": "Инфо"
+          },
+          {
+            "item": 12001682,
+            "title": "М/с 'Губка Боб Квадратные Штаны'.",
+            "category": "Детям"
+          },
+          {
+            "item": 2400508,
+            "title": "Сегодня. Итоги с Олегом Панютой.",
+            "category": "Инфо"
+          }
+        ],
+        "hits": [],
+        "denominator": 1,
+        "fraction": "0",
+        "ap5": 0.0,
+        "source_predictions": "artifacts/stage8/private/main_bpr_log_frequency.csv"
+      },
+      "Association standalone": {
+        "top5": [
+          {
+            "item": 240081,
+            "title": "Факты. День.",
+            "category": "Инфо"
+          },
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          },
+          {
+            "item": 2400467,
+            "title": "'Викна-Новости'.",
+            "category": "Инфо"
+          },
+          {
+            "item": 2400508,
+            "title": "Сегодня. Итоги с Олегом Панютой.",
+            "category": "Инфо"
+          },
+          {
+            "item": 200344,
+            "title": "'Чистоnews'.",
+            "category": "Развлечения"
+          }
+        ],
+        "hits": [],
+        "denominator": 1,
+        "fraction": "0",
+        "ap5": 0.0,
+        "source_predictions": "artifacts/stage9/private/main_association_confidence.csv"
+      },
+      "Association integration": {
+        "top5": [
+          {
+            "item": 12001682,
+            "title": "М/с 'Губка Боб Квадратные Штаны'.",
+            "category": "Детям"
+          },
+          {
+            "item": 12002955,
+            "title": "М/с 'Свинка Пеппа', 1 с. 'Лужи'.",
+            "category": "Детям"
+          },
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          },
+          {
+            "item": 12002856,
+            "title": "М/с 'Элвиннн!!! и бурундуки'.",
+            "category": "Детям"
+          },
+          {
+            "item": 2400467,
+            "title": "'Викна-Новости'.",
+            "category": "Инфо"
+          }
+        ],
+        "hits": [],
+        "denominator": 1,
+        "fraction": "0",
+        "ap5": 0.0,
+        "source_predictions": "artifacts/stage9/private/main_association.csv"
+      },
+      "Calibrated BPR": {
+        "top5": [
+          {
+            "item": 12001682,
+            "title": "М/с 'Губка Боб Квадратные Штаны'.",
+            "category": "Детям"
+          },
+          {
+            "item": 12002955,
+            "title": "М/с 'Свинка Пеппа', 1 с. 'Лужи'.",
+            "category": "Детям"
+          },
+          {
+            "item": 12002856,
+            "title": "М/с 'Элвиннн!!! и бурундуки'.",
+            "category": "Детям"
+          },
+          {
+            "item": 2400480,
+            "title": "ТСН. Неделя.",
+            "category": "Инфо"
+          },
+          {
+            "item": 12001734,
+            "title": "М/с 'Волшебные покровители', 161 с. 'Женат на мамочке'.",
+            "category": "Детям"
+          }
+        ],
+        "hits": [],
+        "denominator": 1,
+        "fraction": "0",
+        "ap5": 0.0,
+        "source_predictions": "artifacts/stage9/private/main_bpr_calibrated.csv"
+      }
+    },
+    "actual_history_run_examples": [
+      {
+        "session_id": 2921899,
+        "user_id": "278032391686083827",
+        "sid": 4926,
+        "channel": 6,
+        "a": 1583878708,
+        "b": 1583880300,
+        "duration": 2700,
+        "item": 2400467,
+        "session_seconds": 1848,
+        "overlap_seconds": 1592,
+        "fraction": 0.5896296296296296
+      },
+      {
+        "session_id": 2921917,
+        "user_id": "278032391686083827",
+        "sid": 615369,
+        "channel": 739,
+        "a": 1584401400,
+        "b": 1584402000,
+        "duration": 600,
+        "item": 12001682,
+        "session_seconds": 3000,
+        "overlap_seconds": 600,
+        "fraction": 1.0
+      },
+      {
+        "session_id": 2921926,
+        "user_id": "278032391686083827",
+        "sid": 615511,
+        "channel": 739,
+        "a": 1584558965,
+        "b": 1584559800,
+        "duration": 1500,
+        "item": 12001682,
+        "session_seconds": 884,
+        "overlap_seconds": 835,
+        "fraction": 0.5566666666666666
+      }
+    ]
+  }
+]

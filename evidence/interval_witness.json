@@ -1,0 +1,59 @@
+{
+  "source": {
+    "executor": "AI assistant using dedicated file Read tool",
+    "student_verification_claimed": false,
+    "view_file": "sweettv-tv-program-recommender/dataset11-30.csv",
+    "physical_line": 3913424,
+    "view_row": "7344208324753660769,805,2020-05-17 06:39:08,2020-05-18 02:09:32,70224",
+    "schedule_file": "sweettv-tv-program-recommender/export_arh_11-20-final.csv",
+    "schedule_physical_line": 656406,
+    "schedule_row": "805,Sony Turbo,17.05.2020 23:55:00,3300,\"Т/с 'Спартак: Кровь и песок', 11 с. 'Старые раны'.\",10002079,Сериалы,боевик,драма,исторический,2010-2010,Рик Джейкобсон,\"Энди Уитфилд, Эрин Каммингс, Джон Ханна\"",
+    "validation_start": "2020-05-18 00:00:00",
+    "clipped_overlap_start": "2020-05-18 00:00:00",
+    "clipped_overlap_end": "2020-05-18 00:50:00",
+    "overlap_seconds": 3000,
+    "airing_duration_seconds": 3300,
+    "strict_80_check": "15000 > 13200",
+    "concurrent_channel_check": "Independently enumerated all cached original same-user views and schedule endpoints for the witness interval in tvrec.verify_stage2; matched original raw source rows above."
+  },
+  "witness": {
+    "session_id": 4374923,
+    "user_id": "7344208324753660769",
+    "sid": 656405,
+    "channel": 805,
+    "a": 1589760000,
+    "b": 1589763000,
+    "duration": 3300,
+    "item": 10002079,
+    "session_seconds": 13335,
+    "overlap_seconds": 3000,
+    "fraction": 0.9090909090909091,
+    "strict_arithmetic": "5 * 3000 > 4 * 3300",
+    "schedule": {
+      "sid": 656405,
+      "period": 11,
+      "source_row": 656405,
+      "channel": 805,
+      "ss": 1589759700,
+      "se": 1589763000,
+      "duration": 3300,
+      "item": 10002079,
+      "title": "Т/с 'Спартак: Кровь и песок', 11 с. 'Старые раны'.",
+      "category": "Сериалы",
+      "ss_timestamp": "2020-05-17T23:55:00",
+      "se_timestamp": "2020-05-18T00:50:00"
+    },
+    "overlapping_original_view_rows": [
+      {
+        "vid": 3913423,
+        "channel": 805,
+        "vs": 1589697548,
+        "ve": 1589767772,
+        "duraton": 70224
+      }
+    ],
+    "a_timestamp": "2020-05-18T00:00:00",
+    "b_timestamp": "2020-05-18T00:50:00",
+    "csv_line_rule": "source row ID + 1 (header is line 1); view vid refers to dataset11-30.csv"
+  }
+}
