@@ -1,0 +1,36 @@
+{
+  "experiments": {
+    "consistency": "Distinct >=50% and >=80% observed days/weeks, completed-week coverage, last completion age; sustained completion separates repeats from bursts/one-offs.",
+    "loyalty": "Raw and watch-duration channel loyalty, channel completion/intensity and >=80% conditional programme popularity; differs from existing sqrt/soft-count channel score.",
+    "opportunity": "Personally completed-event yield per historical broadcast and reliability-gated expected future completions/timing; future air count alone never boosts unseen items."
+  },
+  "maximum_experiments": 3,
+  "combinations_or_weight_search": false,
+  "model_parameters": {
+    "learning_rate": 0.06,
+    "max_iter": 80,
+    "max_leaf_nodes": 15,
+    "max_bins": 63,
+    "min_samples_leaf": 50,
+    "l2_regularization": 10.0,
+    "early_stopping": false,
+    "random_state": 42
+  },
+  "training_folds": [
+    {
+      "name": "roll_mar23",
+      "cutoff": 1584921600,
+      "target_end": 1586131200
+    },
+    {
+      "name": "roll_apr06",
+      "cutoff": 1586131200,
+      "target_end": 1586736000
+    }
+  ],
+  "output_policy": "unchanged V3 equal V2/GB reciprocal-rank fusion within unchanged pool; common cold fallback",
+  "primary_target_unchanged": true,
+  "all_users": 1260,
+  "selection": "Main gain >=0.002, earlier >=0.001, paired lower95>0 both; light-history subgroup gain >=-0.003 both; no reversal under frequency-tie sensitivity. Otherwise retain V3.",
+  "kaggle_scores_read_for_selection": false
+}

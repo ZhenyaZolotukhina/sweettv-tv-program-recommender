@@ -1,0 +1,57 @@
+{
+  "tasks": [
+    {
+      "task": "roll_mar23",
+      "user_norm_quantiles": [
+        0.09033716176082718,
+        0.11684872639655376,
+        0.17178261025336836
+      ],
+      "ranking_score_quantiles": [
+        -1.3253346681594849,
+        -0.9093436598777771,
+        0.9260919213294986
+      ]
+    },
+    {
+      "task": "roll_apr06",
+      "user_norm_quantiles": [
+        0.1503690103284093,
+        0.1890236921937683,
+        0.26918657006181257
+      ],
+      "ranking_score_quantiles": [
+        -1.4703232526779175,
+        -0.8651285767555237,
+        1.1625704646110535
+      ]
+    },
+    {
+      "task": "earlier",
+      "user_norm_quantiles": [
+        0.22144518200106741,
+        0.2797861771961864,
+        0.355188241034851
+      ],
+      "ranking_score_quantiles": [
+        -1.5542308807373046,
+        -1.0368398427963257,
+        0.5587080478668219
+      ]
+    },
+    {
+      "task": "main",
+      "user_norm_quantiles": [
+        0.48354766119992326,
+        0.6542510049820155,
+        0.8153213156768472
+      ],
+      "ranking_score_quantiles": [
+        -1.865003228187561,
+        -1.009976863861084,
+        0.5264646291732789
+      ]
+    }
+  ],
+  "interpretation": "Different history lengths can shift raw latent scales. Rank/cosine features are also supplied, but no calibration/extra search was run."
+}

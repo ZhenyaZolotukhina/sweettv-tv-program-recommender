@@ -1,0 +1,128 @@
+[
+  {
+    "variant": "same_pool_features",
+    "window": "main",
+    "map5": 0.3929056437389771,
+    "warm_map5": 0.39502488888888887,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.40118404466054386,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.41968352558414673,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "gain": -0.002773589065255732,
+    "paired_95_ci": [
+      -0.0056614362874779535,
+      8.45072751322746e-05
+    ],
+    "improved": 180,
+    "regressed": 207,
+    "subgroups": {
+      "light": 0.011263440860215053,
+      "heavy": -0.003529508043396933,
+      "repeat_heavy": -0.00501010101010101
+    },
+    "fit_resources": {
+      "rss_before_bytes": 1396424704,
+      "peak_rss_bytes": 1422721024,
+      "seconds": 5.372950499993749,
+      "peak_increment_bytes": 26296320
+    },
+    "inference_resources": {
+      "rss_before_bytes": 1423081472,
+      "peak_rss_bytes": 1424932864,
+      "seconds": 1.4221855420037173,
+      "peak_increment_bytes": 1851392
+    },
+    "training_folds": [
+      {
+        "name": "roll_mar23",
+        "cutoff": 1584921600,
+        "target_end": 1586131200,
+        "queries": 1260,
+        "rows": 252933,
+        "positives": 4408,
+        "zero_positive_queries": 135,
+        "group_sizes_min": 200,
+        "group_sizes_max": 229
+      },
+      {
+        "name": "roll_apr06",
+        "cutoff": 1586131200,
+        "target_end": 1586736000,
+        "queries": 1260,
+        "rows": 260359,
+        "positives": 3152,
+        "zero_positive_queries": 256,
+        "group_sizes_min": 200,
+        "group_sizes_max": 247
+      }
+    ],
+    "input_features": 67
+  },
+  {
+    "variant": "same_pool_features",
+    "window": "earlier",
+    "map5": 0.40888205467372135,
+    "warm_map5": 0.41314465829100955,
+    "cold_map5": 0.0,
+    "warm_users": 1247,
+    "cold_users": 13,
+    "nonempty_map5": 0.4261301810495359,
+    "nonempty_users": 1209,
+    "full_five_map5": 0.4484897828863346,
+    "full_five_users": 1044,
+    "denominator": 1260,
+    "gain": 2.4250440917106618e-05,
+    "paired_95_ci": [
+      -0.0025403659611992957,
+      0.0026870205026455008
+    ],
+    "improved": 172,
+    "regressed": 182,
+    "subgroups": {
+      "light": 0.004760378510378509,
+      "heavy": -0.0007848200312989055,
+      "repeat_heavy": -0.0002374893977947458
+    },
+    "fit_resources": {
+      "rss_before_bytes": 1396424704,
+      "peak_rss_bytes": 1422721024,
+      "seconds": 5.372950499993749,
+      "peak_increment_bytes": 26296320
+    },
+    "inference_resources": {
+      "rss_before_bytes": 1424982016,
+      "peak_rss_bytes": 1425031168,
+      "seconds": 1.0395001249853522,
+      "peak_increment_bytes": 49152
+    },
+    "training_folds": [
+      {
+        "name": "roll_mar23",
+        "cutoff": 1584921600,
+        "target_end": 1586131200,
+        "queries": 1260,
+        "rows": 252933,
+        "positives": 4408,
+        "zero_positive_queries": 135,
+        "group_sizes_min": 200,
+        "group_sizes_max": 229
+      },
+      {
+        "name": "roll_apr06",
+        "cutoff": 1586131200,
+        "target_end": 1586736000,
+        "queries": 1260,
+        "rows": 260359,
+        "positives": 3152,
+        "zero_positive_queries": 256,
+        "group_sizes_min": 200,
+        "group_sizes_max": 247
+      }
+    ],
+    "input_features": 67
+  }
+]

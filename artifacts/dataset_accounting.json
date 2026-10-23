@@ -1,0 +1,322 @@
+{
+  "source_files": {
+    "dataset11-30.csv": {
+      "bytes": 396216555,
+      "sha256": "8c9e5f058157041e5c33f13e64dc1625a5177cc6d5e434ba18cd8a69afafb53b"
+    },
+    "export_arh_11-20-final.csv": {
+      "bytes": 153322643,
+      "sha256": "7888aa00c20db3db23f95000c721eccf2878e5f58bf5383bb25b99f078b1033c"
+    },
+    "export_arh_21-30-final.csv": {
+      "bytes": 154366907,
+      "sha256": "bdc9fa9850239aaed608bece9cdb200011e690300470fe85b980457d8c0cb2d4"
+    },
+    "export_arh_31-42-final.csv": {
+      "bytes": 185952991,
+      "sha256": "5cc01f4619bd94886d83744f00bbc15cc5fa23384d297244a7dc2207450c4088"
+    },
+    "submission.csv": {
+      "bytes": 38348,
+      "sha256": "d8c209dce3c7c9d815d8e2a6226e1be63052ee7afa7e8ba8b75dc2f703967a02"
+    }
+  },
+  "archives": "No archives supplied; five extracted CSV files.",
+  "count_provenance": "SQL statements and source row IDs in tvrec/pipeline.py; header excluded.",
+  "encoding": "UTF-8: all files parsed strictly by DuckDB; no ignored errors.",
+  "schemas": {
+    "dataset11-30.csv": [
+      "user_id",
+      "vsetv_id",
+      "start_time",
+      "stop_time",
+      "duraton"
+    ],
+    "export_arh_11-20-final.csv": [
+      "channel_id",
+      "channel_title",
+      "start_time",
+      "duration",
+      "tv_show_title",
+      "tv_show_id",
+      "tv_show_category",
+      "tv_show_genre_1",
+      "tv_show_genre_2",
+      "tv_show_genre_3",
+      "year_of_production",
+      "director",
+      "actors"
+    ],
+    "export_arh_21-30-final.csv": [
+      "channel_id",
+      "channel_title",
+      "start_time",
+      "duration",
+      "tv_show_title",
+      "tv_show_id",
+      "tv_show_category",
+      "tv_show_genre_1",
+      "tv_show_genre_2",
+      "tv_show_genre_3",
+      "year_of_production",
+      "director",
+      "actors"
+    ],
+    "export_arh_31-42-final.csv": [
+      "channel_id",
+      "channel_title",
+      "start_time",
+      "duration",
+      "tv_show_title",
+      "tv_show_id",
+      "tv_show_category",
+      "tv_show_genre_1",
+      "tv_show_genre_2",
+      "tv_show_genre_3",
+      "year_of_production",
+      "director",
+      "actors"
+    ],
+    "submission.csv": [
+      "user_id",
+      "tv_show_id"
+    ]
+  },
+  "views": {
+    "rows": 5821987,
+    "users": 4914,
+    "channels": 202,
+    "start_epoch": 1583712002,
+    "stop_epoch": 1595807998,
+    "min_duraton": 61,
+    "duraton_quantiles": [
+      396.0,
+      3911.0,
+      14079.139999999665
+    ],
+    "max_duraton": 342145,
+    "over_24h": 52,
+    "duration_mismatches": 117,
+    "invalid": 0,
+    "duplicate_rows": 17,
+    "above_signed_int64": 2918899
+  },
+  "schedules": [
+    {
+      "period": 11,
+      "rows": 1074235,
+      "channels": 400,
+      "labelled_programmes": 5847,
+      "labelled_rows": 115613,
+      "unlabelled_rows": 958622,
+      "invalid_intervals": 1,
+      "start_epoch": 1583708400,
+      "last_start_epoch": 1589802300,
+      "end_epoch": 1589803200,
+      "duration_quantiles": [
+        1500.0,
+        5400.0,
+        12600.0
+      ],
+      "max_duration": 86400
+    },
+    {
+      "period": 21,
+      "rows": 1074394,
+      "channels": 403,
+      "labelled_programmes": 6363,
+      "labelled_rows": 121505,
+      "unlabelled_rows": 952889,
+      "invalid_intervals": 0,
+      "start_epoch": 1589760000,
+      "last_start_epoch": 1595850900,
+      "end_epoch": 1595851200,
+      "duration_quantiles": [
+        1500.0,
+        5400.0,
+        13200.0
+      ],
+      "max_duration": 86400
+    },
+    {
+      "period": 31,
+      "rows": 1295378,
+      "channels": 404,
+      "labelled_programmes": 6636,
+      "labelled_rows": 144774,
+      "unlabelled_rows": 1150604,
+      "invalid_intervals": 0,
+      "start_epoch": 1595808000,
+      "last_start_epoch": 1603108500,
+      "end_epoch": 1603108800,
+      "duration_quantiles": [
+        1500.0,
+        5400.0,
+        13500.0
+      ],
+      "max_duration": 43200
+    }
+  ],
+  "schedule_missing_vs_zero": [
+    {
+      "period": 11,
+      "missing_ids": 0,
+      "zero_ids": 958622,
+      "malformed_ids": 0
+    },
+    {
+      "period": 21,
+      "missing_ids": 0,
+      "zero_ids": 952889,
+      "malformed_ids": 0
+    },
+    {
+      "period": 31,
+      "missing_ids": 0,
+      "zero_ids": 1150604,
+      "malformed_ids": 0
+    }
+  ],
+  "schedule_duplicate_rows": [
+    {
+      "period": 11,
+      "duplicate_core_rows": 0
+    },
+    {
+      "period": 31,
+      "duplicate_core_rows": 0
+    },
+    {
+      "period": 21,
+      "duplicate_core_rows": 0
+    }
+  ],
+  "repeated_titles": {
+    "titles_with_multiple_labelled_ids": 284
+  },
+  "repeated_ids": {
+    "ids_with_multiple_titles": 4351
+  },
+  "template": {
+    "rows": 1260,
+    "users": 1260
+  },
+  "channel_mapping": {
+    "source": "https://r.jina.ai/http://www.vsetv.com/channels.html",
+    "original_source": "http://www.vsetv.com/channels.html",
+    "source_sha256": "25240b5eb7d87d990f4f8be657f845b61dedb0714a8ecbfa0951078af2aa1f9b",
+    "parsed_external_channels": 1128,
+    "exact_id_title_matches": 211,
+    "policy": "Identity namespace verified by >=40 independent ID/title checks; all schedule IDs mapped identically. Historical renamed/absent channels not individually verified; see CSV.",
+    "view_channels_without_schedule": [
+      {
+        "channel": 149,
+        "views": 1302
+      },
+      {
+        "channel": 1174,
+        "views": 86883
+      },
+      {
+        "channel": 1508,
+        "views": 7491
+      },
+      {
+        "channel": 1509,
+        "views": 8546
+      },
+      {
+        "channel": 1510,
+        "views": 9357
+      }
+    ]
+  },
+  "overlap_resolution": {
+    "rows_overlapping_prior_running_end": 13,
+    "rule": "latest schedule start wins; ties lowest global source row ID; zero/missing IDs receive no preference; half-open intervals",
+    "disjoint_segments": 3444006
+  },
+  "join": {
+    "total_views": 5821987,
+    "matched_schedule_views": 5408598,
+    "matched_labelled_views": 2964346,
+    "usable_users": 4895,
+    "usable_programmes": 4363,
+    "interaction_rows": 3848423,
+    "no_valid_programme_views": 2857641,
+    "schedule_match_percent": 92.89952038711182,
+    "labelled_match_percent": 50.91639675595291,
+    "join_seconds": 8.942768624983728
+  },
+  "interaction_windows": [
+    {
+      "phase": "train",
+      "interactions": 2383294,
+      "views": 1897786,
+      "users": 4841,
+      "programmes": 2973,
+      "seconds": 2451928356
+    },
+    {
+      "phase": "validation",
+      "interactions": 1465129,
+      "views": 1067291,
+      "users": 4806,
+      "programmes": 3231,
+      "seconds": 2123324853
+    }
+  ],
+  "training_overlap_quantiles": {
+    "seconds": [
+      77.0,
+      146.0,
+      465.0,
+      1322.0,
+      2782.0
+    ],
+    "fractions": [
+      0.012504385964912537,
+      0.02845238095238095,
+      0.10447493734335839,
+      0.3811111111111111,
+      0.9046666666666666
+    ]
+  },
+  "availability": [
+    {
+      "period": 11,
+      "candidates": 5847,
+      "seen_train": 2973,
+      "seen_all_views": 3380
+    },
+    {
+      "period": 21,
+      "candidates": 6363,
+      "seen_train": 2196,
+      "seen_all_views": 3585
+    },
+    {
+      "period": 31,
+      "candidates": 6636,
+      "seen_train": 2229,
+      "seen_all_views": 3113
+    }
+  ],
+  "raw_view_windows": [
+    {
+      "phase": "train",
+      "views": 3945173
+    },
+    {
+      "phase": "validation",
+      "views": 1876814
+    }
+  ],
+  "time_split": {
+    "train": "[2020-03-09 00:00:00,2020-05-18 00:00:00)",
+    "validation": "[2020-05-18 00:00:00,2020-07-27 00:00:00)",
+    "test": "[2020-07-27 00:00:00,2020-10-19 00:00:00)",
+    "timezone": "original naive timestamps; no inferred UTC conversion"
+  },
+  "prepare_seconds": 54.337502916983794
+}

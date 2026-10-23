@@ -1,0 +1,748 @@
+[
+  {
+    "alias": "Example-1",
+    "reason": "largest observed AP improvement",
+    "v1_ap5": 0.14666666666666667,
+    "v2_ap5": 0.55,
+    "delta": 0.4033333333333334,
+    "history_programmes": [
+      {
+        "item": 10002515,
+        "title": "Т/с 'Мамочки', 1 и 2 с.",
+        "category": "Сериалы",
+        "frequency": 7,
+        "last_second": 1589495400
+      },
+      {
+        "item": 700389,
+        "title": "Кто сверху?, 6 сезон, 7 эп.",
+        "category": "Развлечения",
+        "frequency": 6,
+        "last_second": 1589642375
+      },
+      {
+        "item": 10002514,
+        "title": "Т/с 'Кухня'.",
+        "category": "Сериалы",
+        "frequency": 6,
+        "last_second": 1588801500
+      },
+      {
+        "item": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо",
+        "frequency": 4,
+        "last_second": 1588308900
+      },
+      {
+        "item": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо",
+        "frequency": 3,
+        "last_second": 1588779000
+      },
+      {
+        "item": 500466,
+        "title": "Детектор лжи.",
+        "category": "Развлечения",
+        "frequency": 2,
+        "last_second": 1586138100
+      },
+      {
+        "item": 700390,
+        "title": "Суперинтуиция, 3 сезон, 4 эп. Андрей Бедняков и Юлия Санина.",
+        "category": "Развлечения",
+        "frequency": 2,
+        "last_second": 1585773082
+      },
+      {
+        "item": 2400340,
+        "title": "Служба розыска детей.",
+        "category": "Инфо",
+        "frequency": 2,
+        "last_second": 1589421481
+      },
+      {
+        "item": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо",
+        "frequency": 2,
+        "last_second": 1589566420
+      },
+      {
+        "item": 2400480,
+        "title": "ТСН. Неделя.",
+        "category": "Инфо",
+        "frequency": 2,
+        "last_second": 1588193100
+      },
+      {
+        "item": 10003159,
+        "title": "Премьера. Т/с 'Ничто не случается дважды', 1 с.",
+        "category": "Сериалы",
+        "frequency": 2,
+        "last_second": 1585868400
+      },
+      {
+        "item": 200344,
+        "title": "'Чистоnews'.",
+        "category": "Развлечения",
+        "frequency": 1,
+        "last_second": 1587674700
+      },
+      {
+        "item": 400355,
+        "title": "Киев днем и ночью, 5 сезон, 1 эп.",
+        "category": "Развлечения",
+        "frequency": 1,
+        "last_second": 1588208195
+      },
+      {
+        "item": 400361,
+        "title": "'МастерШеф', 7 сезон, 17 эп.",
+        "category": "Познавательное",
+        "frequency": 1,
+        "last_second": 1586788200
+      },
+      {
+        "item": 400387,
+        "title": "'Следствие ведут экстрасенсы'.",
+        "category": "Развлечения",
+        "frequency": 1,
+        "last_second": 1586720671
+      }
+    ],
+    "recommendations": {
+      "v1": [
+        {
+          "item": 10002515,
+          "title": "Т/с 'Мамочки', 1 и 2 с.",
+          "category": "Сериалы",
+          "training_frequency": 7,
+          "channel_component_score": 0.0028930106200277805
+        },
+        {
+          "item": 10002514,
+          "title": "Т/с 'Кухня'.",
+          "category": "Сериалы",
+          "training_frequency": 6,
+          "channel_component_score": 0.004038047976791859
+        },
+        {
+          "item": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "training_frequency": 4,
+          "channel_component_score": 0.07452521473169327
+        },
+        {
+          "item": 700389,
+          "title": "Кто сверху?, 6 сезон, 7 эп.",
+          "category": "Развлечения",
+          "training_frequency": 6,
+          "channel_component_score": 0.02124817855656147
+        },
+        {
+          "item": 2400480,
+          "title": "ТСН. Неделя.",
+          "category": "Инфо",
+          "training_frequency": 2,
+          "channel_component_score": 0.06651490926742554
+        }
+      ],
+      "v2": [
+        {
+          "item": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "training_frequency": 4,
+          "channel_component_score": 0.07452521473169327
+        },
+        {
+          "item": 2400480,
+          "title": "ТСН. Неделя.",
+          "category": "Инфо",
+          "training_frequency": 2,
+          "channel_component_score": 0.06651490926742554
+        },
+        {
+          "item": 700389,
+          "title": "Кто сверху?, 6 сезон, 7 эп.",
+          "category": "Развлечения",
+          "training_frequency": 6,
+          "channel_component_score": 0.02124817855656147
+        },
+        {
+          "item": 2400508,
+          "title": "Сегодня. Итоги с Олегом Панютой.",
+          "category": "Инфо",
+          "training_frequency": 3,
+          "channel_component_score": 0.05585970729589462
+        },
+        {
+          "item": 10002515,
+          "title": "Т/с 'Мамочки', 1 и 2 с.",
+          "category": "Сериалы",
+          "training_frequency": 7,
+          "channel_component_score": 0.0028930106200277805
+        }
+      ]
+    }
+  },
+  {
+    "alias": "Example-2",
+    "reason": "largest observed AP regression",
+    "v1_ap5": 1.0,
+    "v2_ap5": 0.6,
+    "delta": -0.4,
+    "history_programmes": [
+      {
+        "item": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо",
+        "frequency": 28,
+        "last_second": 1589527500
+      },
+      {
+        "item": 2400480,
+        "title": "ТСН. Неделя.",
+        "category": "Инфо",
+        "frequency": 18,
+        "last_second": 1588882465
+      },
+      {
+        "item": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения",
+        "frequency": 6,
+        "last_second": 1587979500
+      },
+      {
+        "item": 2500413,
+        "title": "Гражданская оборона.",
+        "category": "Инфо",
+        "frequency": 5,
+        "last_second": 1588833000
+      },
+      {
+        "item": 200337,
+        "title": "'Утро с 'Интером'.",
+        "category": "Развлечения",
+        "frequency": 3,
+        "last_second": 1588232555
+      },
+      {
+        "item": 10002647,
+        "title": "Т/с 'Элементарно', 6 сезон, 1 с. 'Бесконечная способность испытывать боль'.",
+        "category": "Сериалы",
+        "frequency": 3,
+        "last_second": 1589749200
+      },
+      {
+        "item": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо",
+        "frequency": 2,
+        "last_second": 1587394200
+      },
+      {
+        "item": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо",
+        "frequency": 2,
+        "last_second": 1589642400
+      },
+      {
+        "item": 10002515,
+        "title": "Т/с 'Мамочки', 1 и 2 с.",
+        "category": "Сериалы",
+        "frequency": 2,
+        "last_second": 1588717800
+      },
+      {
+        "item": 10003009,
+        "title": "Т/с 'Гранд-отель', 9 с. 'Услуги жениха'.",
+        "category": "Сериалы",
+        "frequency": 2,
+        "last_second": 1586461500
+      },
+      {
+        "item": 90081118,
+        "title": "Х/ф 'Титан'.",
+        "category": "Фильмы",
+        "frequency": 2,
+        "last_second": 1589721900
+      },
+      {
+        "item": 200403,
+        "title": "'Облом.UA'.",
+        "category": "Развлечения",
+        "frequency": 1,
+        "last_second": 1583811884
+      },
+      {
+        "item": 200506,
+        "title": "Звездный путь.",
+        "category": "Развлечения",
+        "frequency": 1,
+        "last_second": 1587640384
+      },
+      {
+        "item": 400363,
+        "title": "Премьера. От пацанки до панянки, 4 сезон, 4 эп.",
+        "category": "Развлечения",
+        "frequency": 1,
+        "last_second": 1589715600
+      },
+      {
+        "item": 1100411,
+        "title": "Премьера. 'Вещдок. Особый случай. Око за око'.",
+        "category": "Познавательное",
+        "frequency": 1,
+        "last_second": 1584328800
+      }
+    ],
+    "recommendations": {
+      "v1": [
+        {
+          "item": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "training_frequency": 28,
+          "channel_component_score": 0.11109721660614014
+        },
+        {
+          "item": 2400480,
+          "title": "ТСН. Неделя.",
+          "category": "Инфо",
+          "training_frequency": 18,
+          "channel_component_score": 0.07730627804994583
+        },
+        {
+          "item": 20088,
+          "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+          "category": "Развлечения",
+          "training_frequency": 6,
+          "channel_component_score": 0.026836128905415535
+        },
+        {
+          "item": 2500413,
+          "title": "Гражданская оборона.",
+          "category": "Инфо",
+          "training_frequency": 5,
+          "channel_component_score": 0.00947660580277443
+        },
+        {
+          "item": 200337,
+          "title": "'Утро с 'Интером'.",
+          "category": "Развлечения",
+          "training_frequency": 3,
+          "channel_component_score": 0.01944071240723133
+        }
+      ],
+      "v2": [
+        {
+          "item": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "training_frequency": 28,
+          "channel_component_score": 0.11109721660614014
+        },
+        {
+          "item": 2400480,
+          "title": "ТСН. Неделя.",
+          "category": "Инфо",
+          "training_frequency": 18,
+          "channel_component_score": 0.07730627804994583
+        },
+        {
+          "item": 20088,
+          "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+          "category": "Развлечения",
+          "training_frequency": 6,
+          "channel_component_score": 0.026836128905415535
+        },
+        {
+          "item": 2400508,
+          "title": "Сегодня. Итоги с Олегом Панютой.",
+          "category": "Инфо",
+          "training_frequency": 2,
+          "channel_component_score": 0.02775730937719345
+        },
+        {
+          "item": 2400467,
+          "title": "'Викна-Новости'.",
+          "category": "Инфо",
+          "training_frequency": 2,
+          "channel_component_score": 0.02766803652048111
+        }
+      ]
+    }
+  },
+  {
+    "alias": "Example-3",
+    "reason": "same representative user as Stage 2",
+    "v1_ap5": 0.4,
+    "v2_ap5": 0.55,
+    "delta": 0.15000000000000002,
+    "history_programmes": [
+      {
+        "item": 2400480,
+        "title": "ТСН. Неделя.",
+        "category": "Инфо",
+        "frequency": 60,
+        "last_second": 1589526421
+      },
+      {
+        "item": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения",
+        "frequency": 53,
+        "last_second": 1588927917
+      },
+      {
+        "item": 200344,
+        "title": "'Чистоnews'.",
+        "category": "Развлечения",
+        "frequency": 7,
+        "last_second": 1589489100
+      },
+      {
+        "item": 10002515,
+        "title": "Т/с 'Мамочки', 1 и 2 с.",
+        "category": "Сериалы",
+        "frequency": 7,
+        "last_second": 1589493079
+      },
+      {
+        "item": 6500479,
+        "title": "'Мир наизнанку'.",
+        "category": "Познавательное",
+        "frequency": 6,
+        "last_second": 1587052200
+      },
+      {
+        "item": 10002514,
+        "title": "Т/с 'Кухня'.",
+        "category": "Сериалы",
+        "frequency": 6,
+        "last_second": 1588887900
+      },
+      {
+        "item": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо",
+        "frequency": 4,
+        "last_second": 1585727377
+      },
+      {
+        "item": 200337,
+        "title": "'Утро с 'Интером'.",
+        "category": "Развлечения",
+        "frequency": 3,
+        "last_second": 1588323600
+      },
+      {
+        "item": 700369,
+        "title": "'Ліга сміху'.",
+        "category": "Развлечения",
+        "frequency": 3,
+        "last_second": 1588370121
+      },
+      {
+        "item": 700475,
+        "title": "'Голос страны', 10 сезон, 8 эп. 'Бои'.",
+        "category": "Развлечения",
+        "frequency": 3,
+        "last_second": 1586124900
+      },
+      {
+        "item": 1000589,
+        "title": "Т/с 'Отчаянные домохозяйки', 4 сезон, 17 с.",
+        "category": "Сериалы",
+        "frequency": 3,
+        "last_second": 1589553000
+      },
+      {
+        "item": 10002451,
+        "title": "Т/с 'Великолепный век', 39 и 40 с.",
+        "category": "Сериалы",
+        "frequency": 3,
+        "last_second": 1586969100
+      },
+      {
+        "item": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо",
+        "frequency": 2,
+        "last_second": 1589447928
+      },
+      {
+        "item": 5900256,
+        "title": "Утро с Украиной.",
+        "category": "Инфо",
+        "frequency": 2,
+        "last_second": 1585209496
+      },
+      {
+        "item": 6000483,
+        "title": "'Свадьба вслепую', 6 сезон, 7 эп.",
+        "category": "Развлечения",
+        "frequency": 2,
+        "last_second": 1588173600
+      }
+    ],
+    "recommendations": {
+      "v1": [
+        {
+          "item": 2400480,
+          "title": "ТСН. Неделя.",
+          "category": "Инфо",
+          "training_frequency": 60,
+          "channel_component_score": 0.15665403008460999
+        },
+        {
+          "item": 20088,
+          "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+          "category": "Развлечения",
+          "training_frequency": 53,
+          "channel_component_score": 0.054380934685468674
+        },
+        {
+          "item": 200344,
+          "title": "'Чистоnews'.",
+          "category": "Развлечения",
+          "training_frequency": 7,
+          "channel_component_score": 0.02086406759917736
+        },
+        {
+          "item": 10002515,
+          "title": "Т/с 'Мамочки', 1 и 2 с.",
+          "category": "Сериалы",
+          "training_frequency": 7,
+          "channel_component_score": 0.006813536398112774
+        },
+        {
+          "item": 6500479,
+          "title": "'Мир наизнанку'.",
+          "category": "Познавательное",
+          "training_frequency": 6,
+          "channel_component_score": 0.015088480897247791
+        }
+      ],
+      "v2": [
+        {
+          "item": 2400480,
+          "title": "ТСН. Неделя.",
+          "category": "Инфо",
+          "training_frequency": 60,
+          "channel_component_score": 0.15665403008460999
+        },
+        {
+          "item": 20088,
+          "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+          "category": "Развлечения",
+          "training_frequency": 53,
+          "channel_component_score": 0.054380934685468674
+        },
+        {
+          "item": 200344,
+          "title": "'Чистоnews'.",
+          "category": "Развлечения",
+          "training_frequency": 7,
+          "channel_component_score": 0.02086406759917736
+        },
+        {
+          "item": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "training_frequency": 4,
+          "channel_component_score": 0.03450038284063339
+        },
+        {
+          "item": 6500479,
+          "title": "'Мир наизнанку'.",
+          "category": "Познавательное",
+          "training_frequency": 6,
+          "channel_component_score": 0.015088480897247791
+        }
+      ]
+    }
+  },
+  {
+    "alias": "Example-4",
+    "reason": "same representative user as Stage 2",
+    "v1_ap5": 0.0,
+    "v2_ap5": 0.0,
+    "delta": 0.0,
+    "history_programmes": [
+      {
+        "item": 12001682,
+        "title": "М/с 'Губка Боб Квадратные Штаны'.",
+        "category": "Детям",
+        "frequency": 16,
+        "last_second": 1589214000
+      },
+      {
+        "item": 12002201,
+        "title": "М/с 'Маша и Медведь', 46 с.",
+        "category": "Детям",
+        "frequency": 5,
+        "last_second": 1587996420
+      },
+      {
+        "item": 12002955,
+        "title": "М/с 'Свинка Пеппа', 1 с. 'Лужи'.",
+        "category": "Детям",
+        "frequency": 4,
+        "last_second": 1584707700
+      },
+      {
+        "item": 12002856,
+        "title": "М/с 'Элвиннн!!! и бурундуки'.",
+        "category": "Детям",
+        "frequency": 3,
+        "last_second": 1589210100
+      },
+      {
+        "item": 2400480,
+        "title": "ТСН. Неделя.",
+        "category": "Инфо",
+        "frequency": 2,
+        "last_second": 1586464500
+      },
+      {
+        "item": 12001734,
+        "title": "М/с 'Волшебные покровители', 161 с. 'Женат на мамочке'.",
+        "category": "Детям",
+        "frequency": 2,
+        "last_second": 1585652100
+      },
+      {
+        "item": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения",
+        "frequency": 1,
+        "last_second": 1585214700
+      },
+      {
+        "item": 200344,
+        "title": "'Чистоnews'.",
+        "category": "Развлечения",
+        "frequency": 1,
+        "last_second": 1586465100
+      },
+      {
+        "item": 200469,
+        "title": "Варьяты. Лучшее.",
+        "category": "Развлечения",
+        "frequency": 1,
+        "last_second": 1585393200
+      },
+      {
+        "item": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо",
+        "frequency": 1,
+        "last_second": 1583880300
+      },
+      {
+        "item": 12002172,
+        "title": "М/с 'Гуппи и пузырики', 3 сезон, 18 с. 'Забег лягушек'.",
+        "category": "Детям",
+        "frequency": 1,
+        "last_second": 1584706500
+      },
+      {
+        "item": 12002552,
+        "title": "М/с 'Макс и Руби', 7 сезон, 16 с. 'Довольный малыш Хаффингтон / Кексики Руби'.",
+        "category": "Детям",
+        "frequency": 1,
+        "last_second": 1584708833
+      },
+      {
+        "item": 90043769,
+        "title": "Х/ф 'Иван Васильевич меняет профессию'.",
+        "category": "Фильмы",
+        "frequency": 1,
+        "last_second": 1586471400
+      }
+    ],
+    "recommendations": {
+      "v1": [
+        {
+          "item": 12001682,
+          "title": "М/с 'Губка Боб Квадратные Штаны'.",
+          "category": "Детям",
+          "training_frequency": 16,
+          "channel_component_score": 0.24302449822425842
+        },
+        {
+          "item": 12002201,
+          "title": "М/с 'Маша и Медведь', 46 с.",
+          "category": "Детям",
+          "training_frequency": 5,
+          "channel_component_score": 0.0684562623500824
+        },
+        {
+          "item": 12002955,
+          "title": "М/с 'Свинка Пеппа', 1 с. 'Лужи'.",
+          "category": "Детям",
+          "training_frequency": 4,
+          "channel_component_score": 0.0961829200387001
+        },
+        {
+          "item": 12002856,
+          "title": "М/с 'Элвиннн!!! и бурундуки'.",
+          "category": "Детям",
+          "training_frequency": 3,
+          "channel_component_score": 0.03746824339032173
+        },
+        {
+          "item": 2400480,
+          "title": "ТСН. Неделя.",
+          "category": "Инфо",
+          "training_frequency": 2,
+          "channel_component_score": 0.07705642282962799
+        }
+      ],
+      "v2": [
+        {
+          "item": 12001682,
+          "title": "М/с 'Губка Боб Квадратные Штаны'.",
+          "category": "Детям",
+          "training_frequency": 16,
+          "channel_component_score": 0.24302449822425842
+        },
+        {
+          "item": 12002955,
+          "title": "М/с 'Свинка Пеппа', 1 с. 'Лужи'.",
+          "category": "Детям",
+          "training_frequency": 4,
+          "channel_component_score": 0.0961829200387001
+        },
+        {
+          "item": 12002201,
+          "title": "М/с 'Маша и Медведь', 46 с.",
+          "category": "Детям",
+          "training_frequency": 5,
+          "channel_component_score": 0.0684562623500824
+        },
+        {
+          "item": 2400480,
+          "title": "ТСН. Неделя.",
+          "category": "Инфо",
+          "training_frequency": 2,
+          "channel_component_score": 0.07705642282962799
+        },
+        {
+          "item": 12002856,
+          "title": "М/с 'Элвиннн!!! и бурундуки'.",
+          "category": "Детям",
+          "training_frequency": 3,
+          "channel_component_score": 0.03746824339032173
+        }
+      ]
+    }
+  }
+]

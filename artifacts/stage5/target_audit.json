@@ -1,0 +1,35 @@
+{
+  "windows": [
+    {
+      "window": "main",
+      "target_pairs": 5946,
+      "zero_users": 26,
+      "fewer_than_five_users": 133,
+      "exactly_five_users": 1127,
+      "original_targets_exactly_reproduced": true,
+      "users": 1260,
+      "available_candidates": 6361,
+      "changed_users_recency_tie_sensitivity": 647
+    },
+    {
+      "window": "earlier",
+      "target_pairs": 5675,
+      "zero_users": 51,
+      "fewer_than_five_users": 216,
+      "exactly_five_users": 1044,
+      "original_targets_exactly_reproduced": true,
+      "users": 1260,
+      "available_candidates": 4412,
+      "changed_users_recency_tie_sensitivity": 644
+    }
+  ],
+  "coverage": ">=80% of original programme duration in one uninterrupted run",
+  "frequency_unit": "distinct user-airing ID; no accumulated separated visits",
+  "tie_order": "frequency descending, programme ID ascending; unchanged",
+  "empty_truth_ap": 0,
+  "denominator": "all1260, including empty truth",
+  "labelled_physical_schedule_duplicate_keys": 0,
+  "id_mapping": "Official page explicitly confirms vsetv_id == channel_id; no guessed bridge.",
+  "session_policy": "Existing deduplicated single-channel timeline and disjoint conflicting-airing policy retained.",
+  "ambiguity": "Official target-frequency tie/session/device details incomplete. Recency ties sensitivity only; no target redesign."
+}

@@ -1,0 +1,33 @@
+{
+  "new_cf": "BPR fallback after one failed LightFM attempt; never described as WARP",
+  "configurations": {
+    "binary": {
+      "factors": 32,
+      "epochs": 25,
+      "batch_size": 2048,
+      "learning_rate": 0.05,
+      "regularization": 0.002,
+      "seed": 42,
+      "positive_weight": "binary"
+    },
+    "log_frequency": {
+      "factors": 32,
+      "epochs": 25,
+      "batch_size": 2048,
+      "learning_rate": 0.05,
+      "regularization": 0.002,
+      "seed": 42,
+      "positive_weight": "log_frequency"
+    }
+  },
+  "input": "unchanged >=50% uninterrupted duration, distinct qualifying-airing frequency",
+  "user_sampling": "uniform users with at least one positive and at least one eligible unobserved item",
+  "item_universe": "only historical items with qualified interactions, never future-only schedule IDs",
+  "cold_policy": "same frozen V5 global-popularity fallback; no CF personalization without qualified history",
+  "biases": "learned item bias; user bias not identifiable under pairwise loss",
+  "integration_gate": "Each window must yield >=20 relevant user-item pairs outside frozen existing pool AND standalone MAP no worse than ALS by >0.05",
+  "cf_selection": "largest minimum novel-pair gain across both windows, then mean standalone MAP; no Kaggle scores",
+  "maximum_downstream_variants": 2,
+  "downstream": "same-pool CF features first; optional union+newCF Top50 only if useful novelty",
+  "selection_rule": "Both MAP gains>=0.001 and paired95 lower>0; light/repeat-heavy gain>=-0.003 both, cold identical; else retain V5"
+}

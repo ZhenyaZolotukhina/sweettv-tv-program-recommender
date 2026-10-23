@@ -1,0 +1,241 @@
+{
+  "interpretation": "descriptive LambdaRank split gain, not causal feature ablation",
+  "features": [
+    {
+      "name": "repeat_reciprocal_rank",
+      "gain": 153215.8749103546
+    },
+    {
+      "name": "v2_reciprocal_rank",
+      "gain": 21108.55223464966
+    },
+    {
+      "name": "v2_score",
+      "gain": 5559.20531129837
+    },
+    {
+      "name": "history_rate",
+      "gain": 3299.765558719635
+    },
+    {
+      "name": "popularity_score",
+      "gain": 2822.245755672455
+    },
+    {
+      "name": "item_log_global_count",
+      "gain": 2125.465085506439
+    },
+    {
+      "name": "channel_reciprocal_rank",
+      "gain": 1869.3713555335999
+    },
+    {
+      "name": "loyal_loyalty_complete_popularity",
+      "gain": 1852.3102498054504
+    },
+    {
+      "name": "channel_score",
+      "gain": 1718.4623789787292
+    },
+    {
+      "name": "history_log_recent14",
+      "gain": 1588.3459038734436
+    },
+    {
+      "name": "popularity_reciprocal_rank",
+      "gain": 1091.159893989563
+    },
+    {
+      "name": "cbf_score",
+      "gain": 862.0903100967407
+    },
+    {
+      "name": "cbf_reciprocal_rank",
+      "gain": 765.4283246994019
+    },
+    {
+      "name": "user_repeat_fraction",
+      "gain": 629.8761839866638
+    },
+    {
+      "name": "user_log_airings",
+      "gain": 589.8527903556824
+    },
+    {
+      "name": "loyal_complete_popularity",
+      "gain": 548.7049007415771
+    },
+    {
+      "name": "cf_score",
+      "gain": 528.5971174240112
+    },
+    {
+      "name": "history_log_seconds",
+      "gain": 475.4344003200531
+    },
+    {
+      "name": "history_days_since_last",
+      "gain": 442.60243129730225
+    },
+    {
+      "name": "future_airing_rate",
+      "gain": 377.4549083709717
+    },
+    {
+      "name": "future_log_duration",
+      "gain": 303.85225009918213
+    },
+    {
+      "name": "cf_reciprocal_rank",
+      "gain": 297.75284147262573
+    },
+    {
+      "name": "loyal_raw_loyalty",
+      "gain": 293.84153985977173
+    },
+    {
+      "name": "repeat_score",
+      "gain": 240.22283697128296
+    },
+    {
+      "name": "past_log_duration",
+      "gain": 237.66695070266724
+    },
+    {
+      "name": "loyal_completion_ratio",
+      "gain": 216.30087995529175
+    },
+    {
+      "name": "past_airing_rate",
+      "gain": 177.7004804611206
+    },
+    {
+      "name": "history_days_since_first",
+      "gain": 173.79761934280396
+    },
+    {
+      "name": "loyal_duration_loyalty",
+      "gain": 170.83111000061035
+    },
+    {
+      "name": "history_mean_fraction",
+      "gain": 128.57154941558838
+    },
+    {
+      "name": "loyal_log_channel_intensity",
+      "gain": 95.59545993804932
+    },
+    {
+      "name": "history_log_strong",
+      "gain": 89.83298110961914
+    },
+    {
+      "name": "history_log_frequency",
+      "gain": 72.57752990722656
+    },
+    {
+      "name": "category_Познавательное",
+      "gain": 44.17993974685669
+    },
+    {
+      "name": "genre_общество и политика",
+      "gain": 35.45939064025879
+    },
+    {
+      "name": "history_days",
+      "gain": 30.001189708709717
+    },
+    {
+      "name": "history_strong_ratio",
+      "gain": 26.835100650787354
+    },
+    {
+      "name": "user_log_items",
+      "gain": 24.71356964111328
+    },
+    {
+      "name": "user_recent_fraction",
+      "gain": 23.857109546661377
+    },
+    {
+      "name": "genre_драма",
+      "gain": 20.978540420532227
+    },
+    {
+      "name": "past_channels",
+      "gain": 18.43528985977173
+    },
+    {
+      "name": "genre_мелодрама",
+      "gain": 16.433279991149902
+    },
+    {
+      "name": "category_Сериалы",
+      "gain": 15.176070213317871
+    },
+    {
+      "name": "category_Инфо",
+      "gain": 10.475500106811523
+    },
+    {
+      "name": "category_Фильмы",
+      "gain": 10.121800422668457
+    },
+    {
+      "name": "category_Детям",
+      "gain": 6.103270053863525
+    },
+    {
+      "name": "genre_развлекательные",
+      "gain": 5.341209888458252
+    },
+    {
+      "name": "future_channels",
+      "gain": 0.0
+    },
+    {
+      "name": "target_days",
+      "gain": 0.0
+    },
+    {
+      "name": "category_Другое",
+      "gain": 0.0
+    },
+    {
+      "name": "category_Развлечения",
+      "gain": 0.0
+    },
+    {
+      "name": "genre_комедия",
+      "gain": 0.0
+    },
+    {
+      "name": "genre_приключения",
+      "gain": 0.0
+    },
+    {
+      "name": "genre_фантазия",
+      "gain": 0.0
+    },
+    {
+      "name": "genre_детектив",
+      "gain": 0.0
+    },
+    {
+      "name": "genre_боевик",
+      "gain": 0.0
+    },
+    {
+      "name": "genre_криминал",
+      "gain": 0.0
+    },
+    {
+      "name": "genre_триллер",
+      "gain": 0.0
+    },
+    {
+      "name": "genre_музыкальный",
+      "gain": 0.0
+    }
+  ]
+}

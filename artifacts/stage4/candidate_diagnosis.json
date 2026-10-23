@@ -1,0 +1,83 @@
+{
+  "summaries": [
+    {
+      "window": "main",
+      "generator": "V2",
+      "k": 20,
+      "micro_recall": 0.6560713084426505,
+      "macro_recall_all_1260": 0.6340079365079365,
+      "truth_pairs": 5946
+    },
+    {
+      "window": "main",
+      "generator": "V2",
+      "k": 50,
+      "micro_recall": 0.7542885973763875,
+      "macro_recall_all_1260": 0.7296957671957671,
+      "truth_pairs": 5946
+    },
+    {
+      "window": "main",
+      "generator": "V2",
+      "k": 200,
+      "micro_recall": 0.8546922300706358,
+      "macro_recall_all_1260": 0.828015873015873,
+      "truth_pairs": 5946
+    },
+    {
+      "window": "main",
+      "generator": "union_pool",
+      "k": null,
+      "micro_recall": 0.8718466195761857,
+      "pool_mean_size": 222.04761904761904,
+      "pool_max_size": 269,
+      "missed_relevant_outside_pool": 762,
+      "missed_relevant_inside_pool_below5": 2459,
+      "rank6_20": 1176,
+      "rank21_50": 584,
+      "rank51_200": 597,
+      "outside_v2_top200": 864
+    },
+    {
+      "window": "earlier",
+      "generator": "V2",
+      "k": 20,
+      "micro_recall": 0.6870484581497798,
+      "macro_recall_all_1260": 0.6460449735449735,
+      "truth_pairs": 5675
+    },
+    {
+      "window": "earlier",
+      "generator": "V2",
+      "k": 50,
+      "micro_recall": 0.7918942731277533,
+      "macro_recall_all_1260": 0.7466137566137566,
+      "truth_pairs": 5675
+    },
+    {
+      "window": "earlier",
+      "generator": "V2",
+      "k": 200,
+      "micro_recall": 0.8812334801762115,
+      "macro_recall_all_1260": 0.8348015873015873,
+      "truth_pairs": 5675
+    },
+    {
+      "window": "earlier",
+      "generator": "union_pool",
+      "k": null,
+      "micro_recall": 0.8895154185022026,
+      "pool_mean_size": 219.29285714285714,
+      "pool_max_size": 269,
+      "missed_relevant_outside_pool": 627,
+      "missed_relevant_inside_pool_below5": 2314,
+      "rank6_20": 1165,
+      "rank21_50": 595,
+      "rank51_200": 507,
+      "outside_v2_top200": 674
+    }
+  ],
+  "definition": "Recall: micro over unique target pairs; macro uses all1260, empty=0. MAP always all1260.",
+  "posthoc_target_history_share_never_feature": true,
+  "decision": "Reranking is worth testing if union micro recall >=0.85 on both windows and ranking misses dominate absent-pool misses."
+}

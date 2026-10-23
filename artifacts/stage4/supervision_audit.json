@@ -1,0 +1,49 @@
+{
+  "folds": [
+    {
+      "name": "roll_mar23",
+      "cutoff": 1584921600,
+      "target_end": 1586131200,
+      "candidate_rows": 252933,
+      "positive_rows": 4408,
+      "users_with_positive_target": 1146,
+      "feature_resources": {
+        "rss_before_bytes": 253493248,
+        "peak_rss_bytes": 1004470272,
+        "seconds": 12.512834916997235,
+        "peak_increment_bytes": 750977024
+      },
+      "features_before": 1584921600,
+      "target_labels_end": 1586131200
+    },
+    {
+      "name": "roll_apr06",
+      "cutoff": 1586131200,
+      "target_end": 1586736000,
+      "candidate_rows": 260359,
+      "positive_rows": 3152,
+      "users_with_positive_target": 1056,
+      "feature_resources": {
+        "rss_before_bytes": 1072791552,
+        "peak_rss_bytes": 1668399104,
+        "seconds": 17.328897374973167,
+        "peak_increment_bytes": 595607552
+      },
+      "features_before": 1586131200,
+      "target_labels_end": 1586736000
+    }
+  ],
+  "training_rows": 513292,
+  "positives": 7560,
+  "last_training_label_end": 1586736000,
+  "earlier_evaluation_starts": 1586736000,
+  "main_evaluation_starts": 1589760000,
+  "heldout_labels_used_in_fit": false,
+  "random_internal_validation": false,
+  "fit_resources": {
+    "rss_before_bytes": 1641644032,
+    "peak_rss_bytes": 1944780800,
+    "seconds": 17.800410124997143,
+    "peak_increment_bytes": 303136768
+  }
+}

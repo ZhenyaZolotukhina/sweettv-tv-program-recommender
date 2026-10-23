@@ -1,0 +1,394 @@
+{
+  "created_at_utc": "2026-10-22T09:24:15.657552+00:00",
+  "executor": "AI assistant; no student-performed verification claimed",
+  "input_files": {
+    "dataset11-30.csv": {
+      "bytes": 396216555,
+      "sha256": "8c9e5f058157041e5c33f13e64dc1625a5177cc6d5e434ba18cd8a69afafb53b"
+    },
+    "export_arh_11-20-final.csv": {
+      "bytes": 153322643,
+      "sha256": "7888aa00c20db3db23f95000c721eccf2878e5f58bf5383bb25b99f078b1033c"
+    },
+    "export_arh_21-30-final.csv": {
+      "bytes": 154366907,
+      "sha256": "bdc9fa9850239aaed608bece9cdb200011e690300470fe85b980457d8c0cb2d4"
+    },
+    "export_arh_31-42-final.csv": {
+      "bytes": 185952991,
+      "sha256": "5cc01f4619bd94886d83744f00bbc15cc5fa23384d297244a7dc2207450c4088"
+    },
+    "submission.csv": {
+      "bytes": 38348,
+      "sha256": "d8c209dce3c7c9d815d8e2a6226e1be63052ee7afa7e8ba8b75dc2f703967a02"
+    }
+  },
+  "input_integrity": "Prior SHA256s reused after exact size/mtime checks; raw template separately read and parsed",
+  "split_boundaries": {
+    "initial_train": "[2020-03-09,2020-05-18)",
+    "local_validation": "[2020-05-18,2020-07-27)",
+    "final_refit": "[2020-03-09,2020-07-27)",
+    "hidden_evaluation": "[2020-07-27,2020-10-19)",
+    "naive_original_clock": true
+  },
+  "strategy": {
+    "stage": "configuration_only; do not refit or submit yet",
+    "selected_family": "hybrid",
+    "selected_config": {
+      "type": "rrf",
+      "k": 10,
+      "top": 200,
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0.1,
+        "cbf": 0.1,
+        "popularity": 0.1
+      }
+    },
+    "primary_map5": 0.37363117283950614,
+    "individual_configs": {
+      "popularity": {
+        "minimum": 0.5,
+        "strength": "frequency",
+        "half_life": 0
+      },
+      "repeat": {
+        "minimum": 0.5,
+        "strength": "frequency",
+        "half_life": 0
+      },
+      "repeat_popularity": {
+        "weight": 0.1
+      },
+      "cf": {
+        "minimum": 0.5,
+        "factors": 32,
+        "alpha": 10.0,
+        "regularization": 1.0,
+        "iterations": 12,
+        "seed": 42
+      },
+      "cbf": {
+        "minimum": 0.5,
+        "rich": true,
+        "half_life": 0
+      }
+    },
+    "hybrid_config": {
+      "type": "rrf",
+      "k": 10,
+      "top": 200,
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0.1,
+        "cbf": 0.1,
+        "popularity": 0.1
+      }
+    },
+    "hybrid_map5": 0.37363117283950614,
+    "target": "official >=80% uninterrupted run; distinct airing frequency; Top-5; frequency ties item-ID ascending",
+    "strict_80_sensitivity_saved": true,
+    "main_train": [
+      1583712000,
+      1589760000
+    ],
+    "main_validation": [
+      1589760000,
+      1595808000
+    ],
+    "next_final_refit_window": [
+      1583712000,
+      1595808000
+    ],
+    "candidate_policy": "positive IDs airing during target calendar window; repeats allowed",
+    "common_fallback": "selected popularity scores using selected input settings; never infer cold preferences from validation views",
+    "normalize": "positive score divided by user maximum for max_normalized; RRF uses only ranks if selected",
+    "seed": 42,
+    "threads": 1,
+    "two_required_methods_implemented": [
+      "implicit ALS",
+      "metadata TF-IDF user-profile CBF"
+    ],
+    "source_evidence": "artifacts/sources/relevance_sources.json",
+    "limitations": [
+      "session/device and frequency-tie semantics unresolved in official description",
+      "same-holdout selection optimism"
+    ],
+    "kaggle_submission_made": false,
+    "final_refit_performed_this_stage": false
+  },
+  "winner_verification": {
+    "verified": true,
+    "local_validation_map5": 0.37363117283950614,
+    "winner_name": "main_fusion_19",
+    "independent_methods_preserved": [
+      "cf",
+      "cbf"
+    ]
+  },
+  "strategy_sha256": "1b28cff4e9528a035bcf2471e519230c54b4ad27cfbe4017f17bf16c17403888",
+  "initial_training_counts": {
+    "labelled_continuous_runs": 2116389,
+    "qualifying_distinct_airing_interactions": 405446,
+    "usable_user_programme_pairs": 156741,
+    "usable_users": 4784,
+    "usable_programmes": 2661,
+    "first_run_start": 1583716560,
+    "last_run_end": 1589760000
+  },
+  "final_refit_counts": {
+    "labelled_continuous_runs": 3425505,
+    "qualifying_distinct_airing_interactions": 744122,
+    "usable_user_programme_pairs": 293911,
+    "usable_users": 4867,
+    "usable_programmes": 4029,
+    "first_run_start": 1583716560,
+    "last_run_end": 1595807998
+  },
+  "count_increases": {
+    "qualifying_distinct_airing_interactions": 338676,
+    "usable_user_programme_pairs": 137170,
+    "usable_users": 83,
+    "usable_programmes": 1368
+  },
+  "leakage_checks": {
+    "passed": true,
+    "raw_view_min_start": 1583712002,
+    "raw_view_max_stop": 1595807998,
+    "hidden_period_view_rows": 0,
+    "hidden_period_training_broadcast_or_event_rows": 0,
+    "all_features_clipped_before_prediction_cutoff": true,
+    "test_schedule_use": "availability and transformed permitted metadata only; never observed user viewing labels"
+  },
+  "matrix_shape": [
+    4897,
+    7881
+  ],
+  "matrix_nonzero": 293911,
+  "mapping_rebuilt": true,
+  "initial_mapping_users": 4851,
+  "metadata": {
+    "vocabulary_refitted": true,
+    "fit_period": "weeks 11-30 only",
+    "training_metadata_items": 8233,
+    "vocabulary_size": 25210,
+    "max_features": 40000,
+    "initial_vocabulary_size": 20258,
+    "test_metadata_transformed_with_frozen_vocabulary": true
+  },
+  "availability": {
+    "candidates": 6632,
+    "period": 31,
+    "window": [
+      1595808000,
+      1603065600
+    ],
+    "positive_labelled_valid_airings_only": true,
+    "seen_in_qualifying_refit": 2939,
+    "repeats_allowed": true,
+    "cold_template_users": 2,
+    "warm_template_users": 1258,
+    "cold_definition": "no >=60s unambiguous historical run; all components use the same popularity fallback"
+  },
+  "determinism": {
+    "seed": 42,
+    "blas_threads": 1,
+    "duckdb_threads": 4,
+    "tie_break": "positive model scores; training-popularity order, then numeric item ID",
+    "rrf": "weighted sum of 1/(10+rank) for each component positive-score Top-200"
+  },
+  "timings": {
+    "events_and_features": {
+      "rss_before_bytes": 200900608,
+      "peak_rss_bytes": 2396274688,
+      "seconds": 3.336572208965663,
+      "peak_increment_bytes": 2195374080
+    },
+    "repeat_popularity": {
+      "rss_before_bytes": 2396241920,
+      "peak_rss_bytes": 2396700672,
+      "seconds": 0.05343495903071016,
+      "peak_increment_bytes": 458752
+    },
+    "als_refit_and_score": {
+      "rss_before_bytes": 2396700672,
+      "peak_rss_bytes": 2396864512,
+      "seconds": 4.935050625004806,
+      "peak_increment_bytes": 163840
+    },
+    "cbf_refit_and_score": {
+      "rss_before_bytes": 2394521600,
+      "peak_rss_bytes": 2442215424,
+      "seconds": 1.1509707079967484,
+      "peak_increment_bytes": 47693824
+    },
+    "rrf_and_csv": {
+      "rss_before_bytes": 2442182656,
+      "peak_rss_bytes": 2684878848,
+      "seconds": 5.4648032920085825,
+      "peak_increment_bytes": 242696192
+    }
+  },
+  "total_refit_resources": {
+    "rss_before_bytes": 200867840,
+    "peak_rss_bytes": 2684878848,
+    "seconds": 14.996542249980848,
+    "peak_increment_bytes": 2484011008
+  },
+  "submission": {
+    "path": "artifacts/final/submission_hybrid_v1.csv",
+    "sha256": "d4026ac73d6f940010d7be3f8241731bd5975054fc3127eebd0cc1cfaebfed72",
+    "rows": 1260,
+    "columns": [
+      "user_id",
+      "tv_show_id"
+    ],
+    "pre_save_and_roundtrip_validation": true,
+    "independent_validation": {
+      "checked_at_utc": "2026-10-22T09:25:06.975009+00:00",
+      "valid": true,
+      "rows": 1260,
+      "columns": [
+        "user_id",
+        "tv_show_id"
+      ],
+      "original_user_order_and_lossless_ids": true,
+      "five_distinct_positive_available_ids": true,
+      "no_missing_zero_nan_extra_columns": true,
+      "test_candidates": 6632,
+      "sha256": "d4026ac73d6f940010d7be3f8241731bd5975054fc3127eebd0cc1cfaebfed72",
+      "archive_identical": true,
+      "frozen_earlier_evidence_unchanged": true,
+      "new_factor_mapping_and_shapes_verified": true,
+      "sparse_training_counts_positive_integers": true,
+      "independent_all_row_rrf_reconstruction": true,
+      "same_cold_fallback_verified": true,
+      "independent_of_generation_validator": true,
+      "kaggle_requests_made": 0,
+      "verifier_source_sha256": "07014ec61e07f3fb7b39c52f5a7da8c3f70261649ae30550cba62ea24e48b80f"
+    },
+    "archive_path": "repository_artifacts/submission_hybrid_v1.csv",
+    "archive_sha256": "d4026ac73d6f940010d7be3f8241731bd5975054fc3127eebd0cc1cfaebfed72",
+    "not_preliminary_baseline": true
+  },
+  "model_artifacts": {
+    "cache/final/hybrid_v1/als_factors.npz": "2771b2aed22bc1483ba52195bf212181d6ca07038ed12a243aa32e4419f71a21",
+    "cache/final/hybrid_v1/component_scores.npz": "6542495d02b3656c6a4bbc262128c99155e7a2fb56fcc5401f1c6e8a182d7b9a",
+    "cache/final/hybrid_v1/item_vectors.npz": "418b3efd7aebb1ddc9623776ac448426df350dead12dc567e08876de972b1907",
+    "cache/final/hybrid_v1/mappings.json": "9348f6c680756d66d64804e31175e768659d636f98960bc85ae8216c5d63eae3",
+    "cache/final/hybrid_v1/tfidf_vectorizer.pkl": "df6e640a04ac0cf602adfeb836c906f578638569a0821016ec4c0b63bdbd7778",
+    "cache/final/hybrid_v1/training_matrix.npz": "56b21537df3eb268e9b25923b506e0fbb1a34fab4aa7a0aab8f54cae6bedc03f"
+  },
+  "earlier_results_unchanged": true,
+  "frozen_evidence_manifest": "artifacts/final/frozen_evidence_manifest.json",
+  "report_evidence": {
+    "byte_exact_stage2_copies": {
+      "representative_users.json": {
+        "source": "artifacts/stage2/private/representative_users.json",
+        "copy": "artifacts/final/private/report_evidence/representative_users.json",
+        "sha256": "fab13ad2dd58e3ce5bf1843b2afed37255289db940adb563b252513320e680ac"
+      },
+      "cbf_profile_terms.json": {
+        "source": "artifacts/stage2/private/cbf_profile_terms.json",
+        "copy": "artifacts/final/private/report_evidence/cbf_profile_terms.json",
+        "sha256": "061f9a5d18cc6d9dfe40e84fcb85f1fd18c10d948c2455f0f0a10bdf77e4e1f4"
+      },
+      "coverage_witness.json": {
+        "source": "artifacts/stage2/private/coverage_witness.json",
+        "copy": "artifacts/final/private/report_evidence/coverage_witness.json",
+        "sha256": "87c2e1058b81830f1d99108b3b552336a3a1f476eb1d6cdc55f9d2fd9568e753"
+      },
+      "source_line_checks.json": {
+        "source": "artifacts/stage2/private/source_line_checks.json",
+        "copy": "artifacts/final/private/report_evidence/source_line_checks.json",
+        "sha256": "ff1e2ed8cf5529700115284c5a8185769f10673c0a1c68150c792eb2d8029036"
+      },
+      "actual_manual_ap5.json": {
+        "source": "artifacts/stage2/private/actual_manual_ap5.json",
+        "copy": "artifacts/final/private/report_evidence/actual_manual_ap5.json",
+        "sha256": "d2e841de83b92107c57cc80dfd200dfeaacdfcc822cf10de3a1dd0d3ecfb3317"
+      }
+    },
+    "two_user_exact_calculations": "artifacts/final/private/report_evidence/two_users_exact_ap5.json",
+    "comparison": "artifacts/stage2/leaderboard.json",
+    "label_repair": "artifacts/stage2/old_vs_corrected.csv"
+  },
+  "regression_tests": {
+    "executed_at_utc": "2026-10-22T09:25:02.255004+00:00",
+    "tests_run": 27,
+    "passed": true,
+    "failures": 0,
+    "errors": 0,
+    "runtime_seconds": 1.5293645830242895,
+    "python": "3.14.0 (v3.14.0:ebf955df7a8, Oct  7 2025, 08:20:14) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "executor": "AI coding assistant",
+    "source_sha256": {
+      "tvrec/advanced.py": "75adb15da5c62b7350dceb4245f8db263ff132074782175ab616d329fc0bcd69",
+      "tvrec/labels.py": "56c7e06423c054b597f33b3dff84a5864b4ef07130fef1f70ce4c3d5f083153d",
+      "tvrec/check_submission.py": "ac925010e8d720e973266998072b60d92a9c05645e1351c3ca01a763ddb876d8",
+      "tvrec/models.py": "1e0f60512fda6036b44e5a923792f3e7635ec0dbc29af94b18fe4f7c0e4ca37e",
+      "tvrec/verify_stage2.py": "a752b066826348887fb415aee2dcc52fa8a5d7f685e775e5d057e9f155199f4a",
+      "tvrec/diagnostics.py": "e0ee0a246e1a14516e741334d1a8188bb23b04a5ea5340da2b42ac54ba854414",
+      "tvrec/__init__.py": "51a3eaf183400b3b6fc845615eedde22289d695aed18ab4effd387bc3f27c98b",
+      "tvrec/core.py": "854236239f612a7719b5d04b50ba197554634a27a78c7da5dcb1d46decee671a",
+      "tvrec/verify_final.py": "07014ec61e07f3fb7b39c52f5a7da8c3f70261649ae30550cba62ea24e48b80f",
+      "tvrec/pipeline.py": "4f518a140c790a847f5f758f0f9c19e24ac201fa53660a10a6881245853db9b2",
+      "tvrec/final_refit.py": "d6b4ffad0838346cdfe5af29a7cbf45a5a5009de2388ab5d2bf9eb720bb02431",
+      "tests/test_advanced.py": "0b6eb870544a2d07dc4eb5652f707573e587f7332f2edd7c5d0bc38772eb9114",
+      "tests/test_core.py": "f93dadb03d6c3ad2e786a9460e0c7fbc6a29236704f32ff11e7c8c5180c5bb3d",
+      "tests/test_final.py": "33f41fc3364357599f4dbbd81d5cd1923f3cad9eccbaa17d59699a1358bcdca5"
+    }
+  },
+  "kaggle": {
+    "checked_at_utc": "2026-10-22T09:24:15.657367+00:00",
+    "checks": {
+      "api_token_environment_present": false,
+      "legacy_environment_pair_present": false,
+      "configured_kaggle_json_present": false,
+      "configured_access_token_present": false,
+      "kaggle_cli_present": false,
+      "kaggle_package_present": false
+    },
+    "credential_material_present": false,
+    "authenticated_account_verified": false,
+    "rules_accepted": null,
+    "submission_access_verified": false,
+    "submission_attempts": 0,
+    "status": "MANUAL_UPLOAD_REQUIRED",
+    "reason": "No Kaggle API token, legacy credential pair, configured kaggle.json or access_token is available; Kaggle CLI/package also absent.",
+    "submission_id": null,
+    "public_score": null,
+    "private_score": null,
+    "screenshot_path": null
+  },
+  "environment": {
+    "python": "3.14.0 (v3.14.0:ebf955df7a8, Oct  7 2025, 08:20:14) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "duckdb": "1.5.4",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "sklearn": "1.7.2"
+  },
+  "source_sha256": {
+    "tvrec/__init__.py": "51a3eaf183400b3b6fc845615eedde22289d695aed18ab4effd387bc3f27c98b",
+    "tvrec/advanced.py": "75adb15da5c62b7350dceb4245f8db263ff132074782175ab616d329fc0bcd69",
+    "tvrec/check_submission.py": "ac925010e8d720e973266998072b60d92a9c05645e1351c3ca01a763ddb876d8",
+    "tvrec/core.py": "854236239f612a7719b5d04b50ba197554634a27a78c7da5dcb1d46decee671a",
+    "tvrec/diagnostics.py": "e0ee0a246e1a14516e741334d1a8188bb23b04a5ea5340da2b42ac54ba854414",
+    "tvrec/final_refit.py": "d6b4ffad0838346cdfe5af29a7cbf45a5a5009de2388ab5d2bf9eb720bb02431",
+    "tvrec/labels.py": "56c7e06423c054b597f33b3dff84a5864b4ef07130fef1f70ce4c3d5f083153d",
+    "tvrec/models.py": "1e0f60512fda6036b44e5a923792f3e7635ec0dbc29af94b18fe4f7c0e4ca37e",
+    "tvrec/pipeline.py": "4f518a140c790a847f5f758f0f9c19e24ac201fa53660a10a6881245853db9b2",
+    "tvrec/verify_final.py": "50503d20ef8b7fc6a93e5f8bf7b4b82a32839be6739836f9de95187561ca067c",
+    "tvrec/verify_stage2.py": "a752b066826348887fb415aee2dcc52fa8a5d7f685e775e5d057e9f155199f4a"
+  },
+  "limitations": [
+    "Official >=80% Top-5 target is confirmed; uninterrupted/concurrent-device and frequency-tie semantics remain reconstructed assumptions.",
+    "Original timestamps lack timezone metadata; known clock-change discrepancy remains documented.",
+    "Local validation is not a Kaggle score; same-holdout model selection can be optimistic.",
+    "Kaggle authentication/account acceptance cannot be verified without account access."
+  ],
+  "final_refit_performed": true
+}

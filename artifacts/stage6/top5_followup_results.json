@@ -1,0 +1,118 @@
+{
+  "results": [
+    {
+      "window": "main",
+      "candidate": "lambda_top5",
+      "map5": 0.3956792328042328,
+      "warm_map5": 0.39782066666666666,
+      "cold_map5": 0.128,
+      "warm_users": 1250,
+      "cold_users": 10,
+      "nonempty_map5": 0.4040160723933009,
+      "nonempty_users": 1234,
+      "full_five_map5": 0.4233007985803017,
+      "full_five_users": 1127,
+      "denominator": 1260,
+      "gain": 0.004252204585537921,
+      "paired_95_ci": [
+        0.0006012125220458565,
+        0.007983498677248678
+      ],
+      "improved": 289,
+      "regressed": 239,
+      "new_relevant_programme_ids": 121,
+      "light_history_gain": 0.007715053763440861,
+      "ranking_resources": {
+        "rss_before_bytes": 1043431424,
+        "peak_rss_bytes": 1043644416,
+        "seconds": 0.016453917021863163,
+        "peak_increment_bytes": 212992
+      },
+      "surrogate_metric_not_used_for_selection": true,
+      "inference_resources": {
+        "rss_before_bytes": 1042153472,
+        "peak_rss_bytes": 1042563072,
+        "seconds": 0.08578129200031981,
+        "peak_increment_bytes": 409600
+      }
+    },
+    {
+      "window": "earlier",
+      "candidate": "lambda_top5",
+      "map5": 0.40885780423280427,
+      "warm_map5": 0.4131201550387597,
+      "cold_map5": 0.0,
+      "warm_users": 1247,
+      "cold_users": 13,
+      "nonempty_map5": 0.42610490763716574,
+      "nonempty_users": 1209,
+      "full_five_map5": 0.4487292464878672,
+      "full_five_users": 1044,
+      "denominator": 1260,
+      "gain": 0.006170634920634921,
+      "paired_95_ci": [
+        0.0018464671516754839,
+        0.010358068783068783
+      ],
+      "improved": 321,
+      "regressed": 240,
+      "new_relevant_programme_ids": 146,
+      "light_history_gain": 0.015689865689865697,
+      "ranking_resources": {
+        "rss_before_bytes": 1045315584,
+        "peak_rss_bytes": 1045315584,
+        "seconds": 0.015756457985844463,
+        "peak_increment_bytes": 0
+      },
+      "surrogate_metric_not_used_for_selection": true,
+      "inference_resources": {
+        "rss_before_bytes": 1045315584,
+        "peak_rss_bytes": 1045348352,
+        "seconds": 0.08088475000113249,
+        "peak_increment_bytes": 32768
+      }
+    }
+  ],
+  "resources": {
+    "rss_before_bytes": 221282304,
+    "peak_rss_bytes": 1045528576,
+    "seconds": 6.176436999987345,
+    "peak_increment_bytes": 824246272
+  },
+  "fit_resources": {
+    "rss_before_bytes": 977633280,
+    "peak_rss_bytes": 1042006016,
+    "seconds": 4.980587582977023,
+    "peak_increment_bytes": 64372736
+  },
+  "parameters": {
+    "objective": "lambdarank",
+    "metric": "None",
+    "label_gain": [
+      0,
+      1
+    ],
+    "lambdarank_truncation_level": 5,
+    "lambdarank_norm": true,
+    "learning_rate": 0.06,
+    "num_leaves": 15,
+    "min_data_in_leaf": 50,
+    "max_bin": 63,
+    "lambda_l1": 0.0,
+    "lambda_l2": 1.0,
+    "num_threads": 2,
+    "deterministic": true,
+    "force_col_wise": true,
+    "seed": 42,
+    "data_random_seed": 42,
+    "feature_fraction_seed": 42,
+    "bagging_seed": 42,
+    "feature_fraction": 1.0,
+    "bagging_fraction": 1.0,
+    "bagging_freq": 0,
+    "verbosity": -1
+  },
+  "rounds": 80,
+  "last_training_label_end": 1586736000,
+  "new_holdout_labels_in_fit": false
+}

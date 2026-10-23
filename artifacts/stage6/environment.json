@@ -1,0 +1,12 @@
+{
+  "python": "3.14.0 (v3.14.0:ebf955df7a8, Oct  7 2025, 08:20:14) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "lightgbm": "4.6.0",
+  "numpy": "2.3.5",
+  "sklearn": "1.7.2",
+  "optional_requirements_sha256": "5d7f75d1e40135d285b7f134abe09e2bcc23484dc649b58b0f85501ab4ee6c33",
+  "native_library_hashes": {
+    "lib_lightgbm.dylib": "50f62eef76a25c7dbd5b79c998d59a5dff4874c595f7fb8d197826c2bfbd8a92"
+  },
+  "install": "binary-only isolated cache/ltr_dependencies; root requirements unchanged"
+}

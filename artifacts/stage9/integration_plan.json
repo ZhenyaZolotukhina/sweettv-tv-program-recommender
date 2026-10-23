@@ -1,0 +1,51 @@
+{
+  "variants": [
+    "association",
+    "bpr_calibrated"
+  ],
+  "ar_kind": "confidence",
+  "association_top_n": 100,
+  "bpr_variant_justification": "Measured raw-scale shift; original generator exposure and flags were correct, so B changes only calibration/missing handling, not a nonexistent bug.",
+  "bpr_candidate_policy": "unchanged previous expanded Top200",
+  "parameters": {
+    "objective": "lambdarank",
+    "metric": "None",
+    "label_gain": [
+      0,
+      1
+    ],
+    "lambdarank_truncation_level": 5,
+    "lambdarank_norm": true,
+    "learning_rate": 0.06,
+    "num_leaves": 15,
+    "min_data_in_leaf": 50,
+    "max_bin": 63,
+    "lambda_l1": 0.0,
+    "lambda_l2": 1.0,
+    "num_threads": 2,
+    "deterministic": true,
+    "force_col_wise": true,
+    "seed": 42,
+    "data_random_seed": 42,
+    "feature_fraction_seed": 42,
+    "bagging_seed": 42,
+    "feature_fraction": 1.0,
+    "bagging_fraction": 1.0,
+    "bagging_freq": 0,
+    "verbosity": -1
+  },
+  "training_folds": [
+    {
+      "name": "roll_mar23",
+      "cutoff": 1584921600,
+      "target_end": 1586131200
+    },
+    {
+      "name": "roll_apr06",
+      "cutoff": 1586131200,
+      "target_end": 1586736000
+    }
+  ],
+  "no_eval_labels_in_training": true,
+  "kaggle_requests": 0
+}

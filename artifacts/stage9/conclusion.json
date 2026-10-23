@@ -1,0 +1,9 @@
+{
+  "selected": "V5",
+  "v8_created": false,
+  "kaggle_requests": 0,
+  "diagnosis": "No verified implementation bug; existing training exposure/old features consistent. Measured statistical drift justified B but calibration did not rescue MAP.",
+  "source_attribution": "https://rasbt.github.io/mlxtend/user_guide/frequent_patterns/association_rules/; independently written SciPy implementation",
+  "required_methods_preserved": "artifacts/stage2/leaderboard.json",
+  "reproduction": "assoc_study audit/standalone; assoc_integrate; association_evidence; verify_association"
+}

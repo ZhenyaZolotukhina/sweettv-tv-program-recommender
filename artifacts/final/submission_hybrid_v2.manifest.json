@@ -1,0 +1,239 @@
+{
+  "created_at_utc": "2026-10-22T20:01:39.995254+00:00",
+  "executor": "AI assistant, not student verification",
+  "submission_path": "artifacts/final/submission_hybrid_v2.csv",
+  "submission_sha256": "987f8fde48654ba982c20b36e25bf78017749c58b15d96bccdbc8eca5f7d2671",
+  "rows": 1260,
+  "candidates": 6632,
+  "v1_csv_sha256": "d4026ac73d6f940010d7be3f8241731bd5975054fc3127eebd0cc1cfaebfed72",
+  "base_strategy": "unchanged frozen v1 RRF",
+  "addition": {
+    "component": "training-only channel-conditioned programme popularity",
+    "weight": 0.5,
+    "formula": "P(channel|user) based on normalized sqrt qualifying-airing counts, times training P(programme|channel)",
+    "rrf_top": 200,
+    "rrf_k": 10,
+    "input_coverage": 0.5,
+    "one_count_per_distinct_user_airing": true
+  },
+  "main_validation": {
+    "window": "main",
+    "name": "v1_plus_channel_0.5",
+    "channel_weight": 0.5,
+    "map5": 0.3803611111111111,
+    "warm_map5": 0.38238,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.38837520259319286,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.4061934338952973,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "mean_delta": 0.006729938271604938,
+    "improved_users": 306,
+    "worsened_users": 196,
+    "bootstrap_95_percentile_interval": [
+      0.002925705467372133,
+      0.010436105599647267
+    ],
+    "feature_resources": {
+      "rss_before_bytes": 1846362112,
+      "peak_rss_bytes": 1914814464,
+      "seconds": 0.6507202500361018,
+      "peak_increment_bytes": 68452352
+    },
+    "ranking_resources": {
+      "rss_before_bytes": 2107523072,
+      "peak_rss_bytes": 2107555840,
+      "seconds": 0.9492197500076145,
+      "peak_increment_bytes": 32768
+    },
+    "selection_optimism_not_corrected": true
+  },
+  "earlier_validation": {
+    "window": "earlier",
+    "name": "v1_plus_channel_0.5",
+    "channel_weight": 0.5,
+    "map5": 0.3939296737213404,
+    "warm_map5": 0.39803639846743294,
+    "cold_map5": 0.0,
+    "warm_users": 1247,
+    "cold_users": 13,
+    "nonempty_map5": 0.4105470544986674,
+    "nonempty_users": 1209,
+    "full_five_map5": 0.4314176245210728,
+    "full_five_users": 1044,
+    "denominator": 1260,
+    "mean_delta": 0.005994047619047618,
+    "improved_users": 303,
+    "worsened_users": 206,
+    "bootstrap_95_percentile_interval": [
+      0.0020960262345679015,
+      0.00998833774250441
+    ],
+    "feature_resources": {
+      "rss_before_bytes": 2299953152,
+      "peak_rss_bytes": 2300067840,
+      "seconds": 0.3019985419814475,
+      "peak_increment_bytes": 114688
+    },
+    "ranking_resources": {
+      "rss_before_bytes": 2300067840,
+      "peak_rss_bytes": 2300100608,
+      "seconds": 0.6717951659811661,
+      "peak_increment_bytes": 32768
+    },
+    "selection_optimism_not_corrected": true
+  },
+  "final_refit_window": [
+    1583712000,
+    1595808000
+  ],
+  "target_window": [
+    1595808000,
+    1603065600
+  ],
+  "leakage_checks": {
+    "passed": true,
+    "raw_view_min_start": 1583712002,
+    "raw_view_max_stop": 1595807998,
+    "hidden_period_view_rows": 0,
+    "hidden_period_training_broadcast_or_event_rows": 0,
+    "all_features_clipped_before_prediction_cutoff": true,
+    "test_schedule_use": "availability and transformed permitted metadata only; never observed user viewing labels"
+  },
+  "channel_fit_qualified_airings": 744122,
+  "channel_fit_users": 4867,
+  "channel_fit_programmes": 4029,
+  "cold_users": 2,
+  "same_v1_cold_fallback": true,
+  "repeats_allowed": true,
+  "existing_final_als_and_cbf_reused": true,
+  "reason": "Same input history, mappings, >=50% definition and unchanged fitted model settings; only the new channel component requires refitting.",
+  "new_als_or_cbf_fits": 0,
+  "feature_resources": {
+    "rss_before_bytes": 254935040,
+    "peak_rss_bytes": 2318909440,
+    "seconds": 2.8304077920038253,
+    "peak_increment_bytes": 2063974400
+  },
+  "ranking_resources": {
+    "rss_before_bytes": 2317680640,
+    "peak_rss_bytes": 2317762560,
+    "seconds": 1.0151870420086198,
+    "peak_increment_bytes": 81920
+  },
+  "resources": {
+    "rss_before_bytes": 197410816,
+    "peak_rss_bytes": 2318860288,
+    "seconds": 5.3451207500183955,
+    "peak_increment_bytes": 2121449472
+  },
+  "input_hashes": {
+    "dataset11-30.csv": {
+      "bytes": 396216555,
+      "sha256": "8c9e5f058157041e5c33f13e64dc1625a5177cc6d5e434ba18cd8a69afafb53b"
+    },
+    "export_arh_11-20-final.csv": {
+      "bytes": 153322643,
+      "sha256": "7888aa00c20db3db23f95000c721eccf2878e5f58bf5383bb25b99f078b1033c"
+    },
+    "export_arh_21-30-final.csv": {
+      "bytes": 154366907,
+      "sha256": "bdc9fa9850239aaed608bece9cdb200011e690300470fe85b980457d8c0cb2d4"
+    },
+    "export_arh_31-42-final.csv": {
+      "bytes": 185952991,
+      "sha256": "5cc01f4619bd94886d83744f00bbc15cc5fa23384d297244a7dc2207450c4088"
+    },
+    "submission.csv": {
+      "bytes": 38348,
+      "sha256": "d8c209dce3c7c9d815d8e2a6226e1be63052ee7afa7e8ba8b75dc2f703967a02"
+    }
+  },
+  "model_artifact_hashes": {
+    "cache/improvements/final_v2/scores.npz": "2c6469d09ac0cfbe6a5f50b379888979aac114d647b1849aa4f4e30bffc0d920",
+    "cache/improvements/final_v2/user_channel_counts.csv": "558a7eba61d3cbb2210ddd5245a4b1eb2662057727d569db7d49fdaf34c0c5e3",
+    "cache/improvements/final_v2/channel_item_counts.csv": "80440bce1e58f87330b4d066bc07dac5c00da530f619cf154c097a8e959aca0b",
+    "cache/improvements/final_v2/channel_totals.csv": "10f84b7359f9883388e9c7a8fe4b4e3dcd389bd9b382ed37a478fed54a63b275"
+  },
+  "frozen_prior_manifest": "artifacts/stage3/frozen_prior.json",
+  "prior_results_and_v1_unchanged": true,
+  "independent_validation": {
+    "valid": true,
+    "rows": 1260,
+    "candidates": 6632,
+    "submission_sha256": "987f8fde48654ba982c20b36e25bf78017749c58b15d96bccdbc8eca5f7d2671",
+    "original_ids_and_order": true,
+    "five_distinct_positive_available_ids": true,
+    "independent_sql_qualification_and_channel_counts": true,
+    "all_channel_scores_and_final_rankings_recomputed": true,
+    "same_v1_cold_fallback": true,
+    "prior_v1_and_evidence_unchanged": true,
+    "offline_method_files_checked": 22,
+    "same_frozen_truth_users_availability_warm_cold_groups": true,
+    "all_offline_ap5_and_hit_ranks_recomputed": true,
+    "kaggle_requests": 0
+  },
+  "kaggle_requests": 0,
+  "submitted": false,
+  "selection_uses_kaggle_scores": false,
+  "risks": [
+    "Adaptive two-window selection; bootstrap intervals do not correct selection optimism.",
+    "Channel popularity can displace niche repeat preferences; per-user regressions are preserved.",
+    "Original uninterrupted/device, target tie and timezone assumptions remain unchanged."
+  ],
+  "source_sha256": {
+    "tvrec/__init__.py": "51a3eaf183400b3b6fc845615eedde22289d695aed18ab4effd387bc3f27c98b",
+    "tvrec/advanced.py": "75adb15da5c62b7350dceb4245f8db263ff132074782175ab616d329fc0bcd69",
+    "tvrec/channel_v2.py": "35a87a512a711dbde5f13c2c7a73b0e3af160b4232ac106fb5582d97436c1e82",
+    "tvrec/check_submission.py": "ac925010e8d720e973266998072b60d92a9c05645e1351c3ca01a763ddb876d8",
+    "tvrec/core.py": "854236239f612a7719b5d04b50ba197554634a27a78c7da5dcb1d46decee671a",
+    "tvrec/diagnostics.py": "e0ee0a246e1a14516e741334d1a8188bb23b04a5ea5340da2b42ac54ba854414",
+    "tvrec/final_refit.py": "d6b4ffad0838346cdfe5af29a7cbf45a5a5009de2388ab5d2bf9eb720bb02431",
+    "tvrec/improve.py": "515a4a6ca89041fc0b8eab0f23d962e8deaf90f542a2f91de2a2f87d83ae4643",
+    "tvrec/improvement_evidence.py": "503000cb37d7ec8c27975bcacbc0a592a7673ce01b01ff449f935f008269c51e",
+    "tvrec/labels.py": "56c7e06423c054b597f33b3dff84a5864b4ef07130fef1f70ce4c3d5f083153d",
+    "tvrec/models.py": "1e0f60512fda6036b44e5a923792f3e7635ec0dbc29af94b18fe4f7c0e4ca37e",
+    "tvrec/pipeline.py": "4f518a140c790a847f5f758f0f9c19e24ac201fa53660a10a6881245853db9b2",
+    "tvrec/rank_features.py": "5bcbd8026e97459b52c713d750f8929ba5b6248f7c330c986e49bc7c4a44f46f",
+    "tvrec/verify_final.py": "07014ec61e07f3fb7b39c52f5a7da8c3f70261649ae30550cba62ea24e48b80f",
+    "tvrec/verify_stage2.py": "a752b066826348887fb415aee2dcc52fa8a5d7f685e775e5d057e9f155199f4a",
+    "tvrec/verify_v2.py": "2d6106f384dcde626bce3087c1261d813b2118c178956ba3274cbf0d8dbb79ca"
+  },
+  "requirements_sha256": "a1ea912b49eb52c8427c2d2ca208d28a7d9ef75f7238a29c5efeef62bb9e8be1",
+  "test_results": {
+    "executed_at_utc": "2026-10-22T20:06:48.220981+00:00",
+    "tests_run": 33,
+    "passed": true,
+    "failures": 0,
+    "errors": 0,
+    "runtime_seconds": 1.4162871669977903,
+    "python": "3.14.0 (v3.14.0:ebf955df7a8, Oct  7 2025, 08:20:14) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "executor": "AI coding assistant",
+    "source_sha256": {
+      "tvrec/advanced.py": "75adb15da5c62b7350dceb4245f8db263ff132074782175ab616d329fc0bcd69",
+      "tvrec/labels.py": "56c7e06423c054b597f33b3dff84a5864b4ef07130fef1f70ce4c3d5f083153d",
+      "tvrec/check_submission.py": "ac925010e8d720e973266998072b60d92a9c05645e1351c3ca01a763ddb876d8",
+      "tvrec/models.py": "1e0f60512fda6036b44e5a923792f3e7635ec0dbc29af94b18fe4f7c0e4ca37e",
+      "tvrec/verify_stage2.py": "a752b066826348887fb415aee2dcc52fa8a5d7f685e775e5d057e9f155199f4a",
+      "tvrec/diagnostics.py": "e0ee0a246e1a14516e741334d1a8188bb23b04a5ea5340da2b42ac54ba854414",
+      "tvrec/improvement_evidence.py": "503000cb37d7ec8c27975bcacbc0a592a7673ce01b01ff449f935f008269c51e",
+      "tvrec/__init__.py": "51a3eaf183400b3b6fc845615eedde22289d695aed18ab4effd387bc3f27c98b",
+      "tvrec/core.py": "854236239f612a7719b5d04b50ba197554634a27a78c7da5dcb1d46decee671a",
+      "tvrec/verify_final.py": "07014ec61e07f3fb7b39c52f5a7da8c3f70261649ae30550cba62ea24e48b80f",
+      "tvrec/channel_v2.py": "35a87a512a711dbde5f13c2c7a73b0e3af160b4232ac106fb5582d97436c1e82",
+      "tvrec/improve.py": "515a4a6ca89041fc0b8eab0f23d962e8deaf90f542a2f91de2a2f87d83ae4643",
+      "tvrec/pipeline.py": "4f518a140c790a847f5f758f0f9c19e24ac201fa53660a10a6881245853db9b2",
+      "tvrec/final_refit.py": "d6b4ffad0838346cdfe5af29a7cbf45a5a5009de2388ab5d2bf9eb720bb02431",
+      "tvrec/verify_v2.py": "2d6106f384dcde626bce3087c1261d813b2118c178956ba3274cbf0d8dbb79ca",
+      "tvrec/rank_features.py": "5bcbd8026e97459b52c713d750f8929ba5b6248f7c330c986e49bc7c4a44f46f",
+      "tests/test_advanced.py": "0b6eb870544a2d07dc4eb5652f707573e587f7332f2edd7c5d0bc38772eb9114",
+      "tests/test_core.py": "f93dadb03d6c3ad2e786a9460e0c7fbc6a29236704f32ff11e7c8c5180c5bb3d",
+      "tests/test_final.py": "33f41fc3364357599f4dbbd81d5cd1923f3cad9eccbaa17d59699a1358bcdca5",
+      "tests/test_rank_features.py": "860e7d6998b817fa51f42aadea84618b96639efe8ad690d85d0a0bf8afbd4831"
+    }
+  }
+}

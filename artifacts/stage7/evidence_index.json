@@ -1,0 +1,20 @@
+{
+  "best_rejected_diagnostic": "matched_drift",
+  "selected_final": "V5",
+  "v6_created": false,
+  "source_copies": {
+    "coverage_witness.json": {
+      "source": "artifacts/stage2/private/coverage_witness.json",
+      "copy": "artifacts/stage7/private/report_evidence/coverage_witness.json",
+      "sha256": "87c2e1058b81830f1d99108b3b552336a3a1f476eb1d6cdc55f9d2fd9568e753"
+    },
+    "source_line_checks.json": {
+      "source": "artifacts/stage2/private/source_line_checks.json",
+      "copy": "artifacts/stage7/private/report_evidence/source_line_checks.json",
+      "sha256": "ff1e2ed8cf5529700115284c5a8185769f10673c0a1c68150c792eb2d8029036"
+    }
+  },
+  "representatives": "artifacts/stage7/private/report_evidence/same_two_users_all_methods.json",
+  "progression_and_private_grading_correction": "artifacts/monitoring/submission_history_grading_correction.json",
+  "manual_instruction": "Use original CSV record numbers in source_line_checks; independently compute clipped interval intersection and divide by actual airing duration. For AP, use the five explicit per-rank relevance/precision steps. These are AI checks, not claims of student verification."
+}

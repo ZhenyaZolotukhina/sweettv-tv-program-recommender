@@ -1,0 +1,22 @@
+{
+  "config": {
+    "minimum": 0.5,
+    "factors": 32,
+    "alpha": 10.0,
+    "regularization": 1.0,
+    "iterations": 12,
+    "seed": 42
+  },
+  "rss_before_bytes": 233914368,
+  "peak_rss_bytes": 1709686784,
+  "seconds": 5.006178834009916,
+  "peak_increment_bytes": 1475772416,
+  "matrix_shape": [
+    4851,
+    7137
+  ],
+  "matrix_nonzero": 156741,
+  "why_run": "Earlier main run reused fitted factors but had not persisted original fit RSS. One isolated winning-config refit measures actual fit resources; no hyperparameter search.",
+  "includes": "cached training event read, feature aggregation, sparse matrix and fresh ALS fit; no validation-view fitting",
+  "deterministic_factor_checksum": 123.65419444077814
+}

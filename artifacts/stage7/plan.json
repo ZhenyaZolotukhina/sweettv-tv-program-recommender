@@ -1,0 +1,59 @@
+{
+  "experiments": {
+    "active_stability": "Completion persistence relative to user active days/weeks, transition returns and burst concentration; not old raw distinct-day/week counts.",
+    "channel_calendar": "Exact interval-overlap channel x weekday x 2-hour completed-viewing profiles, population-channel shrinkage and known future compatibility; not rejected global midpoint habits.",
+    "matched_drift": "Change of personalized channel/calendar-matched opportunity rates between history and forecast, gated by individual completions; not raw future volume."
+  },
+  "maximum_experiments": 3,
+  "combinations_or_weight_tuning": false,
+  "parameters": {
+    "objective": "lambdarank",
+    "metric": "None",
+    "label_gain": [
+      0,
+      1
+    ],
+    "lambdarank_truncation_level": 5,
+    "lambdarank_norm": true,
+    "learning_rate": 0.06,
+    "num_leaves": 15,
+    "min_data_in_leaf": 50,
+    "max_bin": 63,
+    "lambda_l1": 0.0,
+    "lambda_l2": 1.0,
+    "num_threads": 2,
+    "deterministic": true,
+    "force_col_wise": true,
+    "seed": 42,
+    "data_random_seed": 42,
+    "feature_fraction_seed": 42,
+    "bagging_seed": 42,
+    "feature_fraction": 1.0,
+    "bagging_fraction": 1.0,
+    "bagging_freq": 0,
+    "verbosity": -1
+  },
+  "rounds": 80,
+  "training_folds": [
+    {
+      "name": "roll_mar23",
+      "cutoff": 1584921600,
+      "target_end": 1586131200
+    },
+    {
+      "name": "roll_apr06",
+      "cutoff": 1586131200,
+      "target_end": 1586736000
+    }
+  ],
+  "features_control": "frozen V5 59 columns, same pools and learned preprocessing cutoffs",
+  "weights": "unchanged V5 normalized LambdaRank user-task groups; no classifier class weighting",
+  "smoothing": {
+    "slot_width_seconds": 7200,
+    "population_channel_prior_seconds": 3600,
+    "matched_rate_prior_per_day": 0.1
+  },
+  "selection": "Both gains >=0.001 and paired95 lower>0; heavy gain>=0, light and repeat-heavy gains>=-0.003 both; cold lists identical. Else retain V5.",
+  "unchanged_target": ">=80% uninterrupted original airing duration; distinct-airing frequency Top5; ID ties; all1260, empty=0",
+  "kaggle_or_private_score_use": false
+}

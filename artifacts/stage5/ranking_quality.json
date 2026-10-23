@@ -1,0 +1,42 @@
+[
+  {
+    "window": "main",
+    "counts": {
+      "v3": {
+        "warm_top5": 6250,
+        "predicted_zero_or_one": 963,
+        "correct_zero_or_one": 150,
+        "wrong_zero_or_one": 813,
+        "hits": 2755
+      },
+      "v4": {
+        "warm_top5": 6250,
+        "predicted_zero_or_one": 997,
+        "correct_zero_or_one": 160,
+        "wrong_zero_or_one": 837,
+        "hits": 2791
+      }
+    },
+    "explanation": "A zero/one historical occurrence is unknown/weak evidence, not a dislike label; counts describe observed errors only."
+  },
+  {
+    "window": "earlier",
+    "counts": {
+      "v3": {
+        "warm_top5": 6235,
+        "predicted_zero_or_one": 1618,
+        "correct_zero_or_one": 301,
+        "wrong_zero_or_one": 1317,
+        "hits": 2788
+      },
+      "v4": {
+        "warm_top5": 6235,
+        "predicted_zero_or_one": 1631,
+        "correct_zero_or_one": 308,
+        "wrong_zero_or_one": 1323,
+        "hits": 2804
+      }
+    },
+    "explanation": "A zero/one historical occurrence is unknown/weak evidence, not a dislike label; counts describe observed errors only."
+  }
+]

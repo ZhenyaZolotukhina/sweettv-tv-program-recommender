@@ -1,0 +1,228 @@
+{
+  "features": {
+    "timing": {
+      "rss_before_bytes": 1928413184,
+      "peak_rss_bytes": 2165850112,
+      "seconds": 2.6619589159963652,
+      "peak_increment_bytes": 237436928
+    },
+    "qualified_airings": 405446,
+    "training_last_observation": 1589760000,
+    "cutoff": 1589760000,
+    "schedule_feature_target_end": 1595808000,
+    "future_user_features": false,
+    "opportunity_multiplier_min": 0.5,
+    "opportunity_multiplier_max": 2.0
+  },
+  "candidates": 6361,
+  "users": 1260,
+  "results": [
+    {
+      "window": "main",
+      "name": "v1",
+      "map5": 0.37363117283950614,
+      "warm_map5": 0.3755962222222222,
+      "cold_map5": 0.128,
+      "warm_users": 1250,
+      "cold_users": 10,
+      "nonempty_map5": 0.3815034665946335,
+      "nonempty_users": 1234,
+      "full_five_map5": 0.39875184856551316,
+      "full_five_users": 1127,
+      "denominator": 1260,
+      "ranking_resources": {
+        "rss_before_bytes": 2362572800,
+        "peak_rss_bytes": 2362605568,
+        "seconds": 0.9036584999994375,
+        "peak_increment_bytes": 32768
+      },
+      "mean_delta": 0.0,
+      "improved_users": 0,
+      "worsened_users": 0
+    },
+    {
+      "window": "main",
+      "name": "recency",
+      "map5": 0.3667555114638448,
+      "warm_map5": 0.3686655555555556,
+      "cold_map5": 0.128,
+      "warm_users": 1250,
+      "cold_users": 10,
+      "nonempty_map5": 0.3744829371510895,
+      "nonempty_users": 1234,
+      "full_five_map5": 0.39205560485063595,
+      "full_five_users": 1127,
+      "denominator": 1260,
+      "ranking_resources": {
+        "rss_before_bytes": 2426781696,
+        "peak_rss_bytes": 2426814464,
+        "seconds": 0.9112746670143679,
+        "peak_increment_bytes": 32768
+      },
+      "mean_delta": -0.006875661375661375,
+      "improved_users": 102,
+      "worsened_users": 165
+    },
+    {
+      "window": "main",
+      "name": "confidence",
+      "map5": 0.3710679012345679,
+      "warm_map5": 0.3730124444444445,
+      "cold_map5": 0.128,
+      "warm_users": 1250,
+      "cold_users": 10,
+      "nonempty_map5": 0.3788861876463173,
+      "nonempty_users": 1234,
+      "full_five_map5": 0.3964270925761609,
+      "full_five_users": 1127,
+      "denominator": 1260,
+      "ranking_resources": {
+        "rss_before_bytes": 2458894336,
+        "peak_rss_bytes": 2458943488,
+        "seconds": 0.9084115830482915,
+        "peak_increment_bytes": 49152
+      },
+      "mean_delta": -0.0025632716049382716,
+      "improved_users": 174,
+      "worsened_users": 189
+    },
+    {
+      "window": "main",
+      "name": "opportunity",
+      "map5": 0.37093143738977075,
+      "warm_map5": 0.37287488888888887,
+      "cold_map5": 0.128,
+      "warm_users": 1250,
+      "cold_users": 10,
+      "nonempty_map5": 0.3787468485503332,
+      "nonempty_users": 1234,
+      "full_five_map5": 0.39649511978704527,
+      "full_five_users": 1127,
+      "denominator": 1260,
+      "ranking_resources": {
+        "rss_before_bytes": 2458910720,
+        "peak_rss_bytes": 2458943488,
+        "seconds": 0.9066123749944381,
+        "peak_increment_bytes": 32768
+      },
+      "mean_delta": -0.0026997354497354494,
+      "improved_users": 181,
+      "worsened_users": 197
+    },
+    {
+      "window": "main",
+      "name": "channel_alone",
+      "map5": 0.3589916225749559,
+      "warm_map5": 0.3608395555555555,
+      "cold_map5": 0.128,
+      "warm_users": 1250,
+      "cold_users": 10,
+      "nonempty_map5": 0.3665554655141365,
+      "nonempty_users": 1234,
+      "full_five_map5": 0.38393374741200825,
+      "full_five_users": 1127,
+      "denominator": 1260,
+      "ranking_resources": {
+        "rss_before_bytes": 2458927104,
+        "peak_rss_bytes": 2458976256,
+        "seconds": 0.9865298340446316,
+        "peak_increment_bytes": 49152
+      },
+      "mean_delta": -0.014639550264550265,
+      "improved_users": 378,
+      "worsened_users": 454
+    },
+    {
+      "window": "main",
+      "name": "habit_alone",
+      "map5": 0.002367724867724868,
+      "warm_map5": 0.0013626666666666668,
+      "cold_map5": 0.128,
+      "warm_users": 1250,
+      "cold_users": 10,
+      "nonempty_map5": 0.0024176121015667207,
+      "nonempty_users": 1234,
+      "full_five_map5": 0.0015380065069506065,
+      "full_five_users": 1127,
+      "denominator": 1260,
+      "ranking_resources": {
+        "rss_before_bytes": 2458959872,
+        "peak_rss_bytes": 2458992640,
+        "seconds": 1.4615700409631245,
+        "peak_increment_bytes": 32768
+      },
+      "mean_delta": -0.3712634479717813,
+      "improved_users": 0,
+      "worsened_users": 1097
+    },
+    {
+      "window": "main",
+      "name": "v1_plus_channel",
+      "map5": 0.37475485008818343,
+      "warm_map5": 0.3767288888888889,
+      "cold_map5": 0.128,
+      "warm_users": 1250,
+      "cold_users": 10,
+      "nonempty_map5": 0.3826508193769134,
+      "nonempty_users": 1234,
+      "full_five_map5": 0.4001597160603372,
+      "full_five_users": 1127,
+      "denominator": 1260,
+      "ranking_resources": {
+        "rss_before_bytes": 2458959872,
+        "peak_rss_bytes": 2458992640,
+        "seconds": 0.9246026249602437,
+        "peak_increment_bytes": 32768
+      },
+      "mean_delta": 0.0011236772486772487,
+      "improved_users": 101,
+      "worsened_users": 69
+    },
+    {
+      "window": "main",
+      "name": "v1_plus_habit",
+      "map5": 0.37339836860670195,
+      "warm_map5": 0.37536155555555556,
+      "cold_map5": 0.128,
+      "warm_users": 1250,
+      "cold_users": 10,
+      "nonempty_map5": 0.3812657572483342,
+      "nonempty_users": 1234,
+      "full_five_map5": 0.39849157054126,
+      "full_five_users": 1127,
+      "denominator": 1260,
+      "ranking_resources": {
+        "rss_before_bytes": 2491056128,
+        "peak_rss_bytes": 2491121664,
+        "seconds": 0.9901076669921167,
+        "peak_increment_bytes": 65536
+      },
+      "mean_delta": -0.0002328042328042327,
+      "improved_users": 3,
+      "worsened_users": 5
+    },
+    {
+      "window": "main",
+      "name": "confidence_opportunity",
+      "map5": 0.37513712522045856,
+      "warm_map5": 0.37711422222222224,
+      "cold_map5": 0.128,
+      "warm_users": 1250,
+      "cold_users": 10,
+      "nonempty_map5": 0.3830411489285071,
+      "nonempty_users": 1234,
+      "full_five_map5": 0.4008311150547175,
+      "full_five_users": 1127,
+      "denominator": 1260,
+      "ranking_resources": {
+        "rss_before_bytes": 2523185152,
+        "peak_rss_bytes": 2523250688,
+        "seconds": 0.9185563329956494,
+        "peak_increment_bytes": 65536
+      },
+      "mean_delta": 0.001505952380952382,
+      "improved_users": 244,
+      "worsened_users": 220
+    }
+  ]
+}

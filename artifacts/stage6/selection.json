@@ -1,0 +1,142 @@
+{
+  "selected": "retain_v4",
+  "eligible": [],
+  "rule": "Both gain >=0.001, paired95 lower>0 both, light-history gain>=-0.003 both; else retain V4",
+  "results": [
+    {
+      "window": "main",
+      "candidate": "lambda",
+      "map5": 0.3953732363315696,
+      "warm_map5": 0.3975122222222222,
+      "cold_map5": 0.128,
+      "warm_users": 1250,
+      "cold_users": 10,
+      "nonempty_map5": 0.4037036286691878,
+      "nonempty_users": 1234,
+      "full_five_map5": 0.4229044661342798,
+      "full_five_users": 1127,
+      "denominator": 1260,
+      "gain": 0.0039462081128747795,
+      "paired_95_ci": [
+        -0.00013121693121693088,
+        0.0079300319664903
+      ],
+      "improved": 305,
+      "regressed": 252,
+      "new_relevant_programme_ids": 146,
+      "light_history_gain": 0.008118279569892474,
+      "ranking_resources": {
+        "rss_before_bytes": 1027948544,
+        "peak_rss_bytes": 1028145152,
+        "seconds": 0.016150874958839267,
+        "peak_increment_bytes": 196608
+      },
+      "surrogate_metric_not_used_for_selection": true,
+      "inference_resources": {
+        "rss_before_bytes": 1026686976,
+        "peak_rss_bytes": 1027063808,
+        "seconds": 0.08680641703540459,
+        "peak_increment_bytes": 376832
+      }
+    },
+    {
+      "window": "earlier",
+      "candidate": "lambda",
+      "map5": 0.4089629629629629,
+      "warm_map5": 0.41322641005078853,
+      "cold_map5": 0.0,
+      "warm_users": 1247,
+      "cold_users": 13,
+      "nonempty_map5": 0.4262145023435346,
+      "nonempty_users": 1209,
+      "full_five_map5": 0.4479182630906769,
+      "full_five_users": 1044,
+      "denominator": 1260,
+      "gain": 0.006275793650793652,
+      "paired_95_ci": [
+        0.00208382385361552,
+        0.01033578042328042
+      ],
+      "improved": 330,
+      "regressed": 259,
+      "new_relevant_programme_ids": 171,
+      "light_history_gain": 0.019980158730158726,
+      "ranking_resources": {
+        "rss_before_bytes": 1030160384,
+        "peak_rss_bytes": 1030160384,
+        "seconds": 0.01610883401008323,
+        "peak_increment_bytes": 0
+      },
+      "surrogate_metric_not_used_for_selection": true,
+      "inference_resources": {
+        "rss_before_bytes": 1030160384,
+        "peak_rss_bytes": 1030193152,
+        "seconds": 0.08279674994992092,
+        "peak_increment_bytes": 32768
+      }
+    },
+    {
+      "window": "main",
+      "candidate": "lambda_v4_rrf",
+      "map5": 0.39242724867724865,
+      "warm_map5": 0.39454266666666665,
+      "cold_map5": 0.128,
+      "warm_users": 1250,
+      "cold_users": 10,
+      "nonempty_map5": 0.4006955699621826,
+      "nonempty_users": 1234,
+      "full_five_map5": 0.419698314108252,
+      "full_five_users": 1127,
+      "denominator": 1260,
+      "gain": 0.0010002204585537922,
+      "paired_95_ci": [
+        -0.0012997960758377417,
+        0.0034022982804232794
+      ],
+      "improved": 149,
+      "regressed": 131,
+      "new_relevant_programme_ids": 68,
+      "light_history_gain": 0.0019354838709677424,
+      "ranking_resources": {
+        "rss_before_bytes": 1030537216,
+        "peak_rss_bytes": 1030619136,
+        "seconds": 0.06847125000786036,
+        "peak_increment_bytes": 81920
+      },
+      "surrogate_metric_not_used_for_selection": true
+    },
+    {
+      "window": "earlier",
+      "candidate": "lambda_v4_rrf",
+      "map5": 0.4059614197530864,
+      "warm_map5": 0.4101935756927738,
+      "cold_map5": 0.0,
+      "warm_users": 1247,
+      "cold_users": 13,
+      "nonempty_map5": 0.42308634316698834,
+      "nonempty_users": 1209,
+      "full_five_map5": 0.44351213282247764,
+      "full_five_users": 1044,
+      "denominator": 1260,
+      "gain": 0.0032742504409171078,
+      "paired_95_ci": [
+        0.0009644014550264543,
+        0.0056381227954144615
+      ],
+      "improved": 174,
+      "regressed": 114,
+      "new_relevant_programme_ids": 75,
+      "light_history_gain": 0.011414835164835163,
+      "ranking_resources": {
+        "rss_before_bytes": 1030602752,
+        "peak_rss_bytes": 1030635520,
+        "seconds": 0.06795733398757875,
+        "peak_increment_bytes": 32768
+      },
+      "surrogate_metric_not_used_for_selection": true
+    }
+  ],
+  "configurations_trained": 1,
+  "features_and_pools_changed": false,
+  "kaggle_requests": 0
+}

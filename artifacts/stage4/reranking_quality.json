@@ -1,0 +1,30 @@
+[
+  {
+    "window": "main",
+    "method": "v2",
+    "top5_micro_recall": 0.4582912882610158,
+    "hits": 2725,
+    "truth_pairs": 5946
+  },
+  {
+    "window": "main",
+    "method": "v3",
+    "top5_micro_recall": 0.4633366969391187,
+    "hits": 2755,
+    "truth_pairs": 5946
+  },
+  {
+    "window": "earlier",
+    "method": "v2",
+    "top5_micro_recall": 0.48176211453744494,
+    "hits": 2734,
+    "truth_pairs": 5675
+  },
+  {
+    "window": "earlier",
+    "method": "v3",
+    "top5_micro_recall": 0.49127753303964755,
+    "hits": 2788,
+    "truth_pairs": 5675
+  }
+]

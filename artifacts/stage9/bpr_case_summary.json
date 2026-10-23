@@ -1,0 +1,302 @@
+[
+  {
+    "alias": "Case-1",
+    "window": "main",
+    "item": 700369,
+    "bpr_rank": 46,
+    "final_rank": 59,
+    "bpr_score": 2.0532631874084473,
+    "reranker_score": -2.6490730078994233,
+    "top5_cutoff_score": 0.5485409933390754,
+    "same_pair_in_training_candidates": true,
+    "same_pair_positive_in_training": false,
+    "item_in_any_training_candidates": true,
+    "item_has_any_positive_training_label": true,
+    "history50": 0.0,
+    "history80": 0.0,
+    "global_count": 859.9998168945312,
+    "als_score": 0.35640907287597656,
+    "cbf_score": 0.3635692000389099,
+    "user_embedding_known": true,
+    "item_embedding_known": true,
+    "tree_shap_descriptive_not_causal": [
+      {
+        "feature": "item_log_global_count",
+        "value": 6.758094310760498,
+        "contribution": 0.4183789230390529
+      },
+      {
+        "feature": "bpr_item_bias",
+        "value": 1.8178709745407104,
+        "contribution": 0.22921610978400236
+      },
+      {
+        "feature": "bpr_reciprocal_rank",
+        "value": 0.01785714365541935,
+        "contribution": 0.14134196948126218
+      },
+      {
+        "feature": "user_log_airings",
+        "value": 4.9628448486328125,
+        "contribution": -0.12900010260277842
+      },
+      {
+        "feature": "repeat_reciprocal_rank",
+        "value": 0.008771929889917374,
+        "contribution": -0.12781862539679467
+      },
+      {
+        "feature": "popularity_reciprocal_rank",
+        "value": 0.014084506779909134,
+        "contribution": 0.09094405865090459
+      },
+      {
+        "feature": "loyal_duration_loyalty",
+        "value": 0.01054523978382349,
+        "contribution": 0.08323351031491417
+      },
+      {
+        "feature": "loyal_completion_ratio",
+        "value": 0.14939309656620026,
+        "contribution": 0.05854911681304228
+      },
+      {
+        "feature": "v2_reciprocal_rank",
+        "value": 0.004273504484444857,
+        "contribution": -0.055933940498011425
+      },
+      {
+        "feature": "v2_score",
+        "value": 0.018186181783676147,
+        "contribution": -0.050532201623234435
+      }
+    ],
+    "title": "'Ліга сміху'.",
+    "category": "Развлечения"
+  },
+  {
+    "alias": "Case-2",
+    "window": "main",
+    "item": 10001261,
+    "bpr_rank": 47,
+    "final_rank": 70,
+    "bpr_score": 1.7762888669967651,
+    "reranker_score": -2.6456714243625457,
+    "top5_cutoff_score": 0.020184860223257016,
+    "same_pair_in_training_candidates": true,
+    "same_pair_positive_in_training": false,
+    "item_in_any_training_candidates": true,
+    "item_has_any_positive_training_label": true,
+    "history50": 0.0,
+    "history80": 0.0,
+    "global_count": 989.0001220703125,
+    "als_score": 0.1523711234331131,
+    "cbf_score": 0.07003515213727951,
+    "user_embedding_known": true,
+    "item_embedding_known": true,
+    "tree_shap_descriptive_not_causal": [
+      {
+        "feature": "item_log_global_count",
+        "value": 6.897705078125,
+        "contribution": 0.3069171824148305
+      },
+      {
+        "feature": "bpr_item_bias",
+        "value": 1.749959945678711,
+        "contribution": 0.26929472930045384
+      },
+      {
+        "feature": "bpr_reciprocal_rank",
+        "value": 0.017543859779834747,
+        "contribution": 0.17272986850945002
+      },
+      {
+        "feature": "future_airing_rate",
+        "value": 2.935375452041626,
+        "contribution": 0.1522705780656179
+      },
+      {
+        "feature": "repeat_reciprocal_rank",
+        "value": 0.01149425283074379,
+        "contribution": -0.13069423502640767
+      },
+      {
+        "feature": "v2_score",
+        "value": 0.009790209122002125,
+        "contribution": -0.12628105341370044
+      },
+      {
+        "feature": "user_repeat_fraction",
+        "value": 0.0,
+        "contribution": 0.12137601656152212
+      },
+      {
+        "feature": "user_log_airings",
+        "value": 3.367295742034912,
+        "contribution": -0.10400392273247426
+      },
+      {
+        "feature": "popularity_reciprocal_rank",
+        "value": 0.015384615398943424,
+        "contribution": 0.09034784769390523
+      },
+      {
+        "feature": "v2_reciprocal_rank",
+        "value": 0.003436426166445017,
+        "contribution": -0.07604212790386904
+      }
+    ],
+    "title": "Т/с 'Мыслить как преступник', 1 сезон, 1 и 2 с.",
+    "category": "Сериалы"
+  },
+  {
+    "alias": "Case-3",
+    "window": "earlier",
+    "item": 10001261,
+    "bpr_rank": 44,
+    "final_rank": 42,
+    "bpr_score": 1.4099960327148438,
+    "reranker_score": -2.6283152923956528,
+    "top5_cutoff_score": 0.3115986842716971,
+    "same_pair_in_training_candidates": true,
+    "same_pair_positive_in_training": false,
+    "item_in_any_training_candidates": true,
+    "item_has_any_positive_training_label": true,
+    "history50": 0.0,
+    "history80": 0.0,
+    "global_count": 586.0,
+    "als_score": 0.08625233918428421,
+    "cbf_score": 0.08245429396629333,
+    "user_embedding_known": true,
+    "item_embedding_known": true,
+    "tree_shap_descriptive_not_causal": [
+      {
+        "feature": "item_log_global_count",
+        "value": 6.375024795532227,
+        "contribution": 0.3307046509445249
+      },
+      {
+        "feature": "bpr_item_bias",
+        "value": 1.3799668550491333,
+        "contribution": 0.22872851453610663
+      },
+      {
+        "feature": "user_log_airings",
+        "value": 4.369447708129883,
+        "contribution": -0.1574071300313349
+      },
+      {
+        "feature": "future_airing_rate",
+        "value": 2.6731629371643066,
+        "contribution": 0.14696339646051773
+      },
+      {
+        "feature": "bpr_reciprocal_rank",
+        "value": 0.018518518656492233,
+        "contribution": 0.12932777541000245
+      },
+      {
+        "feature": "loyal_complete_popularity",
+        "value": 0.14298929274082184,
+        "contribution": 0.12025872543164878
+      },
+      {
+        "feature": "popularity_reciprocal_rank",
+        "value": 0.016393441706895828,
+        "contribution": 0.0924133178809655
+      },
+      {
+        "feature": "user_repeat_fraction",
+        "value": 0.7051281929016113,
+        "contribution": -0.08934242487785031
+      },
+      {
+        "feature": "v2_reciprocal_rank",
+        "value": 0.0038759689778089523,
+        "contribution": -0.0775195384687339
+      },
+      {
+        "feature": "v2_score",
+        "value": 0.013462422415614128,
+        "contribution": -0.05922535466542964
+      }
+    ],
+    "title": "Т/с 'Мыслить как преступник', 1 сезон, 1 и 2 с.",
+    "category": "Сериалы"
+  },
+  {
+    "alias": "Case-4",
+    "window": "earlier",
+    "item": 10001261,
+    "bpr_rank": 45,
+    "final_rank": 62,
+    "bpr_score": 1.4154263734817505,
+    "reranker_score": -2.7508269434638475,
+    "top5_cutoff_score": 0.6440507182875207,
+    "same_pair_in_training_candidates": true,
+    "same_pair_positive_in_training": false,
+    "item_in_any_training_candidates": true,
+    "item_has_any_positive_training_label": true,
+    "history50": 0.0,
+    "history80": 0.0,
+    "global_count": 586.0,
+    "als_score": 0.010238141752779484,
+    "cbf_score": 0.03540440648794174,
+    "user_embedding_known": true,
+    "item_embedding_known": true,
+    "tree_shap_descriptive_not_causal": [
+      {
+        "feature": "item_log_global_count",
+        "value": 6.375024795532227,
+        "contribution": 0.31856521035592233
+      },
+      {
+        "feature": "bpr_item_bias",
+        "value": 1.3799668550491333,
+        "contribution": 0.22872851453610663
+      },
+      {
+        "feature": "bpr_reciprocal_rank",
+        "value": 0.0181818176060915,
+        "contribution": 0.1285190876988515
+      },
+      {
+        "feature": "future_airing_rate",
+        "value": 2.6731629371643066,
+        "contribution": 0.12544637249353857
+      },
+      {
+        "feature": "v2_score",
+        "value": 0.010064810514450073,
+        "contribution": -0.11935922864315866
+      },
+      {
+        "feature": "loyal_complete_popularity",
+        "value": 0.14298929274082184,
+        "contribution": 0.1123259171779924
+      },
+      {
+        "feature": "user_log_airings",
+        "value": 3.4339871406555176,
+        "contribution": -0.10862037594602574
+      },
+      {
+        "feature": "popularity_reciprocal_rank",
+        "value": 0.016393441706895828,
+        "contribution": 0.0923700849443383
+      },
+      {
+        "feature": "user_repeat_fraction",
+        "value": 0.6000000238418579,
+        "contribution": -0.0886780481674354
+      },
+      {
+        "feature": "v2_reciprocal_rank",
+        "value": 0.004166666883975267,
+        "contribution": -0.0794335918303188
+      }
+    ],
+    "title": "Т/с 'Мыслить как преступник', 1 сезон, 1 и 2 с.",
+    "category": "Сериалы"
+  }
+]

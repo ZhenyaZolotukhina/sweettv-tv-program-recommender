@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "standalone_cf_files_reconstructed": 4,
+  "reranker_files_reconstructed": 4,
+  "original_users_all1260_and_candidates_preserved": true,
+  "same_frozen_targets_and_cold_fallback": true,
+  "independent_sql_positive_matrices_match": true,
+  "new_cf_scores_recomputed_from_factors_and_bias": true,
+  "all_learned_rankings_recomputed": true,
+  "rolling_models_before_own_cutoffs": true,
+  "no_eval_labels_fit_ranker": true,
+  "prior_evidence_v1_v5_unchanged": true,
+  "no_v7_csv_created": true,
+  "retained_v5_sha256": "249ed58e19e51ee2905bb256d97263ec06201d51f9cf40a2765904f4377c448f",
+  "kaggle_requests": 0
+}

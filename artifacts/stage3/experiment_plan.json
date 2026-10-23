@@ -1,0 +1,25 @@
+{
+  "selection_uses": "local main and earlier targets only; Kaggle monitoring is not read by experiment code",
+  "frozen_ground_truth": "uninterrupted >=80% coverage, distinct-airing frequency Top-5, frequency ties ID ascending",
+  "users": 1260,
+  "rrf_k": 10,
+  "rrf_top": 200,
+  "new_component_weight": 0.1,
+  "recency": "frequency * (0.75 + 0.25 * exp(-ln(2)*days_since_last/35))",
+  "confidence": "frequency of >=50% airings + frequency of >=80% airings (training only)",
+  "opportunity": "repeat frequency * sqrt(clip((future_airings+4)/(past_airings*future_days/past_days+4),0.25,4))",
+  "channel": "sqrt user channel frequencies normalized; training channel-conditional programme popularity",
+  "habit": "42 weekday/four-hour bins; Laplace-1 user prior; known future airing midpoint distribution",
+  "configs": [
+    "v1",
+    "recency",
+    "confidence",
+    "opportunity",
+    "channel_alone",
+    "habit_alone",
+    "v1_plus_channel",
+    "v1_plus_habit",
+    "confidence_opportunity"
+  ],
+  "robust_selection": "Both windows must improve at least 0.001 absolute MAP; choose largest mean gain, then simpler name. Paired bootstrap reported, not treated as an independent test."
+}

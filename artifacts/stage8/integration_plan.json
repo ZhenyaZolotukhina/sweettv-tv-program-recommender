@@ -1,0 +1,66 @@
+{
+  "configuration": {
+    "factors": 32,
+    "epochs": 25,
+    "batch_size": 2048,
+    "learning_rate": 0.05,
+    "regularization": 0.002,
+    "seed": 42,
+    "positive_weight": "log_frequency"
+  },
+  "features": [
+    "bpr_raw_score",
+    "bpr_reciprocal_rank",
+    "bpr_item_bias",
+    "bpr_latent_cosine",
+    "bpr_user_factor_norm",
+    "bpr_item_factor_norm",
+    "bpr_user_known",
+    "bpr_item_known"
+  ],
+  "user_bias": "not identifiable; omitted",
+  "base_features": 59,
+  "same_pools": true,
+  "training_folds": [
+    {
+      "name": "roll_mar23",
+      "cutoff": 1584921600,
+      "target_end": 1586131200
+    },
+    {
+      "name": "roll_apr06",
+      "cutoff": 1586131200,
+      "target_end": 1586736000
+    }
+  ],
+  "ranker_parameters": {
+    "objective": "lambdarank",
+    "metric": "None",
+    "label_gain": [
+      0,
+      1
+    ],
+    "lambdarank_truncation_level": 5,
+    "lambdarank_norm": true,
+    "learning_rate": 0.06,
+    "num_leaves": 15,
+    "min_data_in_leaf": 50,
+    "max_bin": 63,
+    "lambda_l1": 0.0,
+    "lambda_l2": 1.0,
+    "num_threads": 2,
+    "deterministic": true,
+    "force_col_wise": true,
+    "seed": 42,
+    "data_random_seed": 42,
+    "feature_fraction_seed": 42,
+    "bagging_seed": 42,
+    "feature_fraction": 1.0,
+    "bagging_fraction": 1.0,
+    "bagging_freq": 0,
+    "verbosity": -1
+  },
+  "maximum_variants": 2,
+  "expansion_rule": "One optional V5-pool union BPR Top50 variant only if >=10 new relevant pairs on BOTH holdouts.",
+  "model_selection_uses_kaggle_scores": false
+}

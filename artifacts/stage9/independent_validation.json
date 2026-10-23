@@ -1,0 +1,14 @@
+{
+  "valid": true,
+  "standalone_rule_files_reconstructed": 4,
+  "integration_files_reconstructed": 4,
+  "all_users1260_same_truth_groups_availability_and_ap": true,
+  "distinct_user_support_and_rule_weights_verified": true,
+  "existing_bpr_pool_and_first59_controls_unchanged": true,
+  "all_rule_and_ranker_scores_reloaded": true,
+  "holdout_labels_not_used_in_fit": true,
+  "prior_models_submissions_and_evidence_unchanged": true,
+  "no_v8_csv_created": true,
+  "retained_v5_sha256": "249ed58e19e51ee2905bb256d97263ec06201d51f9cf40a2765904f4377c448f",
+  "kaggle_requests": 0
+}

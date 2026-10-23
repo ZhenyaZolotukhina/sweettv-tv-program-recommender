@@ -1,0 +1,10 @@
+{
+  "reason": "Channel addition improved both windows; initial main paired CI crossed zero.",
+  "extra_weights": [
+    0.3,
+    0.5
+  ],
+  "maximum_additional_configurations": 2,
+  "no_new_features_or_mf_fits": true,
+  "final_rule": "Both gains >=0.001 and both paired-bootstrap 95% lower bounds >0; otherwise retain v1."
+}

@@ -1,0 +1,32 @@
+{
+  "retrieved_date": "2026-10-22",
+  "official_data": {
+    "url": "https://www.kaggle.com/competitions/sweettv-tv-program-recommender/data",
+    "retrieval_url": "https://r.jina.ai/https://www.kaggle.com/competitions/sweettv-tv-program-recommender/data",
+    "quotes": [
+      "vsetv_id is the same as channel_id in export_arh_*.csv files.",
+      "Only TV shows with high screen time (>= 0.8) were taken into account.",
+      "for each user strictly 5 most frequent TV shows were selected DESC"
+    ],
+    "observations": "Defines user screen time as time watched divided by actual show duration, then frequency and Top-5. Does not explicitly resolve interrupted visits, concurrent channels, frequency ties, or local users with fewer than five positives. Public/private split is by users, not time. Descriptive field names/older filenames differ from the actual extracted files; actual local schemas remain authoritative for parsing."
+  },
+  "official_overview": {
+    "url": "https://www.kaggle.com/competitions/sweettv-tv-program-recommender/overview/description",
+    "retrieval_url": "https://r.jina.ai/https://www.kaggle.com/competitions/sweettv-tv-program-recommender/overview/description",
+    "observations": "Confirms MAP@5, exactly five space-delimited IDs, subsequent weeks 31-42, permission to use external data, and a historical 10 submissions/day limit. This is not verification of the current late-submission account quota."
+  },
+  "participant_article": {
+    "author": "Nikita Melentev",
+    "title": "Two-layered Recommender System Methodology: A Prize-Winning Solution",
+    "published": "2021-03-20",
+    "url": "https://medium.com/data-science/two-layered-recommender-system-methodology-a-prize-winning-solution-c4bdb815b156",
+    "quote": "TV-program was considered watched if the user watched over 80% of it and did not change the channel.",
+    "ideas_used": "Separate target coverage from model-input threshold; test repeat frequency with >50% input coverage; consider combining repeat and collaborative rankings.",
+    "historical_scores_not_ours": {"repeat_kaggle_map5": 0.41296, "final_private_map5": 0.42905},
+    "authority": "Participant account, not an official competition rule; official inclusive >=0.8 overrides the article's strict wording."
+  },
+  "participant_code_inspected": {
+    "url": "https://raw.githubusercontent.com/ndmel/2nd_place_recsys_cinema_challenge_2020/main/utils.py",
+    "observations": "get_target uses >=0.8, frequency and head(5); apk uses min(number of truth items,k), empty=0. Corroboration, not official scorer source. No participant code copied into this project."
+  }
+}

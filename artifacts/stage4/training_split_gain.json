@@ -1,0 +1,217 @@
+{
+  "interpretation": "training tree split gain only, not causal or holdout permutation importance",
+  "features": [
+    {
+      "name": "repeat_reciprocal_rank",
+      "gain": 1125371.0505231777
+    },
+    {
+      "name": "v2_score",
+      "gain": 236941.02762746363
+    },
+    {
+      "name": "popularity_score",
+      "gain": 114409.68439910431
+    },
+    {
+      "name": "channel_score",
+      "gain": 102480.95185220981
+    },
+    {
+      "name": "cf_score",
+      "gain": 44289.939963796714
+    },
+    {
+      "name": "history_rate",
+      "gain": 40288.09208377622
+    },
+    {
+      "name": "v2_reciprocal_rank",
+      "gain": 26783.90996641603
+    },
+    {
+      "name": "popularity_reciprocal_rank",
+      "gain": 20203.227994216828
+    },
+    {
+      "name": "history_log_recent14",
+      "gain": 16256.800571033371
+    },
+    {
+      "name": "channel_reciprocal_rank",
+      "gain": 15872.511640020883
+    },
+    {
+      "name": "user_recent_fraction",
+      "gain": 12145.264080155468
+    },
+    {
+      "name": "history_days",
+      "gain": 11870.462924755626
+    },
+    {
+      "name": "future_log_duration",
+      "gain": 11751.52719906789
+    },
+    {
+      "name": "future_airing_rate",
+      "gain": 10825.863762068077
+    },
+    {
+      "name": "cf_reciprocal_rank",
+      "gain": 9507.33074571069
+    },
+    {
+      "name": "history_days_since_last",
+      "gain": 9477.224293504814
+    },
+    {
+      "name": "cbf_score",
+      "gain": 8930.030998037248
+    },
+    {
+      "name": "past_airing_rate",
+      "gain": 7853.338519362621
+    },
+    {
+      "name": "category_Фильмы",
+      "gain": 7653.576972841781
+    },
+    {
+      "name": "user_log_airings",
+      "gain": 4911.838220757536
+    },
+    {
+      "name": "item_log_global_count",
+      "gain": 4552.518728040601
+    },
+    {
+      "name": "past_log_duration",
+      "gain": 4353.959903679105
+    },
+    {
+      "name": "user_log_items",
+      "gain": 4104.024245720425
+    },
+    {
+      "name": "history_log_strong",
+      "gain": 4046.982749941483
+    },
+    {
+      "name": "cbf_reciprocal_rank",
+      "gain": 3852.6807487098786
+    },
+    {
+      "name": "user_repeat_fraction",
+      "gain": 2542.1033773593786
+    },
+    {
+      "name": "category_Детям",
+      "gain": 1988.323376076086
+    },
+    {
+      "name": "category_Познавательное",
+      "gain": 1418.1329304721314
+    },
+    {
+      "name": "genre_мелодрама",
+      "gain": 1352.4319988784841
+    },
+    {
+      "name": "target_days",
+      "gain": 1267.4795497970147
+    },
+    {
+      "name": "genre_общество и политика",
+      "gain": 926.5080762655243
+    },
+    {
+      "name": "category_Развлечения",
+      "gain": 548.9326449952964
+    },
+    {
+      "name": "history_log_seconds",
+      "gain": 448.23843592633466
+    },
+    {
+      "name": "genre_фантазия",
+      "gain": 253.06273256716526
+    },
+    {
+      "name": "genre_боевик",
+      "gain": 199.82641210677176
+    },
+    {
+      "name": "past_channels",
+      "gain": 169.89275800443855
+    },
+    {
+      "name": "genre_комедия",
+      "gain": 169.37295113490728
+    },
+    {
+      "name": "repeat_score",
+      "gain": 169.10075487497298
+    },
+    {
+      "name": "history_mean_fraction",
+      "gain": 131.78924439687785
+    },
+    {
+      "name": "genre_приключения",
+      "gain": 95.32817990717528
+    },
+    {
+      "name": "category_Сериалы",
+      "gain": 73.91487743027393
+    },
+    {
+      "name": "category_Инфо",
+      "gain": 67.4480179927096
+    },
+    {
+      "name": "history_log_frequency",
+      "gain": 0.0
+    },
+    {
+      "name": "history_days_since_first",
+      "gain": 0.0
+    },
+    {
+      "name": "history_strong_ratio",
+      "gain": 0.0
+    },
+    {
+      "name": "future_channels",
+      "gain": 0.0
+    },
+    {
+      "name": "category_Другое",
+      "gain": 0.0
+    },
+    {
+      "name": "genre_драма",
+      "gain": 0.0
+    },
+    {
+      "name": "genre_детектив",
+      "gain": 0.0
+    },
+    {
+      "name": "genre_криминал",
+      "gain": 0.0
+    },
+    {
+      "name": "genre_триллер",
+      "gain": 0.0
+    },
+    {
+      "name": "genre_музыкальный",
+      "gain": 0.0
+    },
+    {
+      "name": "genre_развлекательные",
+      "gain": 0.0
+    }
+  ]
+}

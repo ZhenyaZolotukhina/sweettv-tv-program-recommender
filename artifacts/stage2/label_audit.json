@@ -1,0 +1,125 @@
+{
+  "source_evidence": "artifacts/sources/relevance_sources.json",
+  "primary": "Official >=80% coverage, one continuous unambiguous channel session, then five most frequent distinct positive IDs per user",
+  "strict_gt80_implemented_as_sensitivity": true,
+  "frequency_unit": "one qualifying distinct airing (sid) per user; never sum visits to reach coverage",
+  "session_assumptions": "Deduplicate identical channel/start/stop intervals; union touching/overlapping same-channel intervals only with no conflicting channel active. Drop concurrent different-channel time as ambiguous. Gaps and channel changes split sessions. Schedule conflicts retain stage-one disjoint rule.",
+  "tie_rule": "frequency descending, programme ID ascending; recency tie sensitivity saved",
+  "denominator": "All 1260 original template users, fixed for all models including empty-truth AP=0; nonempty and >=5-only alternatives reported",
+  "model_inputs": "coverage/seconds thresholds and decay are independently selected from TRAIN ONLY interactions, not constrained to target 80%",
+  "official": {
+    "users_in_denominator": 1260,
+    "zero_positive_users": 26,
+    "users_with_five": 1127,
+    "final_truth_pairs": 5946,
+    "qualifying_distinct_user_programme_pairs_before_top5": 30593,
+    "truth_count_quantiles": [
+      0.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "candidate_count": 6361,
+    "qualifying_items": 2388,
+    "candidate_item_coverage": 0.9991624790619765,
+    "truth_pairs_outside_candidates": 0
+  },
+  "strict": {
+    "users_in_denominator": 1260,
+    "zero_positive_users": 26,
+    "users_with_five": 1127,
+    "final_truth_pairs": 5946,
+    "qualifying_distinct_user_programme_pairs_before_top5": 30580,
+    "truth_count_quantiles": [
+      0.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "candidate_count": 6361,
+    "qualifying_items": 2388,
+    "candidate_item_coverage": 0.9991624790619765,
+    "truth_pairs_outside_candidates": 0
+  },
+  "raw_single_record": {
+    "users_in_denominator": 1260,
+    "zero_positive_users": 24,
+    "users_with_five": 1124,
+    "final_truth_pairs": 5946,
+    "qualifying_distinct_user_programme_pairs_before_top5": 39764,
+    "truth_count_quantiles": [
+      0.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "candidate_count": 6361,
+    "qualifying_items": 2520,
+    "candidate_item_coverage": 0.9988095238095238,
+    "truth_pairs_outside_candidates": 0
+  },
+  "old_eligible_users": 1246,
+  "old_truth_pairs": 229811,
+  "old_median_truth_items": 160.5,
+  "inclusive_vs_strict_changed_users": 4,
+  "session_policy_changed_users": 430,
+  "frequency_tie_policy_changed_users": 647,
+  "long_session_policy_changed_users": 0,
+  "cumulative_switching_changed_users": 300,
+  "legacy_comparison": [
+    {
+      "method": "popularity",
+      "original_published_local_map5": 0.7777875869448904,
+      "old_reproduced_same_1246_users": 0.7777875869448904,
+      "old_on_all_1260_users": 0.7691455026455026,
+      "corrected_on_same_1246_users": 0.2729594703049759,
+      "official_ge80_top5": 0.2699265873015873,
+      "strict_gt80_top5": 0.2696170634920635,
+      "raw_single_record_ge80_top5": 0.2687929894179894,
+      "ge80_all_items_no_top5": 0.42064087301587305,
+      "exclude_sessions_over_24h_ge80_top5": 0.2699265873015873,
+      "frequency_ties_recency_ge80_top5": 0.2448207671957672,
+      "cumulative_switching_allowed_sensitivity_only": 0.2634411375661376,
+      "legacy_ge60_all_items": 0.7691455026455026
+    },
+    {
+      "method": "repeat",
+      "original_published_local_map5": 0.797207062600321,
+      "old_reproduced_same_1246_users": 0.797207062600321,
+      "old_on_all_1260_users": 0.7883492063492064,
+      "corrected_on_same_1246_users": 0.3352434456928839,
+      "official_ge80_top5": 0.3315185185185185,
+      "strict_gt80_top5": 0.3311005291005291,
+      "raw_single_record_ge80_top5": 0.3374334215167548,
+      "ge80_all_items_no_top5": 0.4893121693121693,
+      "exclude_sessions_over_24h_ge80_top5": 0.3315185185185185,
+      "frequency_ties_recency_ge80_top5": 0.30982804232804234,
+      "cumulative_switching_allowed_sensitivity_only": 0.3361609347442681,
+      "legacy_ge60_all_items": 0.7883492063492064
+    },
+    {
+      "method": "repeat_popularity",
+      "original_published_local_map5": 0.7961824505082932,
+      "old_reproduced_same_1246_users": 0.7961824505082932,
+      "old_on_all_1260_users": 0.7873359788359788,
+      "corrected_on_same_1246_users": 0.28623105047262354,
+      "official_ge80_top5": 0.28305070546737215,
+      "strict_gt80_top5": 0.28267768959435624,
+      "raw_single_record_ge80_top5": 0.2863179012345679,
+      "ge80_all_items_no_top5": 0.44021208112874777,
+      "exclude_sessions_over_24h_ge80_top5": 0.28305070546737215,
+      "frequency_ties_recency_ge80_top5": 0.2627226631393298,
+      "cumulative_switching_allowed_sensitivity_only": 0.28631150793650795,
+      "legacy_ge60_all_items": 0.7873359788359788
+    }
+  ],
+  "limitations": [
+    "Official page does not explain uninterrupted visits/concurrent devices or frequency ties; conservative continuity assumption is participant-informed.",
+    "True Kaggle users have strictly five positives; historical local users can have fewer. Fixed-all-user and full-five-user metrics are both saved.",
+    "No timezone column; original wall-clock convention retained. A clock-change hour can affect coverage.",
+    "Top-5 truth ordering is used to choose membership; AP@5 uses binary membership, not a graded target-rank metric."
+  ]
+}

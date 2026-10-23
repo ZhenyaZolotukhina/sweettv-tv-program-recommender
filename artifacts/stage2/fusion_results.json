@@ -1,0 +1,702 @@
+[
+  {
+    "name": "main_fusion_0",
+    "family": "hybrid",
+    "config": {
+      "type": "max_normalized",
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0,
+        "cbf": 0,
+        "popularity": 0.1
+      }
+    },
+    "map5": 0.36870436507936505,
+    "warm_map5": 0.37063,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.37647285251215556,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.39326826382727004,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2825142272,
+    "peak_rss_bytes": 2889302016,
+    "seconds": 0.9466393750044517,
+    "peak_increment_bytes": 64159744
+  },
+  {
+    "name": "main_fusion_1",
+    "family": "hybrid",
+    "config": {
+      "type": "max_normalized",
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0.05,
+        "cbf": 0,
+        "popularity": 0.1
+      }
+    },
+    "map5": 0.3699041005291005,
+    "warm_map5": 0.37183933333333336,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.3776978660183684,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.3946021887015676,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2889269248,
+    "peak_rss_bytes": 2921365504,
+    "seconds": 1.0699517909670249,
+    "peak_increment_bytes": 32096256
+  },
+  {
+    "name": "main_fusion_2",
+    "family": "hybrid",
+    "config": {
+      "type": "max_normalized",
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0.15,
+        "cbf": 0,
+        "popularity": 0.1
+      }
+    },
+    "map5": 0.3687938712522046,
+    "warm_map5": 0.37072022222222223,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.37656424455249415,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.3930848861283644,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2921332736,
+    "peak_rss_bytes": 2921365504,
+    "seconds": 1.0844831250142306,
+    "peak_increment_bytes": 32768
+  },
+  {
+    "name": "main_fusion_3",
+    "family": "hybrid",
+    "config": {
+      "type": "max_normalized",
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0.3,
+        "cbf": 0,
+        "popularity": 0.1
+      }
+    },
+    "map5": 0.3679519400352734,
+    "warm_map5": 0.36987155555555556,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.3757045741040879,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.39211771665187817,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2921332736,
+    "peak_rss_bytes": 2953428992,
+    "seconds": 1.0883790830266662,
+    "peak_increment_bytes": 32096256
+  },
+  {
+    "name": "main_fusion_4",
+    "family": "hybrid",
+    "config": {
+      "type": "max_normalized",
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0,
+        "cbf": 0.05,
+        "popularity": 0.1
+      }
+    },
+    "map5": 0.3701084656084656,
+    "warm_map5": 0.37204533333333334,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.3779065370070232,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.3944276841171251,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2953396224,
+    "peak_rss_bytes": 2953428992,
+    "seconds": 1.7906082089757547,
+    "peak_increment_bytes": 32768
+  },
+  {
+    "name": "main_fusion_5",
+    "family": "hybrid",
+    "config": {
+      "type": "max_normalized",
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0,
+        "cbf": 0.15,
+        "popularity": 0.1
+      }
+    },
+    "map5": 0.36926785714285715,
+    "warm_map5": 0.37119800000000003,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.3770482171799027,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.3935729074238391,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2953396224,
+    "peak_rss_bytes": 2953428992,
+    "seconds": 1.7729149170336314,
+    "peak_increment_bytes": 32768
+  },
+  {
+    "name": "main_fusion_6",
+    "family": "hybrid",
+    "config": {
+      "type": "max_normalized",
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0.05,
+        "cbf": 0.05,
+        "popularity": 0.1
+      }
+    },
+    "map5": 0.3695383597883598,
+    "warm_map5": 0.37147066666666667,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.3773244192328471,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.39388642413487135,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2953396224,
+    "peak_rss_bytes": 2953428992,
+    "seconds": 1.7711184580111876,
+    "peak_increment_bytes": 32768
+  },
+  {
+    "name": "main_fusion_7",
+    "family": "hybrid",
+    "config": {
+      "type": "max_normalized",
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0.15,
+        "cbf": 0.05,
+        "popularity": 0.1
+      }
+    },
+    "map5": 0.36907275132275136,
+    "warm_map5": 0.37100133333333335,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.37684900054024856,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.3935729074238391,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2953396224,
+    "peak_rss_bytes": 2953428992,
+    "seconds": 1.7619761670357548,
+    "peak_increment_bytes": 32768
+  },
+  {
+    "name": "main_fusion_8",
+    "family": "hybrid",
+    "config": {
+      "type": "max_normalized",
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0.05,
+        "cbf": 0.15,
+        "popularity": 0.1
+      }
+    },
+    "map5": 0.3702718253968254,
+    "warm_map5": 0.37221,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.3780733387358185,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.39483584738243127,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2953396224,
+    "peak_rss_bytes": 2953428992,
+    "seconds": 1.772702875023242,
+    "peak_increment_bytes": 32768
+  },
+  {
+    "name": "main_fusion_9",
+    "family": "hybrid",
+    "config": {
+      "type": "max_normalized",
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0.15,
+        "cbf": 0.15,
+        "popularity": 0.1
+      }
+    },
+    "map5": 0.37096362433862434,
+    "warm_map5": 0.3729073333333333,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.37877971366828744,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.3955723158828749,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2953396224,
+    "peak_rss_bytes": 2953428992,
+    "seconds": 1.7820652920054272,
+    "peak_increment_bytes": 32768
+  },
+  {
+    "name": "main_fusion_10",
+    "family": "hybrid",
+    "config": {
+      "type": "max_normalized",
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0.3,
+        "cbf": 0.15,
+        "popularity": 0.1
+      }
+    },
+    "map5": 0.3716183862433863,
+    "warm_map5": 0.3735673333333333,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.3794482712047542,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.3962377994676131,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2953396224,
+    "peak_rss_bytes": 2953428992,
+    "seconds": 1.7829564579878934,
+    "peak_increment_bytes": 32768
+  },
+  {
+    "name": "main_fusion_11",
+    "family": "hybrid",
+    "config": {
+      "type": "max_normalized",
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0.15,
+        "cbf": 0.05,
+        "popularity": 0
+      }
+    },
+    "map5": 0.36463183421516754,
+    "warm_map5": 0.3665248888888889,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.3723145146767513,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.3885536823425022,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2535800832,
+    "peak_rss_bytes": 2535833600,
+    "seconds": 1.7671346249990165,
+    "peak_increment_bytes": 32768
+  },
+  {
+    "name": "main_fusion_12",
+    "family": "hybrid",
+    "config": {
+      "type": "rrf",
+      "k": 0,
+      "top": 200,
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0.1,
+        "cbf": 0,
+        "popularity": 0.1
+      }
+    },
+    "map5": 0.3677138447971781,
+    "warm_map5": 0.36963155555555555,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.37546146227264543,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.39191067731440404,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2535800832,
+    "peak_rss_bytes": 2664120320,
+    "seconds": 1.8955479589640163,
+    "peak_increment_bytes": 128319488
+  },
+  {
+    "name": "main_fusion_13",
+    "family": "hybrid",
+    "config": {
+      "type": "rrf",
+      "k": 0,
+      "top": 200,
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0.3,
+        "cbf": 0,
+        "popularity": 0.1
+      }
+    },
+    "map5": 0.35107716049382715,
+    "warm_map5": 0.3528617777777778,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.3584742481541509,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.37309375924282756,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2664087552,
+    "peak_rss_bytes": 2664120320,
+    "seconds": 0.9166353339678608,
+    "peak_increment_bytes": 32768
+  },
+  {
+    "name": "main_fusion_14",
+    "family": "hybrid",
+    "config": {
+      "type": "rrf",
+      "k": 0,
+      "top": 200,
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0,
+        "cbf": 0.1,
+        "popularity": 0.1
+      }
+    },
+    "map5": 0.3682257495590829,
+    "warm_map5": 0.37014755555555556,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.3759841527102467,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.392564330079858,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2664087552,
+    "peak_rss_bytes": 2664120320,
+    "seconds": 0.9050216670148075,
+    "peak_increment_bytes": 32768
+  },
+  {
+    "name": "main_fusion_15",
+    "family": "hybrid",
+    "config": {
+      "type": "rrf",
+      "k": 0,
+      "top": 200,
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0.1,
+        "cbf": 0.1,
+        "popularity": 0.1
+      }
+    },
+    "map5": 0.3691715167548501,
+    "warm_map5": 0.3711008888888889,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.3769498469295876,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.39356994971901804,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2664087552,
+    "peak_rss_bytes": 2664120320,
+    "seconds": 0.9193543340079486,
+    "peak_increment_bytes": 32768
+  },
+  {
+    "name": "main_fusion_16",
+    "family": "hybrid",
+    "config": {
+      "type": "rrf",
+      "k": 10,
+      "top": 200,
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0.1,
+        "cbf": 0,
+        "popularity": 0.1
+      }
+    },
+    "map5": 0.37016688712522045,
+    "warm_map5": 0.3721042222222222,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.37796618944714566,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.39510795622596867,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2664087552,
+    "peak_rss_bytes": 2792374272,
+    "seconds": 1.8842265419661999,
+    "peak_increment_bytes": 128286720
+  },
+  {
+    "name": "main_fusion_17",
+    "family": "hybrid",
+    "config": {
+      "type": "rrf",
+      "k": 10,
+      "top": 200,
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0.3,
+        "cbf": 0,
+        "popularity": 0.1
+      }
+    },
+    "map5": 0.3704845679012346,
+    "warm_map5": 0.37242444444444445,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.37829056365928326,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.3949985211475895,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2792341504,
+    "peak_rss_bytes": 2792374272,
+    "seconds": 0.9343375830212608,
+    "peak_increment_bytes": 32768
+  },
+  {
+    "name": "main_fusion_18",
+    "family": "hybrid",
+    "config": {
+      "type": "rrf",
+      "k": 10,
+      "top": 200,
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0,
+        "cbf": 0.1,
+        "popularity": 0.1
+      }
+    },
+    "map5": 0.3713064373897707,
+    "warm_map5": 0.3732528888888889,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.379129749684855,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.39622301094350787,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2310897664,
+    "peak_rss_bytes": 2342993920,
+    "seconds": 0.905813165998552,
+    "peak_increment_bytes": 32096256
+  },
+  {
+    "name": "main_fusion_19",
+    "family": "hybrid",
+    "config": {
+      "type": "rrf",
+      "k": 10,
+      "top": 200,
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0.1,
+        "cbf": 0.1,
+        "popularity": 0.1
+      }
+    },
+    "map5": 0.37363117283950614,
+    "warm_map5": 0.3755962222222222,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.3815034665946335,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.39875184856551316,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2342961152,
+    "peak_rss_bytes": 2342993920,
+    "seconds": 0.9290152080357075,
+    "peak_increment_bytes": 32768
+  },
+  {
+    "name": "main_fusion_20",
+    "family": "hybrid",
+    "config": {
+      "type": "sparse_switch",
+      "threshold": 3,
+      "other": "cf",
+      "popularity_weight": 0.1
+    },
+    "map5": 0.368598544973545,
+    "warm_map5": 0.3705233333333333,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.3763648028092923,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.3931499556344277,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2342961152,
+    "peak_rss_bytes": 2342993920,
+    "seconds": 0.9108867920003831,
+    "peak_increment_bytes": 32768
+  },
+  {
+    "name": "main_fusion_21",
+    "family": "hybrid",
+    "config": {
+      "type": "sparse_switch",
+      "threshold": 3,
+      "other": "cbf",
+      "popularity_weight": 0.1
+    },
+    "map5": 0.36870436507936505,
+    "warm_map5": 0.37063,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.37647285251215556,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.39326826382727004,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2342961152,
+    "peak_rss_bytes": 2342993920,
+    "seconds": 0.9176055830321275,
+    "peak_increment_bytes": 32768
+  },
+  {
+    "name": "main_fusion_22",
+    "family": "hybrid",
+    "config": {
+      "type": "sparse_switch",
+      "threshold": 10,
+      "other": "cf",
+      "popularity_weight": 0.1
+    },
+    "map5": 0.3689499559082893,
+    "warm_map5": 0.37087755555555557,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.37672361786421754,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.39404318249038744,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2342961152,
+    "peak_rss_bytes": 2342993920,
+    "seconds": 0.9296074170270003,
+    "peak_increment_bytes": 32768
+  },
+  {
+    "name": "main_fusion_23",
+    "family": "hybrid",
+    "config": {
+      "type": "sparse_switch",
+      "threshold": 10,
+      "other": "cbf",
+      "popularity_weight": 0.1
+    },
+    "map5": 0.36791600529100527,
+    "warm_map5": 0.36983533333333335,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.37566788222582387,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.39247559893522627,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2342961152,
+    "peak_rss_bytes": 2342993920,
+    "seconds": 0.962915709009394,
+    "peak_increment_bytes": 32768
+  },
+  {
+    "name": "main_fusion_24",
+    "family": "hybrid",
+    "config": {
+      "type": "sparse_switch",
+      "threshold": 20,
+      "other": "cf",
+      "popularity_weight": 0.1
+    },
+    "map5": 0.3660244708994709,
+    "warm_map5": 0.3679286666666667,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.3737364937871421,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.3902425317953268,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2342961152,
+    "peak_rss_bytes": 2342993920,
+    "seconds": 0.9681525829946622,
+    "peak_increment_bytes": 32768
+  },
+  {
+    "name": "main_fusion_25",
+    "family": "hybrid",
+    "config": {
+      "type": "sparse_switch",
+      "threshold": 20,
+      "other": "cbf",
+      "popularity_weight": 0.1
+    },
+    "map5": 0.36199647266313933,
+    "warm_map5": 0.36386844444444444,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.3696236268683594,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.38659568175096126,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2342961152,
+    "peak_rss_bytes": 2342993920,
+    "seconds": 1.0981958329793997,
+    "peak_increment_bytes": 32768
+  }
+]

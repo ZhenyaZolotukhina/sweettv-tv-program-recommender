@@ -1,0 +1,30 @@
+[
+  {
+    "window": "main",
+    "variant": "same_pool_features",
+    "relevant_top5_hits": 2814,
+    "correct_top5_programmes_absent_from_original_pool": 0,
+    "v5_relevant_top5_hits": 2817
+  },
+  {
+    "window": "main",
+    "variant": "expanded200",
+    "relevant_top5_hits": 2803,
+    "correct_top5_programmes_absent_from_original_pool": 0,
+    "v5_relevant_top5_hits": 2817
+  },
+  {
+    "window": "earlier",
+    "variant": "same_pool_features",
+    "relevant_top5_hits": 2846,
+    "correct_top5_programmes_absent_from_original_pool": 0,
+    "v5_relevant_top5_hits": 2840
+  },
+  {
+    "window": "earlier",
+    "variant": "expanded200",
+    "relevant_top5_hits": 2839,
+    "correct_top5_programmes_absent_from_original_pool": 0,
+    "v5_relevant_top5_hits": 2840
+  }
+]

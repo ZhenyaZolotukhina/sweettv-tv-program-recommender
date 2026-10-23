@@ -1,0 +1,42 @@
+{
+  "association_scorers": {
+    "confidence": {
+      "kind": "confidence",
+      "min_users": 3,
+      "shrinkage": 20.0,
+      "prior": 10.0,
+      "neighbors": 200
+    },
+    "shrink_cosine": {
+      "kind": "shrink_cosine",
+      "min_users": 3,
+      "shrinkage": 20.0,
+      "prior": 10.0,
+      "neighbors": 200
+    }
+  },
+  "transactions": "One binary basket per distinct user over pre-cutoff history; repeated airings affect seed weight, not independent-user rule support.",
+  "input_policy": ">=50% uninterrupted original programme duration, same unique-airing counts as V5",
+  "seed_weights": "L1-normalized log1p qualified airing frequency; self rules removed; watched items otherwise allowed",
+  "association_config_selection": "Largest average standalone MAP across both windows; no Kaggle score use",
+  "integration_a": "Old V5 pool UNION association supported Top100; V5 59 features plus association evidence; same policy in rolling training/inference.",
+  "integration_b_gate": "Run only if audit confirms raw CF scale/distribution shift (main median user norm >1.5x maximum rolling median). Existing exposure policy is NOT assumed buggy.",
+  "integration_b": "Same cached BPR Top200 expansion; replace raw scale-dependent BPR fields with cutoff-local z/percentiles, explicit NaN missing values and known flags. No new CF fits or candidate N search.",
+  "maximum_integrations": 2,
+  "training_folds": [
+    {
+      "name": "roll_mar23",
+      "cutoff": 1584921600,
+      "target_end": 1586131200
+    },
+    {
+      "name": "roll_apr06",
+      "cutoff": 1586131200,
+      "target_end": 1586736000
+    }
+  ],
+  "selection": "Both MAP gain>=0.001 and paired95 lower>0; heavy/light/repeat-heavy gain>=-0.003 both, cold identical; otherwise retain V5",
+  "kaggle_score_use": false,
+  "source": "https://rasbt.github.io/mlxtend/user_guide/frequent_patterns/association_rules/",
+  "attribution": "Support/confidence terminology and standard cosine. Formulas and sparse implementation independently authored; mlxtend not installed or copied."
+}

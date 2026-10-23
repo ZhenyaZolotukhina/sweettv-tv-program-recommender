@@ -1,0 +1,39 @@
+{
+  "classifier": "HistGradientBoostingClassifier, weighted binary log_loss; no pairwise/listwise objective",
+  "labels_are_top5_membership_not_any_completed_programme": true,
+  "coverage_threshold": ">=80% uninterrupted original airing duration, then frequency Top5",
+  "classifier_weighting": "per-query size correction; positive rows x10; within-fold normalization",
+  "classifier_actual_loss": "log_loss",
+  "classifier_model_sha256": "09e929d2197069f94895f639c4070dafae1a6df0cfb3c4a262fae1853fb8d9b0",
+  "ranking_group_definition": "user x fold; contiguous candidates in cached order",
+  "folds": [
+    {
+      "queries": 1260,
+      "rows": 252933,
+      "positives": 4408,
+      "zero_positive_queries": 135,
+      "group_sizes_min": 200,
+      "group_sizes_max": 229,
+      "name": "roll_mar23",
+      "cutoff": 1584921600,
+      "target_end": 1586131200
+    },
+    {
+      "queries": 1260,
+      "rows": 260359,
+      "positives": 3152,
+      "zero_positive_queries": 256,
+      "group_sizes_min": 200,
+      "group_sizes_max": 247,
+      "name": "roll_apr06",
+      "cutoff": 1586131200,
+      "target_end": 1586736000
+    }
+  ],
+  "last_training_label_end": 1586736000,
+  "main_eval_cutoff": 1589760000,
+  "earlier_eval_cutoff": 1586736000,
+  "no_eval_labels_fit_or_preprocessing": true,
+  "features": 59,
+  "pools_unchanged": true
+}

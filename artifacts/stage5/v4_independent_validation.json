@@ -1,0 +1,14 @@
+{
+  "valid": true,
+  "rows": 1260,
+  "candidates": 6632,
+  "sha256": "08dbcca1aa312f03397447205684143b20c9a632d5fc8868c4c2916210d44ce2",
+  "original_ids_order_distinct_available_programmes": true,
+  "independent_model_reload_and_all_row_rank_check": true,
+  "temporal_training_roles_verified": true,
+  "offline_ablation_files_checked": 6,
+  "frozen_primary_truth_and_all_user_denominator": true,
+  "cold_fallback_unchanged": true,
+  "prior_v1_v2_v3_and_evidence_unchanged": true,
+  "kaggle_requests": 0
+}

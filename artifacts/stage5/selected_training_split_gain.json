@@ -1,0 +1,29 @@
+{
+  "interpretation": "descriptive training split gains only; six-feature block tested as a whole",
+  "added_features": [
+    {
+      "name": "loyal_raw_loyalty",
+      "gain": 9335.271128748469
+    },
+    {
+      "name": "loyal_duration_loyalty",
+      "gain": 3848.0076417892296
+    },
+    {
+      "name": "loyal_completion_ratio",
+      "gain": 6869.91578934767
+    },
+    {
+      "name": "loyal_log_channel_intensity",
+      "gain": 6461.011951100659
+    },
+    {
+      "name": "loyal_complete_popularity",
+      "gain": 20343.57140772542
+    },
+    {
+      "name": "loyal_loyalty_complete_popularity",
+      "gain": 112625.2334977341
+    }
+  ]
+}

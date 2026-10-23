@@ -1,0 +1,28 @@
+{
+  "popularity": {
+    "minimum": 0.5,
+    "strength": "frequency",
+    "half_life": 0
+  },
+  "repeat": {
+    "minimum": 0.5,
+    "strength": "frequency",
+    "half_life": 0
+  },
+  "repeat_popularity": {
+    "weight": 0.1
+  },
+  "cf": {
+    "minimum": 0.5,
+    "factors": 32,
+    "alpha": 10.0,
+    "regularization": 1.0,
+    "iterations": 12,
+    "seed": 42
+  },
+  "cbf": {
+    "minimum": 0.5,
+    "rich": true,
+    "half_life": 0
+  }
+}

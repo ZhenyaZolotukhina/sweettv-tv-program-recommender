@@ -1,0 +1,224 @@
+[
+  {
+    "reason": "largest association-integration correction",
+    "rejected_candidate": true,
+    "history_cutoff": 1589760000,
+    "v5_top5": [
+      {
+        "item": 2400480,
+        "title": "ТСН. Неделя.",
+        "category": "Инфо"
+      },
+      {
+        "item": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо"
+      },
+      {
+        "item": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо"
+      },
+      {
+        "item": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения"
+      },
+      {
+        "item": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо"
+      }
+    ],
+    "association_top5": [
+      {
+        "item": 2400480,
+        "title": "ТСН. Неделя.",
+        "category": "Инфо"
+      },
+      {
+        "item": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо"
+      },
+      {
+        "item": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо"
+      },
+      {
+        "item": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо"
+      },
+      {
+        "item": 6200371,
+        "title": "'ДжеДАИ'.",
+        "category": "Познавательное"
+      }
+    ],
+    "truth": [
+      {
+        "item": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо"
+      },
+      {
+        "item": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо"
+      },
+      {
+        "item": 2400480,
+        "title": "ТСН. Неделя.",
+        "category": "Инфо"
+      },
+      {
+        "item": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо"
+      },
+      {
+        "item": 6200371,
+        "title": "'ДжеДАИ'.",
+        "category": "Познавательное"
+      }
+    ],
+    "exact_ap5": {
+      "v5": {
+        "hit_ranks": [
+          1,
+          2,
+          3,
+          5
+        ],
+        "fraction": "19/25",
+        "ap5": 0.76,
+        "arithmetic": "(1/1 + 2/2 + 3/3 + 4/5)/5"
+      },
+      "association_integration": {
+        "hit_ranks": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "fraction": "1",
+        "ap5": 1.0,
+        "arithmetic": "(1/1 + 2/2 + 3/3 + 4/4 + 5/5)/5"
+      }
+    },
+    "executor": "AI assistant; no student verification claimed"
+  },
+  {
+    "reason": "largest association-integration regression",
+    "rejected_candidate": true,
+    "history_cutoff": 1589760000,
+    "v5_top5": [
+      {
+        "item": 2400480,
+        "title": "ТСН. Неделя.",
+        "category": "Инфо"
+      },
+      {
+        "item": 12002955,
+        "title": "М/с 'Свинка Пеппа', 1 с. 'Лужи'.",
+        "category": "Детям"
+      },
+      {
+        "item": 12002896,
+        "title": "М/с 'Вспыш и чудо-машинки', 1 сезон, 15 с. 'Авто-Рейнджеры'.",
+        "category": "Детям"
+      },
+      {
+        "item": 12001682,
+        "title": "М/с 'Губка Боб Квадратные Штаны'.",
+        "category": "Детям"
+      },
+      {
+        "item": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо"
+      }
+    ],
+    "association_top5": [
+      {
+        "item": 2400480,
+        "title": "ТСН. Неделя.",
+        "category": "Инфо"
+      },
+      {
+        "item": 12001682,
+        "title": "М/с 'Губка Боб Квадратные Штаны'.",
+        "category": "Детям"
+      },
+      {
+        "item": 12002896,
+        "title": "М/с 'Вспыш и чудо-машинки', 1 сезон, 15 с. 'Авто-Рейнджеры'.",
+        "category": "Детям"
+      },
+      {
+        "item": 12002955,
+        "title": "М/с 'Свинка Пеппа', 1 с. 'Лужи'.",
+        "category": "Детям"
+      },
+      {
+        "item": 10001336,
+        "title": "Т/с 'Кости', 2 сезон, 2 с. 'Мать и дитя в бухте'.",
+        "category": "Сериалы"
+      }
+    ],
+    "truth": [
+      {
+        "item": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо"
+      },
+      {
+        "item": 2400480,
+        "title": "ТСН. Неделя.",
+        "category": "Инфо"
+      },
+      {
+        "item": 12002172,
+        "title": "М/с 'Гуппи и пузырики', 3 сезон, 18 с. 'Забег лягушек'.",
+        "category": "Детям"
+      },
+      {
+        "item": 12002896,
+        "title": "М/с 'Вспыш и чудо-машинки', 1 сезон, 15 с. 'Авто-Рейнджеры'.",
+        "category": "Детям"
+      },
+      {
+        "item": 12002955,
+        "title": "М/с 'Свинка Пеппа', 1 с. 'Лужи'.",
+        "category": "Детям"
+      }
+    ],
+    "exact_ap5": {
+      "v5": {
+        "hit_ranks": [
+          1,
+          2,
+          3,
+          5
+        ],
+        "fraction": "19/25",
+        "ap5": 0.76,
+        "arithmetic": "(1/1 + 2/2 + 3/3 + 4/5)/5"
+      },
+      "association_integration": {
+        "hit_ranks": [
+          1,
+          3,
+          4
+        ],
+        "fraction": "29/60",
+        "ap5": 0.48333333333333334,
+        "arithmetic": "(1/1 + 2/3 + 3/4)/5"
+      }
+    },
+    "executor": "AI assistant; no student verification claimed"
+  }
+]

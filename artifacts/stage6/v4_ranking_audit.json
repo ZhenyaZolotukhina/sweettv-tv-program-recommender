@@ -1,0 +1,26 @@
+[
+  {
+    "window": "main",
+    "candidate_recall_micro": {
+      "20": 0.6833165153044063,
+      "50": 0.7880928355196771,
+      "200": 0.870669357551295
+    },
+    "missing_relevant_inside_pool_below5": 2393,
+    "missing_relevant_outside_pool": 762,
+    "all_v4_top5_exactly_reproduced": true,
+    "mean_pool_size": 222.04761904761904
+  },
+  {
+    "window": "earlier",
+    "candidate_recall_micro": {
+      "20": 0.7263436123348017,
+      "50": 0.8259030837004405,
+      "200": 0.8888105726872246
+    },
+    "missing_relevant_inside_pool_below5": 2244,
+    "missing_relevant_outside_pool": 627,
+    "all_v4_top5_exactly_reproduced": true,
+    "mean_pool_size": 219.29285714285714
+  }
+]

@@ -1,0 +1,320 @@
+[
+  {
+    "experiment": "consistency",
+    "window": "main",
+    "map5": 0.3846781305114639,
+    "warm_map5": 0.38673155555555555,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.392783180262921,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.41079562259686486,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "gain": 0.00034171075837742613,
+    "paired_95_ci": [
+      -0.0015942570546737202,
+      0.0022724426807760162
+    ],
+    "improved_users": 102,
+    "regressed_users": 100,
+    "light_history_gain": -0.0005913978494623649,
+    "recency_tie_sensitivity_gain": -0.00023500881834215105,
+    "fit_resources": {
+      "rss_before_bytes": 1401487360,
+      "peak_rss_bytes": 1759838208,
+      "seconds": 16.159256499959156,
+      "peak_increment_bytes": 358350848
+    },
+    "prediction_resources": {
+      "rss_before_bytes": 1370718208,
+      "peak_rss_bytes": 1507328000,
+      "seconds": 0.7144771250314079,
+      "peak_increment_bytes": 136609792
+    },
+    "training_folds": [
+      {
+        "name": "roll_mar23",
+        "cutoff": 1584921600,
+        "target_end": 1586131200,
+        "rows": 252933,
+        "positives": 4408,
+        "extra_cutoff": 1584921600
+      },
+      {
+        "name": "roll_apr06",
+        "cutoff": 1586131200,
+        "target_end": 1586736000,
+        "rows": 260359,
+        "positives": 3152,
+        "extra_cutoff": 1586131200
+      }
+    ]
+  },
+  {
+    "experiment": "consistency",
+    "window": "earlier",
+    "map5": 0.39996318342151677,
+    "warm_map5": 0.40413280762719417,
+    "cold_map5": 0.0,
+    "warm_users": 1247,
+    "cold_users": 13,
+    "nonempty_map5": 0.41683507949636983,
+    "nonempty_users": 1209,
+    "full_five_map5": 0.4371136653895275,
+    "full_five_users": 1044,
+    "denominator": 1260,
+    "gain": -0.0001119929453262785,
+    "paired_95_ci": [
+      -0.0022024360670194,
+      0.0018360670194003529
+    ],
+    "improved_users": 83,
+    "regressed_users": 80,
+    "light_history_gain": 0.00014041514041514042,
+    "recency_tie_sensitivity_gain": -3.5273368606701944e-05,
+    "fit_resources": {
+      "rss_before_bytes": 1401487360,
+      "peak_rss_bytes": 1759838208,
+      "seconds": 16.159256499959156,
+      "peak_increment_bytes": 358350848
+    },
+    "prediction_resources": {
+      "rss_before_bytes": 1388167168,
+      "peak_rss_bytes": 1455620096,
+      "seconds": 0.6669730839785188,
+      "peak_increment_bytes": 67452928
+    },
+    "training_folds": [
+      {
+        "name": "roll_mar23",
+        "cutoff": 1584921600,
+        "target_end": 1586131200,
+        "rows": 252933,
+        "positives": 4408,
+        "extra_cutoff": 1584921600
+      },
+      {
+        "name": "roll_apr06",
+        "cutoff": 1586131200,
+        "target_end": 1586736000,
+        "rows": 260359,
+        "positives": 3152,
+        "extra_cutoff": 1586131200
+      }
+    ]
+  },
+  {
+    "experiment": "loyalty",
+    "window": "main",
+    "map5": 0.3914270282186949,
+    "warm_map5": 0.39353444444444446,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.39967427516657666,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.41827565808932266,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "gain": 0.007090608465608467,
+    "paired_95_ci": [
+      0.004512318121693122,
+      0.009772332451499118
+    ],
+    "improved_users": 196,
+    "regressed_users": 94,
+    "light_history_gain": 0.005752688172043013,
+    "recency_tie_sensitivity_gain": 0.005868386243386244,
+    "fit_resources": {
+      "rss_before_bytes": 1478721536,
+      "peak_rss_bytes": 1724973056,
+      "seconds": 14.33949774998473,
+      "peak_increment_bytes": 246251520
+    },
+    "prediction_resources": {
+      "rss_before_bytes": 1387659264,
+      "peak_rss_bytes": 1392181248,
+      "seconds": 0.7118836659938097,
+      "peak_increment_bytes": 4521984
+    },
+    "training_folds": [
+      {
+        "name": "roll_mar23",
+        "cutoff": 1584921600,
+        "target_end": 1586131200,
+        "rows": 252933,
+        "positives": 4408,
+        "extra_cutoff": 1584921600
+      },
+      {
+        "name": "roll_apr06",
+        "cutoff": 1586131200,
+        "target_end": 1586736000,
+        "rows": 260359,
+        "positives": 3152,
+        "extra_cutoff": 1586131200
+      }
+    ]
+  },
+  {
+    "experiment": "loyalty",
+    "window": "earlier",
+    "map5": 0.4026871693121693,
+    "warm_map5": 0.40688519112536753,
+    "cold_map5": 0.0,
+    "warm_users": 1247,
+    "cold_users": 13,
+    "nonempty_map5": 0.4196739729804246,
+    "nonempty_users": 1209,
+    "full_five_map5": 0.4404278416347382,
+    "full_five_users": 1044,
+    "denominator": 1260,
+    "gain": 0.0026119929453262795,
+    "paired_95_ci": [
+      0.0004558256172839519,
+      0.004670045194003528
+    ],
+    "improved_users": 141,
+    "regressed_users": 108,
+    "light_history_gain": 0.0019948107448107444,
+    "recency_tie_sensitivity_gain": 0.002503527336860671,
+    "fit_resources": {
+      "rss_before_bytes": 1478721536,
+      "peak_rss_bytes": 1724973056,
+      "seconds": 14.33949774998473,
+      "peak_increment_bytes": 246251520
+    },
+    "prediction_resources": {
+      "rss_before_bytes": 1392164864,
+      "peak_rss_bytes": 1461846016,
+      "seconds": 0.7078840419999324,
+      "peak_increment_bytes": 69681152
+    },
+    "training_folds": [
+      {
+        "name": "roll_mar23",
+        "cutoff": 1584921600,
+        "target_end": 1586131200,
+        "rows": 252933,
+        "positives": 4408,
+        "extra_cutoff": 1584921600
+      },
+      {
+        "name": "roll_apr06",
+        "cutoff": 1586131200,
+        "target_end": 1586736000,
+        "rows": 260359,
+        "positives": 3152,
+        "extra_cutoff": 1586131200
+      }
+    ]
+  },
+  {
+    "experiment": "opportunity",
+    "window": "main",
+    "map5": 0.3847361111111111,
+    "warm_map5": 0.38679,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.3928423824959481,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.4110884353741497,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "gain": 0.00039969135802469245,
+    "paired_95_ci": [
+      -0.0015442956349206354,
+      0.0023642581569664903
+    ],
+    "improved_users": 81,
+    "regressed_users": 77,
+    "light_history_gain": 0.0013440860215053769,
+    "recency_tie_sensitivity_gain": 0.0002647707231040573,
+    "fit_resources": {
+      "rss_before_bytes": 1542946816,
+      "peak_rss_bytes": 1576353792,
+      "seconds": 14.257626749982592,
+      "peak_increment_bytes": 33406976
+    },
+    "prediction_resources": {
+      "rss_before_bytes": 1159725056,
+      "peak_rss_bytes": 1287372800,
+      "seconds": 0.6245389170362614,
+      "peak_increment_bytes": 127647744
+    },
+    "training_folds": [
+      {
+        "name": "roll_mar23",
+        "cutoff": 1584921600,
+        "target_end": 1586131200,
+        "rows": 252933,
+        "positives": 4408,
+        "extra_cutoff": 1584921600
+      },
+      {
+        "name": "roll_apr06",
+        "cutoff": 1586131200,
+        "target_end": 1586736000,
+        "rows": 260359,
+        "positives": 3152,
+        "extra_cutoff": 1586131200
+      }
+    ]
+  },
+  {
+    "experiment": "opportunity",
+    "window": "earlier",
+    "map5": 0.39913822751322753,
+    "warm_map5": 0.40329925153702223,
+    "cold_map5": 0.0,
+    "warm_users": 1247,
+    "cold_users": 13,
+    "nonempty_map5": 0.41597532395919495,
+    "nonempty_users": 1209,
+    "full_five_map5": 0.4363441890166028,
+    "full_five_users": 1044,
+    "denominator": 1260,
+    "gain": -0.0009369488536155203,
+    "paired_95_ci": [
+      -0.0024401895943562614,
+      0.0005639440035273362
+    ],
+    "improved_users": 67,
+    "regressed_users": 73,
+    "light_history_gain": 0.00023504273504273518,
+    "recency_tie_sensitivity_gain": -0.00045017636684303375,
+    "fit_resources": {
+      "rss_before_bytes": 1542946816,
+      "peak_rss_bytes": 1576353792,
+      "seconds": 14.257626749982592,
+      "peak_increment_bytes": 33406976
+    },
+    "prediction_resources": {
+      "rss_before_bytes": 1287340032,
+      "peak_rss_bytes": 1354809344,
+      "seconds": 0.6207014580140822,
+      "peak_increment_bytes": 67469312
+    },
+    "training_folds": [
+      {
+        "name": "roll_mar23",
+        "cutoff": 1584921600,
+        "target_end": 1586131200,
+        "rows": 252933,
+        "positives": 4408,
+        "extra_cutoff": 1584921600
+      },
+      {
+        "name": "roll_apr06",
+        "cutoff": 1586131200,
+        "target_end": 1586736000,
+        "rows": 260359,
+        "positives": 3152,
+        "extra_cutoff": 1586131200
+      }
+    ]
+  }
+]

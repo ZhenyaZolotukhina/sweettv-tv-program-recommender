@@ -1,0 +1,19 @@
+{
+  "seconds": 89.57210808398668,
+  "peak_rss_bytes": 2953428992,
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "scipy": "1.16.3",
+  "sklearn": "1.7.2",
+  "seed": 42,
+  "executor": "AI assistant",
+  "source_sha256": {
+    "tvrec/advanced.py": "75adb15da5c62b7350dceb4245f8db263ff132074782175ab616d329fc0bcd69",
+    "tvrec/labels.py": "56c7e06423c054b597f33b3dff84a5864b4ef07130fef1f70ce4c3d5f083153d",
+    "tvrec/check_submission.py": "ac925010e8d720e973266998072b60d92a9c05645e1351c3ca01a763ddb876d8",
+    "tvrec/models.py": "1e0f60512fda6036b44e5a923792f3e7635ec0dbc29af94b18fe4f7c0e4ca37e",
+    "tvrec/diagnostics.py": "e0ee0a246e1a14516e741334d1a8188bb23b04a5ea5340da2b42ac54ba854414",
+    "tvrec/__init__.py": "51a3eaf183400b3b6fc845615eedde22289d695aed18ab4effd387bc3f27c98b",
+    "tvrec/core.py": "854236239f612a7719b5d04b50ba197554634a27a78c7da5dcb1d46decee671a",
+    "tvrec/pipeline.py": "4f518a140c790a847f5f758f0f9c19e24ac201fa53660a10a6881245853db9b2"
+  }
+}

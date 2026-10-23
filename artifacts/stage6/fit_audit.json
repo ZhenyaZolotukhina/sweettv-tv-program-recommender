@@ -1,0 +1,39 @@
+{
+  "queries": 2520,
+  "rows": 513292,
+  "positives": 7560,
+  "folds": [
+    {
+      "queries": 1260,
+      "rows": 252933,
+      "positives": 4408,
+      "zero_positive_queries": 135,
+      "group_sizes_min": 200,
+      "group_sizes_max": 229,
+      "name": "roll_mar23",
+      "cutoff": 1584921600,
+      "target_end": 1586131200
+    },
+    {
+      "queries": 1260,
+      "rows": 260359,
+      "positives": 3152,
+      "zero_positive_queries": 256,
+      "group_sizes_min": 200,
+      "group_sizes_max": 247,
+      "name": "roll_apr06",
+      "cutoff": 1586131200,
+      "target_end": 1586736000
+    }
+  ],
+  "last_training_label_end": 1586736000,
+  "fit_resources": {
+    "rss_before_bytes": 971440128,
+    "peak_rss_bytes": 1026179072,
+    "seconds": 5.187702292052563,
+    "peak_increment_bytes": 54738944
+  },
+  "lightgbm": "4.6.0",
+  "actual_boosting_iterations": 80,
+  "no_holdout_training_or_early_stopping": true
+}

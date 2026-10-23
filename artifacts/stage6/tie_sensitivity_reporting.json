@@ -1,0 +1,14 @@
+[
+  {
+    "window": "main",
+    "frequency_then_recency_tie_gain": 0.0037733686067019405,
+    "primary_target_unchanged": true,
+    "not_used_to_train_ranker": true
+  },
+  {
+    "window": "earlier",
+    "frequency_then_recency_tie_gain": 0.0022685185185185182,
+    "primary_target_unchanged": true,
+    "not_used_to_train_ranker": true
+  }
+]

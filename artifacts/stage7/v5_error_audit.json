@@ -1,0 +1,24 @@
+[
+  {
+    "window": "main",
+    "missed_relevant_items": {
+      "rank6_20": 1304,
+      "rank21_50": 614,
+      "rank51_200": 445,
+      "beyond200_in_pool": 4,
+      "absent_pool": 762
+    },
+    "original_v5_lists_exactly_reproduced": true
+  },
+  {
+    "window": "earlier",
+    "missed_relevant_items": {
+      "rank6_20": 1332,
+      "rank21_50": 536,
+      "rank51_200": 339,
+      "beyond200_in_pool": 1,
+      "absent_pool": 627
+    },
+    "original_v5_lists_exactly_reproduced": true
+  }
+]

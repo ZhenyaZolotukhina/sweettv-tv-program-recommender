@@ -1,0 +1,26 @@
+[
+  {
+    "window": "main",
+    "method": "association",
+    "v5_relevant_top5_hits": 2817,
+    "candidate_relevant_top5_hits": 2785
+  },
+  {
+    "window": "main",
+    "method": "bpr_calibrated",
+    "v5_relevant_top5_hits": 2817,
+    "candidate_relevant_top5_hits": 2799
+  },
+  {
+    "window": "earlier",
+    "method": "association",
+    "v5_relevant_top5_hits": 2840,
+    "candidate_relevant_top5_hits": 2823
+  },
+  {
+    "window": "earlier",
+    "method": "bpr_calibrated",
+    "v5_relevant_top5_hits": 2840,
+    "candidate_relevant_top5_hits": 2820
+  }
+]

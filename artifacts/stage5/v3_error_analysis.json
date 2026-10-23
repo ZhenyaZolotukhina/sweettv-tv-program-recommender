@@ -1,0 +1,66 @@
+{
+  "windows": [
+    {
+      "window": "main",
+      "micro_recall_after_v3": {
+        "20": 0.6818028927009755,
+        "50": 0.7801883619239826,
+        "200": 0.8703329969727548
+      },
+      "misses": {
+        "rank6_20": 1299,
+        "rank21_50": 585,
+        "rank51_200": 536,
+        "rank201_plus_in_pool": 9,
+        "absent_pool": 762
+      },
+      "warm_top5_precision_by_training_frequency": [
+        {
+          "group": "sustained_at_least_two",
+          "rows": 5287,
+          "precision": 0.4910156988840552,
+          "wrong": 2691
+        },
+        {
+          "group": "zero_or_one",
+          "rows": 963,
+          "precision": 0.1557632398753894,
+          "wrong": 813
+        }
+      ],
+      "users_wrong_oneoff_above_missed_completed_repeat": 27
+    },
+    {
+      "window": "earlier",
+      "micro_recall_after_v3": {
+        "20": 0.7254625550660793,
+        "50": 0.8216740088105727,
+        "200": 0.8886343612334802
+      },
+      "misses": {
+        "rank6_20": 1329,
+        "rank21_50": 546,
+        "rank51_200": 380,
+        "rank201_plus_in_pool": 5,
+        "absent_pool": 627
+      },
+      "warm_top5_precision_by_training_frequency": [
+        {
+          "group": "sustained_at_least_two",
+          "rows": 4617,
+          "precision": 0.5386614684860299,
+          "wrong": 2130
+        },
+        {
+          "group": "zero_or_one",
+          "rows": 1618,
+          "precision": 0.18603213844252164,
+          "wrong": 1317
+        }
+      ],
+      "users_wrong_oneoff_above_missed_completed_repeat": 23
+    }
+  ],
+  "interpretation": "One-off precision and displacement are measured, not assumed to imply dislike.",
+  "hypotheses_are_fixed_in_plan": true
+}

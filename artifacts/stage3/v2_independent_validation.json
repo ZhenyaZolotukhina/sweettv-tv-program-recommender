@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "rows": 1260,
+  "candidates": 6632,
+  "submission_sha256": "987f8fde48654ba982c20b36e25bf78017749c58b15d96bccdbc8eca5f7d2671",
+  "original_ids_and_order": true,
+  "five_distinct_positive_available_ids": true,
+  "independent_sql_qualification_and_channel_counts": true,
+  "all_channel_scores_and_final_rankings_recomputed": true,
+  "same_v1_cold_fallback": true,
+  "prior_v1_and_evidence_unchanged": true,
+  "offline_method_files_checked": 22,
+  "same_frozen_truth_users_availability_warm_cold_groups": true,
+  "all_offline_ap5_and_hit_ranks_recomputed": true,
+  "kaggle_requests": 0
+}

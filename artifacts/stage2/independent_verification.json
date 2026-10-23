@@ -1,0 +1,230 @@
+{
+  "independent_coverage_verified": true,
+  "overlap_seconds": 3000,
+  "programme_duration": 3300,
+  "fraction": 0.9090909090909091,
+  "strict_80": true,
+  "integer_arithmetic": "15000 > 13200",
+  "method_prediction_files_checked": 43,
+  "rows_per_method": 1260,
+  "same_candidates_users_truth_each_method": true,
+  "all_per_user_aps_and_hit_ranks_recomputed": true,
+  "files": [
+    {
+      "file": "artifacts/stage2/private/main_cbf_0.csv",
+      "rows": 1260,
+      "map5": 0.2576258818342152
+    },
+    {
+      "file": "artifacts/stage2/private/main_cbf_1.csv",
+      "rows": 1260,
+      "map5": 0.08391776895943563
+    },
+    {
+      "file": "artifacts/stage2/private/main_cbf_2.csv",
+      "rows": 1260,
+      "map5": 0.17957341269841268
+    },
+    {
+      "file": "artifacts/stage2/private/main_cf_0.csv",
+      "rows": 1260,
+      "map5": 0.16596538800705468
+    },
+    {
+      "file": "artifacts/stage2/private/main_cf_1.csv",
+      "rows": 1260,
+      "map5": 0.12094907407407406
+    },
+    {
+      "file": "artifacts/stage2/private/main_cf_2.csv",
+      "rows": 1260,
+      "map5": 0.104076278659612
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_0.csv",
+      "rows": 1260,
+      "map5": 0.36870436507936505
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_1.csv",
+      "rows": 1260,
+      "map5": 0.3699041005291005
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_10.csv",
+      "rows": 1260,
+      "map5": 0.3716183862433863
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_11.csv",
+      "rows": 1260,
+      "map5": 0.36463183421516754
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_12.csv",
+      "rows": 1260,
+      "map5": 0.3677138447971781
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_13.csv",
+      "rows": 1260,
+      "map5": 0.3510771604938272
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_14.csv",
+      "rows": 1260,
+      "map5": 0.3682257495590829
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_15.csv",
+      "rows": 1260,
+      "map5": 0.3691715167548501
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_16.csv",
+      "rows": 1260,
+      "map5": 0.37016688712522045
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_17.csv",
+      "rows": 1260,
+      "map5": 0.3704845679012346
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_18.csv",
+      "rows": 1260,
+      "map5": 0.3713064373897707
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_19.csv",
+      "rows": 1260,
+      "map5": 0.37363117283950614
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_2.csv",
+      "rows": 1260,
+      "map5": 0.3687938712522046
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_20.csv",
+      "rows": 1260,
+      "map5": 0.368598544973545
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_21.csv",
+      "rows": 1260,
+      "map5": 0.36870436507936505
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_22.csv",
+      "rows": 1260,
+      "map5": 0.3689499559082893
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_23.csv",
+      "rows": 1260,
+      "map5": 0.36791600529100527
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_24.csv",
+      "rows": 1260,
+      "map5": 0.3660244708994709
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_25.csv",
+      "rows": 1260,
+      "map5": 0.36199647266313933
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_3.csv",
+      "rows": 1260,
+      "map5": 0.3679519400352733
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_4.csv",
+      "rows": 1260,
+      "map5": 0.3701084656084656
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_5.csv",
+      "rows": 1260,
+      "map5": 0.36926785714285715
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_6.csv",
+      "rows": 1260,
+      "map5": 0.3695383597883598
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_7.csv",
+      "rows": 1260,
+      "map5": 0.36907275132275136
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_8.csv",
+      "rows": 1260,
+      "map5": 0.3702718253968254
+    },
+    {
+      "file": "artifacts/stage2/private/main_fusion_9.csv",
+      "rows": 1260,
+      "map5": 0.37096362433862434
+    },
+    {
+      "file": "artifacts/stage2/private/main_popularity_0.csv",
+      "rows": 1260,
+      "map5": 0.29500859788359785
+    },
+    {
+      "file": "artifacts/stage2/private/main_popularity_1.csv",
+      "rows": 1260,
+      "map5": 0.29500859788359785
+    },
+    {
+      "file": "artifacts/stage2/private/main_popularity_2.csv",
+      "rows": 1260,
+      "map5": 0.26992658730158725
+    },
+    {
+      "file": "artifacts/stage2/private/main_repeat_0.csv",
+      "rows": 1260,
+      "map5": 0.34910824514991184
+    },
+    {
+      "file": "artifacts/stage2/private/main_repeat_1.csv",
+      "rows": 1260,
+      "map5": 0.36600727513227516
+    },
+    {
+      "file": "artifacts/stage2/private/main_repeat_2.csv",
+      "rows": 1260,
+      "map5": 0.35480379188712524
+    },
+    {
+      "file": "artifacts/stage2/private/main_repeat_3.csv",
+      "rows": 1260,
+      "map5": 0.3590925925925926
+    },
+    {
+      "file": "artifacts/stage2/private/main_repeat_4.csv",
+      "rows": 1260,
+      "map5": 0.3600229276895944
+    },
+    {
+      "file": "artifacts/stage2/private/main_repeat_5.csv",
+      "rows": 1260,
+      "map5": 0.354621913580247
+    },
+    {
+      "file": "artifacts/stage2/private/main_repeat_popularity_0.csv",
+      "rows": 1260,
+      "map5": 0.36870436507936505
+    },
+    {
+      "file": "artifacts/stage2/private/main_repeat_popularity_1.csv",
+      "rows": 1260,
+      "map5": 0.36476256613756614
+    }
+  ],
+  "no_raw_csv_rescan": true
+}

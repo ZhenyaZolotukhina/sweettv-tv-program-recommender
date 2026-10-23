@@ -1,0 +1,182 @@
+[
+  {
+    "window": "main",
+    "name": "v1",
+    "mean_delta": 0.0,
+    "bootstrap_95_percentile_interval": [
+      0.0,
+      0.0
+    ],
+    "selection_optimism_not_corrected": true
+  },
+  {
+    "window": "main",
+    "name": "recency",
+    "mean_delta": -0.006875661375661375,
+    "bootstrap_95_percentile_interval": [
+      -0.00992161044973545,
+      -0.00403819995590829
+    ],
+    "selection_optimism_not_corrected": true
+  },
+  {
+    "window": "main",
+    "name": "confidence",
+    "mean_delta": -0.0025632716049382716,
+    "bootstrap_95_percentile_interval": [
+      -0.005764324294532629,
+      0.0003541446208112884
+    ],
+    "selection_optimism_not_corrected": true
+  },
+  {
+    "window": "main",
+    "name": "opportunity",
+    "mean_delta": -0.0026997354497354494,
+    "bootstrap_95_percentile_interval": [
+      -0.006237318121693121,
+      0.0006810074955908279
+    ],
+    "selection_optimism_not_corrected": true
+  },
+  {
+    "window": "main",
+    "name": "channel_alone",
+    "mean_delta": -0.014639550264550265,
+    "bootstrap_95_percentile_interval": [
+      -0.022586513447971784,
+      -0.007533360890652556
+    ],
+    "selection_optimism_not_corrected": true
+  },
+  {
+    "window": "main",
+    "name": "habit_alone",
+    "mean_delta": -0.3712634479717813,
+    "bootstrap_95_percentile_interval": [
+      -0.3848616181657848,
+      -0.3568771604938272
+    ],
+    "selection_optimism_not_corrected": true
+  },
+  {
+    "window": "main",
+    "name": "v1_plus_channel",
+    "mean_delta": 0.0011236772486772487,
+    "bootstrap_95_percentile_interval": [
+      -0.0006515046296296297,
+      0.002872189153439154
+    ],
+    "selection_optimism_not_corrected": true
+  },
+  {
+    "window": "main",
+    "name": "v1_plus_habit",
+    "mean_delta": -0.0002328042328042327,
+    "bootstrap_95_percentile_interval": [
+      -0.0005953703703703702,
+      5.820105820105828e-05
+    ],
+    "selection_optimism_not_corrected": true
+  },
+  {
+    "window": "main",
+    "name": "confidence_opportunity",
+    "mean_delta": 0.001505952380952382,
+    "bootstrap_95_percentile_interval": [
+      -0.0023703207671957665,
+      0.005572508818342152
+    ],
+    "selection_optimism_not_corrected": true
+  },
+  {
+    "window": "earlier",
+    "name": "v1",
+    "mean_delta": 0.0,
+    "bootstrap_95_percentile_interval": [
+      0.0,
+      0.0
+    ],
+    "selection_optimism_not_corrected": true
+  },
+  {
+    "window": "earlier",
+    "name": "recency",
+    "mean_delta": -0.009811728395061727,
+    "bootstrap_95_percentile_interval": [
+      -0.013326350308641974,
+      -0.006386221340388009
+    ],
+    "selection_optimism_not_corrected": true
+  },
+  {
+    "window": "earlier",
+    "name": "confidence",
+    "mean_delta": -0.0031382275132275125,
+    "bootstrap_95_percentile_interval": [
+      -0.006393557098765432,
+      0.0002201940035273368
+    ],
+    "selection_optimism_not_corrected": true
+  },
+  {
+    "window": "earlier",
+    "name": "opportunity",
+    "mean_delta": -0.003340167548500881,
+    "bootstrap_95_percentile_interval": [
+      -0.0070187003968253964,
+      0.0002995315255731923
+    ],
+    "selection_optimism_not_corrected": true
+  },
+  {
+    "window": "earlier",
+    "name": "channel_alone",
+    "mean_delta": -0.02185405643738977,
+    "bootstrap_95_percentile_interval": [
+      -0.02978098544973545,
+      -0.013903323412698416
+    ],
+    "selection_optimism_not_corrected": true
+  },
+  {
+    "window": "earlier",
+    "name": "habit_alone",
+    "mean_delta": -0.386110229276896,
+    "bootstrap_95_percentile_interval": [
+      -0.4001048170194003,
+      -0.3719662918871252
+    ],
+    "selection_optimism_not_corrected": true
+  },
+  {
+    "window": "earlier",
+    "name": "v1_plus_channel",
+    "mean_delta": 0.0019464285714285712,
+    "bootstrap_95_percentile_interval": [
+      1.3194444444444312e-05,
+      0.003958118386243385
+    ],
+    "selection_optimism_not_corrected": true
+  },
+  {
+    "window": "earlier",
+    "name": "v1_plus_habit",
+    "mean_delta": 3.439153439153436e-05,
+    "bootstrap_95_percentile_interval": [
+      -0.00024603174603174605,
+      0.0003337962962962959
+    ],
+    "selection_optimism_not_corrected": true
+  },
+  {
+    "window": "earlier",
+    "name": "confidence_opportunity",
+    "mean_delta": 8.377425044093197e-06,
+    "bootstrap_95_percentile_interval": [
+      -0.004439643959435625,
+      0.004320089285714285
+    ],
+    "selection_optimism_not_corrected": true
+  }
+]

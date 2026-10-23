@@ -1,0 +1,14 @@
+[
+  {
+    "window": "main",
+    "als_recall200_micro": 0.8353514968045745,
+    "v5_postrank_recall200_micro": 0.8711738984191053,
+    "v5_existing_pool_recall_micro": 0.8718466195761857
+  },
+  {
+    "window": "earlier",
+    "als_recall200_micro": 0.8488105726872247,
+    "v5_postrank_recall200_micro": 0.8893392070484581,
+    "v5_existing_pool_recall_micro": 0.8895154185022026
+  }
+]

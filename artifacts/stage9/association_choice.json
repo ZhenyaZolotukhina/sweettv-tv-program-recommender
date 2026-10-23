@@ -1,0 +1,5 @@
+{
+  "selected": "confidence",
+  "rule": "Largest average standalone MAP across both windows; no Kaggle score use",
+  "two_scorers_only": true
+}

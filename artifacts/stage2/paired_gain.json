@@ -1,0 +1,13 @@
+{
+  "same_users": 1260,
+  "same_candidates": 6361,
+  "versus": "best repeat alone",
+  "hybrid_minus_repeat_mean_ap5": 0.007623897707231041,
+  "improved_users": 223,
+  "worsened_users": 90,
+  "bootstrap_95_percentile_interval": [
+    0.005138547178130512,
+    0.010218259479717813
+  ],
+  "warning": "Selection on same holdout; interval does not correct model-selection optimism."
+}

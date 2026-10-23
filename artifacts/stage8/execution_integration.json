@@ -1,0 +1,28 @@
+{
+  "resources": {
+    "rss_before_bytes": 345980928,
+    "peak_rss_bytes": 1425031168,
+    "seconds": 17.66552766598761,
+    "peak_increment_bytes": 1079050240
+  },
+  "config": {
+    "factors": 32,
+    "epochs": 25,
+    "batch_size": 2048,
+    "learning_rate": 0.05,
+    "regularization": 0.002,
+    "seed": 42,
+    "positive_weight": "log_frequency"
+  },
+  "new_cf_feature_names": [
+    "bpr_raw_score",
+    "bpr_reciprocal_rank",
+    "bpr_item_bias",
+    "bpr_latent_cosine",
+    "bpr_user_factor_norm",
+    "bpr_item_factor_norm",
+    "bpr_user_known",
+    "bpr_item_known"
+  ],
+  "kaggle_requests": 0
+}

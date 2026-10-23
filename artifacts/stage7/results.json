@@ -1,0 +1,392 @@
+[
+  {
+    "experiment": "active_stability",
+    "window": "main",
+    "map5": 0.39475683421516755,
+    "warm_map5": 0.3968908888888889,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.403074239150009,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.4219047619047619,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "gain": -0.0009223985890652553,
+    "paired_95_ci": [
+      -0.0035108465608465586,
+      0.0016931768077601407
+    ],
+    "improved": 156,
+    "regressed": 177,
+    "subgroup_gains": {
+      "light": 0.005483870967741935,
+      "heavy": -0.001264496820052375,
+      "repeat_heavy": -0.0006060606060606029
+    },
+    "fit_resources": {
+      "rss_before_bytes": 1406697472,
+      "peak_rss_bytes": 1427193856,
+      "seconds": 4.9568944170023315,
+      "peak_increment_bytes": 20496384
+    },
+    "inference_resources": {
+      "rss_before_bytes": 1750204416,
+      "peak_rss_bytes": 1750581248,
+      "seconds": 0.12072966701816767,
+      "peak_increment_bytes": 376832
+    },
+    "training_folds": [
+      {
+        "name": "roll_mar23",
+        "cutoff": 1584921600,
+        "target_end": 1586131200,
+        "queries": 1260,
+        "rows": 252933,
+        "positives": 4408,
+        "zero_positive_queries": 135,
+        "group_sizes_min": 200,
+        "group_sizes_max": 229
+      },
+      {
+        "name": "roll_apr06",
+        "cutoff": 1586131200,
+        "target_end": 1586736000,
+        "queries": 1260,
+        "rows": 260359,
+        "positives": 3152,
+        "zero_positive_queries": 256,
+        "group_sizes_min": 200,
+        "group_sizes_max": 247
+      }
+    ],
+    "base_feature_count": 59,
+    "new_feature_count": 5,
+    "selection_intervals_not_multiplicity_corrected": true
+  },
+  {
+    "experiment": "active_stability",
+    "window": "earlier",
+    "map5": 0.4090928130511464,
+    "warm_map5": 0.4133576138287446,
+    "cold_map5": 0.0,
+    "warm_users": 1247,
+    "cold_users": 13,
+    "nonempty_map5": 0.4263498299788623,
+    "nonempty_users": 1209,
+    "full_five_map5": 0.4485632183908046,
+    "full_five_users": 1044,
+    "denominator": 1260,
+    "gain": 0.00023500881834215176,
+    "paired_95_ci": [
+      -0.0021748732363315692,
+      0.002727943121693122
+    ],
+    "improved": 157,
+    "regressed": 137,
+    "subgroup_gains": {
+      "light": 0.004818376068376068,
+      "heavy": -0.0005453834115805951,
+      "repeat_heavy": -0.002213740458015268
+    },
+    "fit_resources": {
+      "rss_before_bytes": 1406697472,
+      "peak_rss_bytes": 1427193856,
+      "seconds": 4.9568944170023315,
+      "peak_increment_bytes": 20496384
+    },
+    "inference_resources": {
+      "rss_before_bytes": 1529167872,
+      "peak_rss_bytes": 1529217024,
+      "seconds": 0.12678445799974725,
+      "peak_increment_bytes": 49152
+    },
+    "training_folds": [
+      {
+        "name": "roll_mar23",
+        "cutoff": 1584921600,
+        "target_end": 1586131200,
+        "queries": 1260,
+        "rows": 252933,
+        "positives": 4408,
+        "zero_positive_queries": 135,
+        "group_sizes_min": 200,
+        "group_sizes_max": 229
+      },
+      {
+        "name": "roll_apr06",
+        "cutoff": 1586131200,
+        "target_end": 1586736000,
+        "queries": 1260,
+        "rows": 260359,
+        "positives": 3152,
+        "zero_positive_queries": 256,
+        "group_sizes_min": 200,
+        "group_sizes_max": 247
+      }
+    ],
+    "base_feature_count": 59,
+    "new_feature_count": 5,
+    "selection_intervals_not_multiplicity_corrected": true
+  },
+  {
+    "experiment": "channel_calendar",
+    "window": "main",
+    "map5": 0.39536750440917107,
+    "warm_map5": 0.3975064444444445,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.4036977759769494,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.4227772848269743,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "gain": -0.0003117283950617287,
+    "paired_95_ci": [
+      -0.003115828924162258,
+      0.0025780864197530863
+    ],
+    "improved": 167,
+    "regressed": 170,
+    "subgroup_gains": {
+      "light": 0.008145161290322576,
+      "heavy": -0.0007557052001496452,
+      "repeat_heavy": 0.0011313131313131295
+    },
+    "fit_resources": {
+      "rss_before_bytes": 1566965760,
+      "peak_rss_bytes": 1567637504,
+      "seconds": 4.6570980830001645,
+      "peak_increment_bytes": 671744
+    },
+    "inference_resources": {
+      "rss_before_bytes": 1567604736,
+      "peak_rss_bytes": 1567637504,
+      "seconds": 0.11055149999447167,
+      "peak_increment_bytes": 32768
+    },
+    "training_folds": [
+      {
+        "name": "roll_mar23",
+        "cutoff": 1584921600,
+        "target_end": 1586131200,
+        "queries": 1260,
+        "rows": 252933,
+        "positives": 4408,
+        "zero_positive_queries": 135,
+        "group_sizes_min": 200,
+        "group_sizes_max": 229
+      },
+      {
+        "name": "roll_apr06",
+        "cutoff": 1586131200,
+        "target_end": 1586736000,
+        "queries": 1260,
+        "rows": 260359,
+        "positives": 3152,
+        "zero_positive_queries": 256,
+        "group_sizes_min": 200,
+        "group_sizes_max": 247
+      }
+    ],
+    "base_feature_count": 59,
+    "new_feature_count": 3,
+    "selection_intervals_not_multiplicity_corrected": true
+  },
+  {
+    "experiment": "channel_calendar",
+    "window": "earlier",
+    "map5": 0.4098196649029982,
+    "warm_map5": 0.41409204312572395,
+    "cold_map5": 0.0,
+    "warm_users": 1247,
+    "cold_users": 13,
+    "nonempty_map5": 0.42710734307508497,
+    "nonempty_users": 1209,
+    "full_five_map5": 0.4500830140485313,
+    "full_five_users": 1044,
+    "denominator": 1260,
+    "gain": 0.0009618606701940034,
+    "paired_95_ci": [
+      -0.0018098214285714293,
+      0.003629662698412699
+    ],
+    "improved": 162,
+    "regressed": 145,
+    "subgroup_gains": {
+      "light": 0.004276556776556775,
+      "heavy": 0.00040714658320292117,
+      "repeat_heavy": -0.0032400339270568274
+    },
+    "fit_resources": {
+      "rss_before_bytes": 1566965760,
+      "peak_rss_bytes": 1567637504,
+      "seconds": 4.6570980830001645,
+      "peak_increment_bytes": 671744
+    },
+    "inference_resources": {
+      "rss_before_bytes": 1566556160,
+      "peak_rss_bytes": 1566588928,
+      "seconds": 0.11285041604423895,
+      "peak_increment_bytes": 32768
+    },
+    "training_folds": [
+      {
+        "name": "roll_mar23",
+        "cutoff": 1584921600,
+        "target_end": 1586131200,
+        "queries": 1260,
+        "rows": 252933,
+        "positives": 4408,
+        "zero_positive_queries": 135,
+        "group_sizes_min": 200,
+        "group_sizes_max": 229
+      },
+      {
+        "name": "roll_apr06",
+        "cutoff": 1586131200,
+        "target_end": 1586736000,
+        "queries": 1260,
+        "rows": 260359,
+        "positives": 3152,
+        "zero_positive_queries": 256,
+        "group_sizes_min": 200,
+        "group_sizes_max": 247
+      }
+    ],
+    "base_feature_count": 59,
+    "new_feature_count": 3,
+    "selection_intervals_not_multiplicity_corrected": true
+  },
+  {
+    "experiment": "matched_drift",
+    "window": "main",
+    "map5": 0.3956424162257496,
+    "warm_map5": 0.39778355555555556,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.4039784801008464,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.4229577048210589,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "gain": -3.68165784832458e-05,
+    "paired_95_ci": [
+      -0.0022683862433862446,
+      0.001993259479717813
+    ],
+    "improved": 145,
+    "regressed": 142,
+    "subgroup_gains": {
+      "light": 0.0032795698924731158,
+      "heavy": -0.00021020389075944684,
+      "repeat_heavy": -0.0057626262626262635
+    },
+    "fit_resources": {
+      "rss_before_bytes": 1579581440,
+      "peak_rss_bytes": 1579696128,
+      "seconds": 4.7133390420349315,
+      "peak_increment_bytes": 114688
+    },
+    "inference_resources": {
+      "rss_before_bytes": 1329922048,
+      "peak_rss_bytes": 1329954816,
+      "seconds": 0.10506241698749363,
+      "peak_increment_bytes": 32768
+    },
+    "training_folds": [
+      {
+        "name": "roll_mar23",
+        "cutoff": 1584921600,
+        "target_end": 1586131200,
+        "queries": 1260,
+        "rows": 252933,
+        "positives": 4408,
+        "zero_positive_queries": 135,
+        "group_sizes_min": 200,
+        "group_sizes_max": 229
+      },
+      {
+        "name": "roll_apr06",
+        "cutoff": 1586131200,
+        "target_end": 1586736000,
+        "queries": 1260,
+        "rows": 260359,
+        "positives": 3152,
+        "zero_positive_queries": 256,
+        "group_sizes_min": 200,
+        "group_sizes_max": 247
+      }
+    ],
+    "base_feature_count": 59,
+    "new_feature_count": 3,
+    "selection_intervals_not_multiplicity_corrected": true
+  },
+  {
+    "experiment": "matched_drift",
+    "window": "earlier",
+    "map5": 0.4115553350970018,
+    "warm_map5": 0.4158458077162969,
+    "cold_map5": 0.0,
+    "warm_users": 1247,
+    "cold_users": 13,
+    "nonempty_map5": 0.42891623012590757,
+    "nonempty_users": 1209,
+    "full_five_map5": 0.4507343550446999,
+    "full_five_users": 1044,
+    "denominator": 1260,
+    "gain": 0.0026975308641975304,
+    "paired_95_ci": [
+      0.00043600088183421375,
+      0.004859016754850088
+    ],
+    "improved": 161,
+    "regressed": 124,
+    "subgroup_gains": {
+      "light": 0.004450549450549448,
+      "heavy": 0.002430881585811163,
+      "repeat_heavy": 0.001959287531806614
+    },
+    "fit_resources": {
+      "rss_before_bytes": 1579581440,
+      "peak_rss_bytes": 1579696128,
+      "seconds": 4.7133390420349315,
+      "peak_increment_bytes": 114688
+    },
+    "inference_resources": {
+      "rss_before_bytes": 1329922048,
+      "peak_rss_bytes": 1329954816,
+      "seconds": 0.10084008297417313,
+      "peak_increment_bytes": 32768
+    },
+    "training_folds": [
+      {
+        "name": "roll_mar23",
+        "cutoff": 1584921600,
+        "target_end": 1586131200,
+        "queries": 1260,
+        "rows": 252933,
+        "positives": 4408,
+        "zero_positive_queries": 135,
+        "group_sizes_min": 200,
+        "group_sizes_max": 229
+      },
+      {
+        "name": "roll_apr06",
+        "cutoff": 1586131200,
+        "target_end": 1586736000,
+        "queries": 1260,
+        "rows": 260359,
+        "positives": 3152,
+        "zero_positive_queries": 256,
+        "group_sizes_min": 200,
+        "group_sizes_max": 247
+      }
+    ],
+    "base_feature_count": 59,
+    "new_feature_count": 3,
+    "selection_intervals_not_multiplicity_corrected": true
+  }
+]

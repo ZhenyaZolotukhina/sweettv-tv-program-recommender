@@ -1,0 +1,116 @@
+{
+  "selected": "loyalty",
+  "eligible": [
+    "loyalty"
+  ],
+  "rule": "Main gain >=0.002, earlier >=0.001, paired lower95>0 both; light-history subgroup gain >=-0.003 both; no reversal under frequency-tie sensitivity. Otherwise retain V3.",
+  "experiments_run": 3,
+  "kaggle_requests": 0,
+  "target_changed": false,
+  "main": {
+    "experiment": "loyalty",
+    "window": "main",
+    "map5": 0.3914270282186949,
+    "warm_map5": 0.39353444444444446,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.39967427516657666,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.41827565808932266,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "gain": 0.007090608465608467,
+    "paired_95_ci": [
+      0.004512318121693122,
+      0.009772332451499118
+    ],
+    "improved_users": 196,
+    "regressed_users": 94,
+    "light_history_gain": 0.005752688172043013,
+    "recency_tie_sensitivity_gain": 0.005868386243386244,
+    "fit_resources": {
+      "rss_before_bytes": 1478721536,
+      "peak_rss_bytes": 1724973056,
+      "seconds": 14.33949774998473,
+      "peak_increment_bytes": 246251520
+    },
+    "prediction_resources": {
+      "rss_before_bytes": 1387659264,
+      "peak_rss_bytes": 1392181248,
+      "seconds": 0.7118836659938097,
+      "peak_increment_bytes": 4521984
+    },
+    "training_folds": [
+      {
+        "name": "roll_mar23",
+        "cutoff": 1584921600,
+        "target_end": 1586131200,
+        "rows": 252933,
+        "positives": 4408,
+        "extra_cutoff": 1584921600
+      },
+      {
+        "name": "roll_apr06",
+        "cutoff": 1586131200,
+        "target_end": 1586736000,
+        "rows": 260359,
+        "positives": 3152,
+        "extra_cutoff": 1586131200
+      }
+    ]
+  },
+  "earlier": {
+    "experiment": "loyalty",
+    "window": "earlier",
+    "map5": 0.4026871693121693,
+    "warm_map5": 0.40688519112536753,
+    "cold_map5": 0.0,
+    "warm_users": 1247,
+    "cold_users": 13,
+    "nonempty_map5": 0.4196739729804246,
+    "nonempty_users": 1209,
+    "full_five_map5": 0.4404278416347382,
+    "full_five_users": 1044,
+    "denominator": 1260,
+    "gain": 0.0026119929453262795,
+    "paired_95_ci": [
+      0.0004558256172839519,
+      0.004670045194003528
+    ],
+    "improved_users": 141,
+    "regressed_users": 108,
+    "light_history_gain": 0.0019948107448107444,
+    "recency_tie_sensitivity_gain": 0.002503527336860671,
+    "fit_resources": {
+      "rss_before_bytes": 1478721536,
+      "peak_rss_bytes": 1724973056,
+      "seconds": 14.33949774998473,
+      "peak_increment_bytes": 246251520
+    },
+    "prediction_resources": {
+      "rss_before_bytes": 1392164864,
+      "peak_rss_bytes": 1461846016,
+      "seconds": 0.7078840419999324,
+      "peak_increment_bytes": 69681152
+    },
+    "training_folds": [
+      {
+        "name": "roll_mar23",
+        "cutoff": 1584921600,
+        "target_end": 1586131200,
+        "rows": 252933,
+        "positives": 4408,
+        "extra_cutoff": 1584921600
+      },
+      {
+        "name": "roll_apr06",
+        "cutoff": 1586131200,
+        "target_end": 1586736000,
+        "rows": 260359,
+        "positives": 3152,
+        "extra_cutoff": 1586131200
+      }
+    ]
+  }
+}

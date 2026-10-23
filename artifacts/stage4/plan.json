@@ -1,0 +1,37 @@
+{
+  "training_folds": [
+    {
+      "name": "roll_mar23",
+      "cutoff": 1584921600,
+      "target_end": 1586131200
+    },
+    {
+      "name": "roll_apr06",
+      "cutoff": 1586131200,
+      "target_end": 1586736000
+    }
+  ],
+  "model": {
+    "learning_rate": 0.06,
+    "max_iter": 80,
+    "max_leaf_nodes": 15,
+    "max_bins": 63,
+    "min_samples_leaf": 50,
+    "l2_regularization": 10.0,
+    "early_stopping": false,
+    "random_state": 42
+  },
+  "estimator": "sklearn HistGradientBoostingClassifier, binary log loss; existing dependency",
+  "training_weights": "per-query sum=1; positive rows multiplied by 10; no validation class balancing",
+  "candidates": "V2 Top200 union positive-score Top50 repeat/ALS/CBF/popularity/channel; never inject truth",
+  "prediction_variants": [
+    "supervised_only",
+    "v2_supervised_rrf_equal"
+  ],
+  "fit_heldout_targets": false,
+  "kaggle_score_use": false,
+  "new_model_configurations": 1,
+  "selection_rule": "main gain >=0.003, earlier gain >=0.001, both paired 95% lower bounds >0; else retain V2",
+  "cold_policy": "unchanged frozen V2 popularity fallback",
+  "training_item_metadata_vocabulary_cutoff": 1584921600
+}

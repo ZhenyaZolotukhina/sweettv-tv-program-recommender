@@ -1,0 +1,151 @@
+[
+  {
+    "name": "main_fusion_19",
+    "family": "hybrid",
+    "config": {
+      "type": "rrf",
+      "k": 10,
+      "top": 200,
+      "weights": {
+        "repeat": 1.0,
+        "cf": 0.1,
+        "cbf": 0.1,
+        "popularity": 0.1
+      }
+    },
+    "map5": 0.37363117283950614,
+    "warm_map5": 0.3755962222222222,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.3815034665946335,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.39875184856551316,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2342961152,
+    "peak_rss_bytes": 2342993920,
+    "seconds": 0.9290152080357075,
+    "peak_increment_bytes": 32768
+  },
+  {
+    "name": "repeat_popularity_0",
+    "family": "repeat_popularity",
+    "config": {
+      "weight": 0.1
+    },
+    "map5": 0.36870436507936505,
+    "warm_map5": 0.37063,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.37647285251215556,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.39326826382727004,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2587656192,
+    "peak_rss_bytes": 2651815936,
+    "seconds": 0.03927599999587983,
+    "peak_increment_bytes": 64159744
+  },
+  {
+    "name": "repeat_1",
+    "family": "repeat",
+    "config": {
+      "minimum": 0.5,
+      "strength": "frequency",
+      "half_life": 0
+    },
+    "map5": 0.36600727513227516,
+    "warm_map5": 0.3679113333333333,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.3737189357104268,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.3902307009760426,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2587623424,
+    "peak_rss_bytes": 2587656192,
+    "seconds": 0.49198766599874943,
+    "peak_increment_bytes": 32768
+  },
+  {
+    "name": "popularity_0",
+    "family": "popularity",
+    "config": {
+      "minimum": 0.5,
+      "strength": "frequency",
+      "half_life": 0
+    },
+    "map5": 0.29500859788359785,
+    "warm_map5": 0.29634466666666665,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.30122433819556993,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.31389233954451345,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 1902280704,
+    "peak_rss_bytes": 1986379776,
+    "seconds": 0.49261758400825784,
+    "peak_increment_bytes": 84099072
+  },
+  {
+    "name": "cbf_0",
+    "family": "cbf",
+    "config": {
+      "minimum": 0.5,
+      "rich": true,
+      "half_life": 0
+    },
+    "map5": 0.25762588183421514,
+    "warm_map5": 0.2586628888888889,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.2630539798307221,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.27106773144040225,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2663383040,
+    "peak_rss_bytes": 2667331584,
+    "vocabulary_size": 20258,
+    "training_metadata_items": 5842,
+    "candidate_items_without_training_interaction": 4380,
+    "seconds": 1.147484541987069,
+    "peak_increment_bytes": 3948544
+  },
+  {
+    "name": "cf_0",
+    "family": "cf",
+    "config": {
+      "minimum": 0.5,
+      "factors": 32,
+      "alpha": 10.0,
+      "regularization": 1.0,
+      "iterations": 12,
+      "seed": 42
+    },
+    "map5": 0.16596538800705465,
+    "warm_map5": 0.1662691111111111,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.16946222762470736,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.17029577048210587,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "rss_before_bytes": 2651815936,
+    "peak_rss_bytes": 2651865088,
+    "model_cache_hit": true,
+    "seconds": 0.050391709024552256,
+    "peak_increment_bytes": 49152
+  }
+]

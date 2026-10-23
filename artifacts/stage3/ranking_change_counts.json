@@ -1,0 +1,18 @@
+[
+  {
+    "window": "main",
+    "changed_recommendation_lists": 1016,
+    "only_order_changed": 405,
+    "introduced_relevant_programme_ids": 147,
+    "removed_relevant_programme_ids": 100,
+    "introduced_relevant_programmes_without_qualifying_history": 5
+  },
+  {
+    "window": "earlier",
+    "changed_recommendation_lists": 996,
+    "only_order_changed": 427,
+    "introduced_relevant_programme_ids": 135,
+    "removed_relevant_programme_ids": 106,
+    "introduced_relevant_programmes_without_qualifying_history": 7
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "reason": "A improved both point estimates but main CI crossed zero; test whether focusing lambdas at the actual Top5 improves MAP rather than surrogate@8.",
+  "only_change": {
+    "lambdarank_truncation_level": 5
+  },
+  "maximum_total_model_configurations": 2,
+  "additional_fusions": 0,
+  "selection_rule_unchanged": "Both gain >=0.001, paired95 lower>0 both, light-history gain>=-0.003 both; else retain V4",
+  "adaptive_followup_not_an_independent_test": true
+}

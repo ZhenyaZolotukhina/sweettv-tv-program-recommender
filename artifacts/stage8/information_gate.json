@@ -1,0 +1,14 @@
+{
+  "selected_weighting": "log_frequency",
+  "eligible": [
+    "binary",
+    "log_frequency"
+  ],
+  "rule": "Each window must yield >=20 relevant user-item pairs outside frozen existing pool AND standalone MAP no worse than ALS by >0.05",
+  "als_map": {
+    "main": 0.16596538800705465,
+    "earlier": 0.22582208994708997
+  },
+  "run_reranker": true,
+  "kaggle_requests": 0
+}

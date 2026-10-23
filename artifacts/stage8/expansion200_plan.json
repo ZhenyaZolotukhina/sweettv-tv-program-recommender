@@ -1,0 +1,10 @@
+{
+  "reason": "Top50 adds only3/7 positives, but the measured Top200 adds220/134 outside the old pool. Test the tail once rather than claiming head-only feature integration exploited it.",
+  "top_n": 200,
+  "downstream_variants_total": 2,
+  "cf_configurations_total": 2,
+  "cf_parameters_changed": false,
+  "new_features_beyond_variant_A": false,
+  "original_top50_gate_preserved": true,
+  "adaptive_followup_not_an_unbiased_test": true
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "window": "main",
+    "candidate_policy_unchanged": true,
+    "lambdarank_after_reranking_recall200_micro": 0.8711738984191053,
+    "note": "Different Top200 positions reflect ranking, not new candidates. Frozen pool/recall audit is separate."
+  },
+  {
+    "window": "earlier",
+    "candidate_policy_unchanged": true,
+    "lambdarank_after_reranking_recall200_micro": 0.8893392070484581,
+    "note": "Different Top200 positions reflect ranking, not new candidates. Frozen pool/recall audit is separate."
+  }
+]

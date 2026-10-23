@@ -1,0 +1,17 @@
+{
+  "provenance": "User-supplied verified history and explicit instructor clarification in the current session; no independent account query",
+  "submissions_already_made": 5,
+  "history": [
+    {"version": "V1", "private_map5": 0.40693, "public_map5": 0.42158, "sha256": "d4026ac73d6f940010d7be3f8241731bd5975054fc3127eebd0cc1cfaebfed72"},
+    {"version": "V2", "private_map5": 0.41721, "public_map5": 0.43381, "sha256": "987f8fde48654ba982c20b36e25bf78017749c58b15d96bccdbc8eca5f7d2671"},
+    {"version": "V3", "private_map5": 0.42607, "public_map5": 0.44042, "sha256": "5ebb58dfb26662ea2b10bc3ab0f2e5641f2b846f5cea1a10b604e0d0d9d7c304"},
+    {"version": "V4", "private_map5": 0.42806, "public_map5": 0.44323, "sha256": "08dbcca1aa312f03397447205684143b20c9a632d5fc8868c4c2916210d44ce2"},
+    {"version": "V5", "private_map5": 0.43385, "public_map5": 0.44580, "sha256": "249ed58e19e51ee2905bb256d97263ec06201d51f9cf40a2765904f4377c448f"}
+  ],
+  "grading": {"confirmed_metric": "BEST PRIVATE MAP@5", "best_submitted": "V5", "best_private_map5": 0.43385, "source": "User reports explicit instructor confirmation; supersedes earlier public-score grading guidance"},
+  "correction": "All five were successfully submitted. Earlier V4/V5-not-submitted descriptions reflect information then available and are preserved as historical records, not current status.",
+  "remaining_submission_capacity": null,
+  "submission_ids_and_screenshots": "Not supplied; not fabricated",
+  "use": "Reporting and monitoring only; no optimization code reads these scores",
+  "assistant_kaggle_requests_this_stage": 0
+}

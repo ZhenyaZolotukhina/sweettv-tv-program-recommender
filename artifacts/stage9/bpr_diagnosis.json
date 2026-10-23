@@ -1,0 +1,89 @@
+{
+  "candidate_distributions": [
+    {
+      "task": "roll_mar23",
+      "total_rows": 317440,
+      "new_cf_rows": 64507,
+      "new_cf_positive_rows": 54,
+      "new_cf_positive_rate": 0.0008371184522609949,
+      "original_59_and_old_cf_fields_identical": true,
+      "policy": "old V5 pool union own-cutoff supported BPR Top200, in every task"
+    },
+    {
+      "task": "roll_apr06",
+      "total_rows": 329224,
+      "new_cf_rows": 68865,
+      "new_cf_positive_rows": 47,
+      "new_cf_positive_rate": 0.0006824947360778334,
+      "original_59_and_old_cf_fields_identical": true,
+      "policy": "old V5 pool union own-cutoff supported BPR Top200, in every task"
+    },
+    {
+      "task": "main",
+      "total_rows": 379197,
+      "new_cf_rows": 99417,
+      "new_cf_positive_rows": 220,
+      "new_cf_positive_rate": 0.0022129012140780753,
+      "original_59_and_old_cf_fields_identical": true,
+      "policy": "old V5 pool union own-cutoff supported BPR Top200, in every task"
+    },
+    {
+      "task": "earlier",
+      "total_rows": 361946,
+      "new_cf_rows": 85637,
+      "new_cf_positive_rows": 134,
+      "new_cf_positive_rate": 0.001564744211030279,
+      "original_59_and_old_cf_fields_identical": true,
+      "policy": "old V5 pool union own-cutoff supported BPR Top200, in every task"
+    }
+  ],
+  "recovered": [
+    {
+      "window": "main",
+      "recovered_relevant_pairs": 220,
+      "same_pair_exposed_in_training": 156,
+      "same_pair_positive_in_training": 0,
+      "item_has_positive_training_example": 166,
+      "entered_top5": 0,
+      "known_embedding_pairs": 220
+    },
+    {
+      "window": "earlier",
+      "recovered_relevant_pairs": 134,
+      "same_pair_exposed_in_training": 127,
+      "same_pair_positive_in_training": 0,
+      "item_has_positive_training_example": 126,
+      "entered_top5": 0,
+      "known_embedding_pairs": 134
+    }
+  ],
+  "norms": [
+    {
+      "task": "roll_mar23",
+      "median_user_norm": 0.11684872639655376
+    },
+    {
+      "task": "roll_apr06",
+      "median_user_norm": 0.1890236921937683
+    },
+    {
+      "task": "main",
+      "median_user_norm": 0.6542510049820155
+    },
+    {
+      "task": "earlier",
+      "median_user_norm": 0.2797861771961864
+    }
+  ],
+  "main_to_rolling_max_median_norm_ratio": 3.4612116470105896,
+  "plausible_calibration_shift": true,
+  "run_integration_b": true,
+  "verified_implementation_bugs": [],
+  "verified_correct": [
+    "New candidates are exposed in chronological training, using identical Top200 policy.",
+    "Original59 and existing8 CF fields are unchanged when expanding.",
+    "All recovered BPR positives have supported embeddings; zero-imputation with support flags is not a verified bug."
+  ],
+  "interpretation": "Correct but weak ranking plus measured source-prevalence/raw-scale shift; B tests label-free scale calibration, not a claimed bug fix.",
+  "shap_interpretation": "Descriptive decomposition of the fitted model for actual rows, not causal effect of feature removal."
+}

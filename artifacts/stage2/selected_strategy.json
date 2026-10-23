@@ -1,0 +1,86 @@
+{
+  "stage": "configuration_only; do not refit or submit yet",
+  "selected_family": "hybrid",
+  "selected_config": {
+    "type": "rrf",
+    "k": 10,
+    "top": 200,
+    "weights": {
+      "repeat": 1.0,
+      "cf": 0.1,
+      "cbf": 0.1,
+      "popularity": 0.1
+    }
+  },
+  "primary_map5": 0.37363117283950614,
+  "individual_configs": {
+    "popularity": {
+      "minimum": 0.5,
+      "strength": "frequency",
+      "half_life": 0
+    },
+    "repeat": {
+      "minimum": 0.5,
+      "strength": "frequency",
+      "half_life": 0
+    },
+    "repeat_popularity": {
+      "weight": 0.1
+    },
+    "cf": {
+      "minimum": 0.5,
+      "factors": 32,
+      "alpha": 10.0,
+      "regularization": 1.0,
+      "iterations": 12,
+      "seed": 42
+    },
+    "cbf": {
+      "minimum": 0.5,
+      "rich": true,
+      "half_life": 0
+    }
+  },
+  "hybrid_config": {
+    "type": "rrf",
+    "k": 10,
+    "top": 200,
+    "weights": {
+      "repeat": 1.0,
+      "cf": 0.1,
+      "cbf": 0.1,
+      "popularity": 0.1
+    }
+  },
+  "hybrid_map5": 0.37363117283950614,
+  "target": "official >=80% uninterrupted run; distinct airing frequency; Top-5; frequency ties item-ID ascending",
+  "strict_80_sensitivity_saved": true,
+  "main_train": [
+    1583712000,
+    1589760000
+  ],
+  "main_validation": [
+    1589760000,
+    1595808000
+  ],
+  "next_final_refit_window": [
+    1583712000,
+    1595808000
+  ],
+  "candidate_policy": "positive IDs airing during target calendar window; repeats allowed",
+  "common_fallback": "selected popularity scores using selected input settings; never infer cold preferences from validation views",
+  "normalize": "positive score divided by user maximum for max_normalized; RRF uses only ranks if selected",
+  "seed": 42,
+  "threads": 1,
+  "two_required_methods_implemented": [
+    "implicit ALS",
+    "metadata TF-IDF user-profile CBF"
+  ],
+  "source_evidence": "artifacts/sources/relevance_sources.json",
+  "limitations": [
+    "session/device and frequency-tie semantics unresolved in official description",
+    "same-holdout selection optimism"
+  ],
+  "kaggle_submission_made": false,
+  "final_refit_performed_this_stage": false
+}

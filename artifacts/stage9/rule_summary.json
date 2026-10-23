@@ -1,0 +1,68 @@
+[
+  {
+    "case": "useful",
+    "antecedent": {
+      "item": 10002893,
+      "title": "Т/с 'Когда мы дома'.",
+      "category": "Сериалы"
+    },
+    "consequent": {
+      "item": 2400480,
+      "title": "ТСН. Неделя.",
+      "category": "Инфо"
+    },
+    "shared_distinct_users": 749,
+    "antecedent_distinct_users": 792,
+    "consequent_distinct_users": 3999,
+    "training_user_baskets": 4784,
+    "consequent_basket_prevalence": 0.8359113931655884,
+    "empirical_lift": 1.1313484907150269,
+    "empirical_confidence": 0.9457070827484131,
+    "smoothed_rule_weight": 0.9339151978492737,
+    "user_seed_mass": 0.08450930565595627,
+    "contribution_to_score": 0.0789245218038559,
+    "total_rule_score": 0.8087588548660278,
+    "future_top5_relevant": true,
+    "future_target": [
+      240081,
+      2400467,
+      2400480
+    ],
+    "rule_is_not_causal_or_a_future_probability": true,
+    "posthoc_diagnostic_example": true
+  },
+  {
+    "case": "misleading",
+    "antecedent": {
+      "item": 12001682,
+      "title": "М/с 'Губка Боб Квадратные Штаны'.",
+      "category": "Детям"
+    },
+    "consequent": {
+      "item": 2400480,
+      "title": "ТСН. Неделя.",
+      "category": "Инфо"
+    },
+    "shared_distinct_users": 1458,
+    "antecedent_distinct_users": 1702,
+    "consequent_distinct_users": 3999,
+    "training_user_baskets": 4784,
+    "consequent_basket_prevalence": 0.8359113931655884,
+    "empirical_lift": 1.024796724319458,
+    "empirical_confidence": 0.8566392660140991,
+    "smoothed_rule_weight": 0.8516355156898499,
+    "user_seed_mass": 0.07469108700752258,
+    "contribution_to_score": 0.06360958516597748,
+    "total_rule_score": 0.8387526869773865,
+    "future_top5_relevant": false,
+    "future_target": [
+      12001682,
+      12001734,
+      12002355,
+      12002771,
+      12002856
+    ],
+    "rule_is_not_causal_or_a_future_probability": true,
+    "posthoc_diagnostic_example": true
+  }
+]

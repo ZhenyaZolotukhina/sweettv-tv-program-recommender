@@ -1,0 +1,55 @@
+{
+  "selected": "v1_plus_channel",
+  "qualified_candidates": [
+    "v1_plus_channel"
+  ],
+  "rule": "Both windows must improve at least 0.001 absolute MAP; choose largest mean gain, then simpler name. Paired bootstrap reported, not treated as an independent test.",
+  "main": {
+    "window": "main",
+    "name": "v1_plus_channel",
+    "map5": 0.37475485008818343,
+    "warm_map5": 0.3767288888888889,
+    "cold_map5": 0.128,
+    "warm_users": 1250,
+    "cold_users": 10,
+    "nonempty_map5": 0.3826508193769134,
+    "nonempty_users": 1234,
+    "full_five_map5": 0.4001597160603372,
+    "full_five_users": 1127,
+    "denominator": 1260,
+    "ranking_resources": {
+      "rss_before_bytes": 2458959872,
+      "peak_rss_bytes": 2458992640,
+      "seconds": 0.9246026249602437,
+      "peak_increment_bytes": 32768
+    },
+    "mean_delta": 0.0011236772486772487,
+    "improved_users": 101,
+    "worsened_users": 69
+  },
+  "earlier": {
+    "window": "earlier",
+    "name": "v1_plus_channel",
+    "map5": 0.38988205467372133,
+    "warm_map5": 0.3939465829100953,
+    "cold_map5": 0.0,
+    "warm_users": 1247,
+    "cold_users": 13,
+    "nonempty_map5": 0.406328692215789,
+    "nonempty_users": 1209,
+    "full_five_map5": 0.42560664112388247,
+    "full_five_users": 1044,
+    "denominator": 1260,
+    "ranking_resources": {
+      "rss_before_bytes": 2112618496,
+      "peak_rss_bytes": 2112700416,
+      "seconds": 0.6830779160372913,
+      "peak_increment_bytes": 81920
+    },
+    "mean_delta": 0.0019464285714285712,
+    "improved_users": 101,
+    "worsened_users": 61
+  },
+  "kaggle_scores_used_for_selection": false,
+  "kaggle_requests": 0
+}

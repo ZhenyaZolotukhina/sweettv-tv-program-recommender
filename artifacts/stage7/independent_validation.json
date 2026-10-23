@@ -1,0 +1,14 @@
+{
+  "valid": true,
+  "candidate_method_files_checked": 6,
+  "all_users_each": 1260,
+  "same_frozen_truth_pools_and_warm_cold_groups": true,
+  "all_scores_and_top5_reconstructed": true,
+  "no_holdout_targets_in_training": true,
+  "exactly_three_experiments": true,
+  "v1_v5_and_prior_evidence_unchanged": true,
+  "no_v6_csv_created": true,
+  "instructor_ap_cases_passed": true,
+  "retained_v5_sha256": "249ed58e19e51ee2905bb256d97263ec06201d51f9cf40a2765904f4377c448f",
+  "kaggle_requests": 0
+}

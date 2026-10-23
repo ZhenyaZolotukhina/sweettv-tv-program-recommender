@@ -1,0 +1,60 @@
+{
+  "hypothesis": "Within-user ranking loss may order binary frequency-selected Top5 better than weighted per-row classification.",
+  "candidate_a": "standalone LambdaRank, same candidate pool and 59 V4 features",
+  "candidate_b": "one equal RRF with frozen V4, only if A has useful complementary corrections",
+  "fusion_gate": "A within 0.02 MAP of V4 on both windows; >=50 improved users and >=20 newly retrieved relevant IDs on each window",
+  "parameters": {
+    "objective": "lambdarank",
+    "metric": "None",
+    "label_gain": [
+      0,
+      1
+    ],
+    "lambdarank_truncation_level": 8,
+    "lambdarank_norm": true,
+    "learning_rate": 0.06,
+    "num_leaves": 15,
+    "min_data_in_leaf": 50,
+    "max_bin": 63,
+    "lambda_l1": 0.0,
+    "lambda_l2": 1.0,
+    "num_threads": 2,
+    "deterministic": true,
+    "force_col_wise": true,
+    "seed": 42,
+    "data_random_seed": 42,
+    "feature_fraction_seed": 42,
+    "bagging_seed": 42,
+    "feature_fraction": 1.0,
+    "bagging_fraction": 1.0,
+    "bagging_freq": 0,
+    "verbosity": -1
+  },
+  "rounds": 80,
+  "configurations": 1,
+  "training_folds": [
+    {
+      "name": "roll_mar23",
+      "cutoff": 1584921600,
+      "target_end": 1586131200
+    },
+    {
+      "name": "roll_apr06",
+      "cutoff": 1586131200,
+      "target_end": 1586736000
+    }
+  ],
+  "label": "binary membership of frequency-selected qualifying Top5; not graded count or every >=80% show",
+  "groups": "one user x one historical prediction task; never mix the same user across folds into one query",
+  "ranking_weights": "no classifier positive-times10 weights; LambdaRank query normalization and binary gains [0,1]",
+  "validation_labels_in_fit": false,
+  "early_stopping": false,
+  "kaggle_score_use": false,
+  "selection": "Both gain >=0.001, paired95 lower>0 both, light-history gain>=-0.003 both; else retain V4",
+  "objective_caveat": "LambdaRank uses an NDCG-based pairwise surrogate at truncation8, not an exact differentiable MAP5 objective. Selection only uses external exact MAP5.",
+  "sources": [
+    "https://lightgbm.readthedocs.io/en/stable/Parameters.html#objective",
+    "https://lightgbm.readthedocs.io/en/stable/Parameters.html#lambdarank_truncation_level",
+    "https://lightgbm.readthedocs.io/en/stable/Python-API.html"
+  ]
+}

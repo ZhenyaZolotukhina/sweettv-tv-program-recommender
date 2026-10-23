@@ -1,0 +1,17 @@
+{
+  "minimum_new_relevant_top50_pairs_each_window": 10,
+  "top_n": 50,
+  "results": [
+    {
+      "window": "main",
+      "additional_pairs": 267,
+      "new_relevant_pairs": 3
+    },
+    {
+      "window": "earlier",
+      "additional_pairs": 1219,
+      "new_relevant_pairs": 7
+    }
+  ],
+  "expansion_justified": false
+}

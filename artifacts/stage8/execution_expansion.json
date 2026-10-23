@@ -1,0 +1,10 @@
+{
+  "resources": {
+    "rss_before_bytes": 221298688,
+    "peak_rss_bytes": 2463416320,
+    "seconds": 42.35473912500311,
+    "peak_increment_bytes": 2242117632
+  },
+  "new_cf_fits": 0,
+  "kaggle_requests": 0
+}
